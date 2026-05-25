@@ -1,14 +1,14 @@
 {
-  "last_updated": "18/05/2026 16:34",
-  "total": 20,
+  "last_updated": "25/05/2026 14:21",
+  "total": 19,
   "announcements": [
     {
-      "id": "diav-ΨΧ7Γ46Ψ8ΧΒ-ΣΟΔ",
-      "title": "Χρηματικό Ένταλμα 28360/2026",
+      "id": "diav-ΡΘ4146Ψ8Ν2-Ι1Ρ",
+      "title": "ΧΡΗΜΑΤΙΚΟ ΕΝΤΑΛΜΑ",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-05-18",
+      "announced_date": "2026-05-22",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -16,16 +16,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΧ7Γ46Ψ8ΧΒ-ΣΟΔ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΘ4146Ψ8Ν2-Ι1Ρ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΕΖΣ446Ψ8ΧΒ-Ζ3Κ",
-      "title": "Χρηματικό Ένταλμα 28364/2026",
+      "id": "diav-Ε0ΙΞΟΛ3Δ-ΧΜΠ",
+      "title": "Ορισμός Επιτροπής Προσωρινής και Οριστικής Παραλαβής του έργου «ΣΥΝΤΗΡΗΣΗ ΟΔΙΚΟΥ ΔΙΚΤΥΟΥ ΓΕΩΤΡΗΣΕΩΝ – ΔΕΞΑΜΕΝΩΝ Δ.Ε. ΑΡΧΑΓΓΕΛΟΥ»",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-05-18",
+      "announced_date": "2026-05-22",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -33,233 +33,12 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΖΣ446Ψ8ΧΒ-Ζ3Κ",
+      "url": "https://diavgeia.gov.gr/decision/view/Ε0ΙΞΟΛ3Δ-ΧΜΠ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-9ΩΞΗ46Ψ8ΧΒ-8ΚΖ",
-      "title": "Χρηματικό Ένταλμα 28361/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΩΞΗ46Ψ8ΧΒ-8ΚΖ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΕΡΑΑ46Ψ8ΧΒ-936",
-      "title": "Χρηματικό Ένταλμα 28355/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΡΑΑ46Ψ8ΧΒ-936",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΦ5Π46ΨΖ2Ν-Κ92",
-      "title": "Χρηματικό Ένταλμα 21713/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΦ5Π46ΨΖ2Ν-Κ92",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-95ΚΧ46Ψ8ΧΒ-ΑΙ8",
-      "title": "Χρηματικό Ένταλμα 28183/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/95ΚΧ46Ψ8ΧΒ-ΑΙ8",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΧΚ946ΨΖ2Ν-ΞΒΗ",
-      "title": "Χρηματικό Ένταλμα 21712/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΧΚ946ΨΖ2Ν-ΞΒΗ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΨΙΒΡ46ΨΖ2Ν-8ΗΕ",
-      "title": "Χρηματικό Ένταλμα 21702/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΙΒΡ46ΨΖ2Ν-8ΗΕ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ρ27Σ46Ψ8ΧΒ-ΙΦΔ",
-      "title": "Χρηματικό Ένταλμα 28326/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ27Σ46Ψ8ΧΒ-ΙΦΔ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ψ4ΛΣ46ΨΖ2Ν-14Λ",
-      "title": "Χρηματικό Ένταλμα 21692/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ4ΛΣ46ΨΖ2Ν-14Λ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-6ΖΟ646Ψ8ΧΒ-Χ4Β",
-      "title": "Χρηματικό Ένταλμα 28249/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/6ΖΟ646Ψ8ΧΒ-Χ4Β",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΕΤ4Τ46ΨΖ2Ν-Λ57",
-      "title": "Χρηματικό Ένταλμα 21688/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΤ4Τ46ΨΖ2Ν-Λ57",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-626846ΨΖ2Ν-Χ13",
-      "title": "Χρηματικό Ένταλμα 21687/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/626846ΨΖ2Ν-Χ13",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΗΝΑ46ΨΖ2Ν-Υ4Π",
-      "title": "Χρηματικό Ένταλμα 21686/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΗΝΑ46ΨΖ2Ν-Υ4Π",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-9ΔΩ946Ψ8ΧΒ-2ΘΔ",
-      "title": "Απόφαση Απευθείας Ανάθεσης #10250376 #2076490",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-18",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΔΩ946Ψ8ΧΒ-2ΘΔ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-9ΑΓΘ46ΨΖ2Ν-ΠΘ4",
-      "title": "Χρηματικό Ένταλμα 21377/2026",
+      "id": "diav-9ΦΡ3465274-ΨΙΘ",
+      "title": "Χρηματικό Ένταλμα 5281/2026",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
@@ -271,63 +50,12 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΑΓΘ46ΨΖ2Ν-ΠΘ4",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΦΡ3465274-ΨΙΘ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-9ΦΘΛ46ΨΖ2Ν-ΦΒ5",
-      "title": "Χρηματικό Ένταλμα 21380/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-15",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΦΘΛ46ΨΖ2Ν-ΦΒ5",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΑΦΗ46ΨΖ2Ν-ΙΒΖ",
-      "title": "Χρηματικό Ένταλμα 21376/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-15",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΑΦΗ46ΨΖ2Ν-ΙΒΖ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ρ5ΦΡ46ΨΖ2Ν-Π17",
-      "title": "Χρηματικό Ένταλμα 21375/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-05-15",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ5ΦΡ46ΨΖ2Ν-Π17",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-6ΥΥΓ46Ψ8ΧΒ-7Ν1",
-      "title": "Χρηματικό Ένταλμα 27883/2026",
+      "id": "diav-ΨΒ8Σ465274-ΕΙΙ",
+      "title": "Χρηματικό Ένταλμα 5228/2026",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
@@ -339,7 +67,262 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/6ΥΥΓ46Ψ8ΧΒ-7Ν1",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΒ8Σ465274-ΕΙΙ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΕΝΓ8ΟΚΑΓ-Ο2Ε",
+      "title": "ΈΓΚΡΙΣΗ ΠΡΩΤΟΓΕΝΟΥΣ ΑΙΤΗΜΑΤΟΣ ΔΑΠΑΝΗΣ ΓΙΑ ΣΥΝΔΙΟΡΓΑΝΩΣΗ ΗΜΕΡΙΔΑΣ ΓΙΑ ΤΗΝ ΠΑΓΚΟΣΜΙΑ ΗΜΕΡΑ ΤΩΝ ΑΤΟΜΩΝ ΜΕ ΑΝΑΠΗΡΙΑ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-14",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΕΝΓ8ΟΚΑΓ-Ο2Ε",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ1Τ0465274-Θ2Ξ",
+      "title": "Χρηματικό Ένταλμα 5036/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-11",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ1Τ0465274-Θ2Ξ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ6ΡΛ465274-Δ7Ρ",
+      "title": "Χρηματικό Ένταλμα 4869/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-11",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ6ΡΛ465274-Δ7Ρ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΡΞΚΕ465274-Ψ9Ω",
+      "title": "Χρηματικό Ένταλμα 4985/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-11",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΞΚΕ465274-Ψ9Ω",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΣΩΙ465274-ΠΓΔ",
+      "title": "Χρηματικό Ένταλμα 5035/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-11",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΣΩΙ465274-ΠΓΔ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΕΧ7Σ465274-ΩΨΣ",
+      "title": "Χρηματικό Ένταλμα 5044/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-11",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΕΧ7Σ465274-ΩΨΣ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΖΗΞ465274-0ΝΗ",
+      "title": "Χρηματικό Ένταλμα 4859/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΖΗΞ465274-0ΝΗ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ4ΦΨ465274-Λ59",
+      "title": "Χρηματικό Ένταλμα 4828/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ4ΦΨ465274-Λ59",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΕΠΠ465274-ΙΧΟ",
+      "title": "Χρηματικό Ένταλμα 4699/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-07",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΕΠΠ465274-ΙΧΟ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΕΨΔ465274-ΖΦ0",
+      "title": "Χρηματικό Ένταλμα 4769/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-07",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΕΨΔ465274-ΖΦ0",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9355465274-7ΚΘ",
+      "title": "Χρηματικό Ένταλμα 4776/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-07",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9355465274-7ΚΘ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-94ΣΠ465274-34Θ",
+      "title": "Χρηματικό Ένταλμα 4626/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/94ΣΠ465274-34Θ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΕΖΣΕ465274-5Η7",
+      "title": "Χρηματικό Ένταλμα 4654/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΕΖΣΕ465274-5Η7",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΡΥΣΝ465274-ΛΨΩ",
+      "title": "Χρηματικό Ένταλμα 4618/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΥΣΝ465274-ΛΨΩ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΜΗΣ465274-ΜΡΓ",
+      "title": "Χρηματικό Ένταλμα 4581/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-05-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΜΗΣ465274-ΜΡΓ",
       "source": "diavgeia"
     }
   ]
