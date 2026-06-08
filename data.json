@@ -1,14 +1,116 @@
 {
-  "last_updated": "01/06/2026 20:38",
-  "total": 18,
+  "last_updated": "08/06/2026 08:41",
+  "total": 14,
   "announcements": [
     {
-      "id": "diav-68757Λ6-ΗΚΝ",
-      "title": "«Τροποποίηση της υπ΄αριθμ. 494/2026 (ΑΔΑ: Ψ9ΑΠ7Λ6-ΩΘΕ) Απόφασης της Περιφερειακής Επιτροπής με θέμα: «Ορισμός δικηγόρου και καθορισμός αμοιβής αυτού για την νομική εκπροσώπηση της Περιφέρειας Δυτικής Ελλάδας - Π.Ε. Ηλείας ενώπιον του Διοικητικού Πρωτοδικείου Πύργου, στις 23/04/2026 (αριθ. Κλήσης: ΚΛ326/25-02-2026), καθώς και σε κάθε μετ΄ αναβολή δικάσιμο, στην οποία θα συζητηθεί η αγωγή (ΑΓ229/4-09-2025) του κ. Σάχλα Χρήστου του Νικολάου, που αφορά αποζημίωση», αποκλειστικά και μόνο ως προς το σκέλος (Β) αυτής περί καθορισμού της αμοιβής της ορισθείσας δικηγόρου».",
+      "id": "diav-ΨΟ29Ω9Ε-ΙΔΩ",
+      "title": "ΑΑΥ 1128 ΥΠΕΡΩΡΙΕΣ ΙΟΥΝΙΟΥ ΤΜΗΜΑ ΕΜΠΟΡΙΚΗΣ ΔΡΑΣΤΗΡΙΟΤΗΤΑΣ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΟ29Ω9Ε-ΙΔΩ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΡΗΔΕ469Η2Ι-ΘΔΩ",
+      "title": "ΕΞΟΦΛΗΣΗ Χ.Ε. 1122",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΗΔΕ469Η2Ι-ΘΔΩ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΛΖΤΙΔΞ-ΨΡΤ",
+      "title": "Απόφαση Μεταβίβασης Άδειας Αποθήκευσης ΑΔ-04434",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΛΖΤΙΔΞ-ΨΡΤ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΠΧ946904Δ-Υ48",
+      "title": "ΑΡ.ΧΕ. 496 ΔΙΚΑΙΟΥΧΟΣ: ΣΚΑΜΑΓΚΑΣ ΜΙΧΑΗΛ ΑΒΕΕ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΠΧ946904Δ-Υ48",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ2Ν746ΜΗΨ5-Υ0Γ",
+      "title": "ΧΡΗΜΑΤΙΚΟ ΕΝΤΑΛΜΑ ΠΛΗΡΩΜΗΣ - ΑΦΟΙ ΝΤΟΥΡΟΥ Ε.ΔΕΜΑΓΚΟΣ ΟΕ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ2Ν746ΜΗΨ5-Υ0Γ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΘ3Ω469ΗΤΠ-6ΙΒ",
+      "title": "ΥΠΗΡΕΣΙΕΣ ΜΕΤΑΦΟΡΑΣ ΧΡΗΜΑΤΩΝ ΕΝΤΟΣ ΠΟΛΗΣ (1/7/25-31/12/26 - 18 ΜΗΝΕΣ) - ΑΠΡΙΛΙΟΣ 2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-08",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΘ3Ω469ΗΤΠ-6ΙΒ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΥΙ4ΟΡ1Υ-3ΣΑ",
+      "title": "Χορήγηση άδειας χρήσης νερού στον κ. Χαμπούρη Γεώργιο του Άγγελου, στη θέση «5ο χιλ. Αλεξ/πολης - Μάκρης» του αγροκτήματος Νέας Χιλής, του Δήμου Αλεξανδρούπολης, της Π.Ε. Έβρου.",
       "organization": "ΑΣΕΠ",
       "category": "Δήμοι",
       "status": "active",
-      "announced_date": "2026-06-01",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -16,186 +118,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/68757Λ6-ΗΚΝ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΥΙ4ΟΡ1Υ-3ΣΑ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-Ε2ΞΔ7Λ6-ΠΦΔ",
-      "title": "«Έγκριση εξουσιοδότησης του δικηγόρου της Νομικής Υπηρεσίας Π.Ε. Αιτωλοακαρνανίας της Π.Δ.Ε. κ. Ζησιμόπουλου Κωνσταντίνου προκειμένου να παραστεί ενώπιον του ΣτΕ (Δ’ ΤΜΗΜΑ) στις 19-05-2026 και σε κάθε επόμενη δικάσιμο, για την νομική εκπροσώπηση της Π.Δ.Ε. και την αντίκρουση της αίτησης ακύρωσης με αριθμό καταθέσεως: Ε378/2023 της Κοινωνικής Συνεταιριστικής Επιχείρησης ‘’ΓΕΩΠΑΙΔΕΙΑ Κοιν.Σ.Επ’’».",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ε2ΞΔ7Λ6-ΠΦΔ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΕ36ΟΞΑ6-ΡΤΓ",
-      "title": "ΑΠΟΦΑΣΗ ΑΝΑΘΕΣΗΣ ΥΠΗΡΕΣΙΑΣ ΝΑΥΑΓΟΣΩΣΤΙΚΗΣ ΚΑΛΥΨΗΣ 2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΕ36ΟΞΑ6-ΡΤΓ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Λ92Σ46ΜΤΛΒ-ΦΞΕ",
-      "title": "Σίτιση υπηκόων τρίτων χωρών που παραμένουν προσωρινά στα Προαναχωρησιακά  Κέντρα Κράτησης Αλλοδαπών.",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Λ92Σ46ΜΤΛΒ-ΦΞΕ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Κ4ΖΥ7Λ6-2Φ4",
-      "title": "«Έγκριση του από 01-04-2026 Πρωτοκόλλου Παραλαβής του έργου «ΑΠΟΚΑΤΑΣΤΑΣΗ ΖΗΜΙΩΝ ΥΦΙΣΤΑΜΕΝΩΝ ΑΝΤΙΠΛΗΜΜΥΡΙΚΩΝ ΕΡΓΩΝ, ΚΑΘΑΡΙΣΜΟΣ ΚΟΙΤΗΣ, ΑΡΣΗ ΠΡΟΣΧΩΣΕΩΝ ΚΑΙ ΛΟΙΠΩΝ ΦΕΡΤΩΝ ΑΠΟ ΤΗ ΘΕΟΜΗΝΙΑ ΟΚΤΩΒΡΙΟΥ – ΝΟΕΜΒΡΙΟΥ - ΔΕΚΕΜΒΡΙΟΥ 2021 ΣΕ ΥΔΑΤΟΡΕΜΑΤΑ ΕΝΤΟΣ ΤΩΝ ΔΗΜΩΝ ΑΝΔΡΑΒΙΔΑΣ - ΚΥΛΛΗΝΗΣ» προϋπολογισμός: 900.000,00€ (με Φ.Π.Α), χρηματοδότηση: ΣΑΕΠ 801 2023ΝΠ80100005 κωδικό MIS: 5202316, ανάδοχος: «ΔΙΚΤΥΟ ΑΤΕ»».",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Κ4ΖΥ7Λ6-2Φ4",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΛΡΦΖΩΞΞ-2Λ3",
-      "title": "ΑΠΟΦΑΣΗ ΔΗΜΑΡΧΟΥ352_2026 ΕΓΚΡΙΣΗ ΤΕΧΝΙΚΩΝ ΠΡΟΔΙΑΓΡΑΦΩΝ ΠΡΟΜΗΘΕΙΑ ΓΡΑΦΙΚΗΣ ΥΛΗΣ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΛΡΦΖΩΞΞ-2Λ3",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ε2Τ8ΩΞΞ-ΛΕΓ",
-      "title": "ΑΑΥ214_2026 ΑΠΟΦΑΣΗ ΔΗΜΑΡΧΟΥ351_2026 ΔΙΑΘΕΣΗ ΠΙΣΤΩΣΗΣ ΑΛΕ 2.4.10101",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ε2Τ8ΩΞΞ-ΛΕΓ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-96ΠΛΟΡ1Φ-ΛΚΕ",
-      "title": "ΕΛΕΓΧΟΣ ΝΟΜΙΜΟΤΗΤΑΣ ΤΗΣ ΑΡ. 136/2026 ΑΔΕ ΔΗΜΟΥ ΜΕΣΣΗΝΗΣ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/96ΠΛΟΡ1Φ-ΛΚΕ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΟ6ΒΟΡ1Φ-ΞΨ7",
-      "title": "ΕΛΕΓΧΟΣ ΝΟΜΙΜΟΤΗΤΑΣ 42 2026 ΑΔΣ ΔΗΜΟΥ ΜΕΣΣΗΝΗΣ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΟ6ΒΟΡ1Φ-ΞΨ7",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ρ4ΞΡΟΡ1Φ-753",
-      "title": "ΕΛΕΓΧΟΣ ΝΟΜΙΜΟΤΗΤΑΣ 107 2026 ΑΔΕ ΔΗΜΟΥ ΤΡΙΦΥΛΙΑΣ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ρ4ΞΡΟΡ1Φ-753",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΕΧΛΟΡ1Φ-56Ο",
-      "title": "ΕΛΕΓΧΟΣ ΝΟΜΙΜΟΤΗΤΑΣ 97 /2026 ΑΔΕ ΔΗΜΟΥ ΤΡΙΦΥΛΙΑΣ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-01",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΕΧΛΟΡ1Φ-56Ο",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΨΡ3Ρ7Λ6-ΕΒΠ",
-      "title": "«Ορισμός δικηγόρου και καθορισμός αμοιβής αυτού, για την μελέτη αγωγής, έλεγχο φακέλου, νομιμοποιητικών εγγράφων, παραστατικών δαπανών και σύνταξη έγγραφης γνωμοδότησης για εξωδικαστικό συμβιβασμό της αριθ. ΑΓ37/18-02-2026 αγωγής ενώπιον του Μονομελούς Διοικητικού Πρωτοδικείου Πύργου, που αφορά καταβολή αμοιβών για υπηρεσίες που παρασχέθηκαν, στο πλαίσιο του προγράμματος Δακοκτονίας 2023».",
+      "id": "diav-6ΧΙ5ΟΞΧΔ-ΡΟΞ",
+      "title": "Απόφαση έγκρισης της μελέτης: «Δικαστικό Μέγαρο Καλαμάτας – Μελέτες ενεργειακής αναβάθμισης,\nπροσβασιμότητας, ανακαίνισης – επισκευής, έκδοση οικοδομικής άδειας και σύνταξη τευχών\nδημοπράτησης», και απόφαση έγκρισης του από 28.05.2026 πρωτοκόλλου παραλαβής της ορισθείσας Επιτροπής Παραλαβής της Σύμβασης.",
       "organization": "ΑΣΕΠ",
       "category": "Δικαστικό",
       "status": "active",
-      "announced_date": "2026-06-01",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -203,16 +135,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΡ3Ρ7Λ6-ΕΒΠ",
+      "url": "https://diavgeia.gov.gr/decision/view/6ΧΙ5ΟΞΧΔ-ΡΟΞ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-9ΒΗΡ4690ΒΧ-ΨΕ9",
-      "title": "Υποβολή-διαβίβαση του πρακτικού(ελέγχου δικαιολογητικών συμμετοχής-κατακύρωσης, της τεχνικής και οικονομικής αξιολόγησης) της 5524/19-05-2026 Πρόσκλησης Εκδήλωσης Ενδιαφέροντος για την «Συντήρηση των Συστημάτων Πυρανίχνευσης» του ΓΝ Λευκάδας.",
+      "id": "diav-Ψ1ΘΑ469070-ΘΣΤ",
+      "title": "ΟΡΘΗ ΕΠΑΝΑΛΗΨΗ ΔΙΑΠΙΣΤΩΤΙΚΗ ΠΡΑΞΗ ΒΑΘΜΟΛΟΓΙΚΗΣ ΚΑΤΑΤΑΞΗΣ ΤΗΣ ΚΟΥΝΤΟΥΡΗ ΜΑΙΡΗ-ΡΟΟΥΖ ΑΛΕΞΑΝΔΡΑΣ ΛΟΓΩ ΑΠΟΚΤΗΣΗΣ ΜΕΤΑΠΤΥΧΙΑΚΟΥ ΤΙΤΛΟΥ ΣΠΟΥΔΩΝ",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-06-01",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -220,16 +152,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΒΗΡ4690ΒΧ-ΨΕ9",
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ1ΘΑ469070-ΘΣΤ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΚΚ5ΙΩ9Ζ-6ΦΖ",
-      "title": "111.2026 Δ.Ε. - Έγκριση 1ου Ανακεφαλαιωτικού Πίνακα Εργασιών που περιλαμβάνει και την 1η Τροποποίηση Αρχικής Σύμβασης (1η Σ.Σ.) του έργου: «ΔΗΜΟΤΙΚΗ ΟΔΟΠΟΙΙΑ ΚΟΙΝΟΤΗΤΑ ΤΟΛΟΦΩΝΟΣ» και ανέρχεται συνολικά στο ποσό των 131.236,06€ με Φ.Π.Α.",
+      "id": "diav-632ΥΗ-4ΛΔ",
+      "title": "ΣΥΜΒΑΣΗ ΠΑΡΑΧΩΡΗΣΗΣ ΔΙΚΑΙΩΜΑΤΟΣ ΑΠΛΗΣ ΧΡΗΣΗΣ ΚΟΙΝΟΧΡΗΣΤΗΣ ΕΚΤΑΣΗΣ ΑΙΓΙΑΛΟΥ - ΠΑΡΑΛΙΑΣ ΜΕ ΑΠΕΥΘΕΙΑΣ ΠΑΡΑΧΩΡΗΣΗ",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-05-29",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -237,16 +169,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΚΚ5ΙΩ9Ζ-6ΦΖ",
+      "url": "https://diavgeia.gov.gr/decision/view/632ΥΗ-4ΛΔ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-Λ3ΟΡ46Ψ8ΟΥ-ΠΕ0",
-      "title": "Συγκρότηση συνεργείου για Υπερωριακή απογευματινή εργασία των υπαλλήλων του Τ.Ε.Φ.Ε.Σ.Κ.Ν Αυλώνα για το διάστημα από 01-06-2026 έως 30-06-2026",
+      "id": "diav-99ΠΟΩΡΠ-2Ψ3",
+      "title": "προμήθεια χρωμάτων για τις ανάγκες της Δ.Ε. Έδεσσας του Δήμου Έδεσσας.",
       "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
+      "category": "Δήμοι",
       "status": "active",
-      "announced_date": "2026-05-28",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -254,16 +186,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/Λ3ΟΡ46Ψ8ΟΥ-ΠΕ0",
+      "url": "https://diavgeia.gov.gr/decision/view/99ΠΟΩΡΠ-2Ψ3",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΕΧΨ446Ψ8ΟΥ-1ΑΦ",
-      "title": "Συγκρότηση συνεργείου για εργασία Πέραν του πενθημέρου  των υπαλλήλων του Τ.Ε.Φ.Ε.Σ.Κ.Ν Αυλώνα για το διάστημα από 01-06-2026 έως 30-06-2026",
+      "id": "diav-9ΒΞΙ4690ΩΑ-Μ1Ρ",
+      "title": "Εξέλιξη ιατρού κλάδου Ε.Σ.Υ. στον επόμενο βαθμό _ ΓΕΩΡΓΑΚΟΠΟΥΛΟΣ Παναγιώτης",
       "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
+      "category": "Νοσοκομεία",
       "status": "active",
-      "announced_date": "2026-05-28",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -271,16 +203,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΧΨ446Ψ8ΟΥ-1ΑΦ",
+      "url": "https://diavgeia.gov.gr/decision/view/9ΒΞΙ4690ΩΑ-Μ1Ρ",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΛΞΗΓ46Ψ8ΟΥ-ΔΒΓ",
-      "title": "Συγκρότηση συνεργείου για τις νυχτερινές ώρες εργάσιμων ημερών και ημερήσιες και νυχτερινές ώρες Κυριακών και εξαιρέσιμων ημερών προς συμπλήρωση και πέραν του κανονικού ωραρίου εργασίας  των υπαλλήλων του Τ.Ε.Φ.Ε.Σ.Κ.Ν Αυλώνα για το διάστημα από 01-06-2026 έως 30-06-2026",
+      "id": "diav-6Ζ6Μ469ΗΓΨ-77Ν",
+      "title": "ΧΕΠΛ-2026-01108",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-05-28",
+      "announced_date": "2026-06-08",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -288,16 +220,16 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΛΞΗΓ46Ψ8ΟΥ-ΔΒΓ",
+      "url": "https://diavgeia.gov.gr/decision/view/6Ζ6Μ469ΗΓΨ-77Ν",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΕΛΟΔ6-05Τ",
-      "title": "ΚΑΤΑΚΥΡΩΣΗ ΔΙΑΓΩΝΙΣΜΟΥ ΥΠ. ΑΡΙΘΜ 05/2026 ΠΡΟΜΗΘΕΙΑ ΕΙΔΩΝ ΚΑΒΑΣ ΓΙΑ ΚΑΛΥΨΗ ΑΝΑΓΚΩΝ 10 Μ/Π ΤΑΞ",
+      "id": "diav-ΡΒ3ΝΩΚΑ-4ΨΝ",
+      "title": "Συζήτηση και λήψη απόφασης ανανέωσης άδειας χρήσεως κοινόχρηστου χώρου 7,28 τ.μ. για την ανάπτυξη τραπεζοκαθισμάτων επί της Πλ. Ελ. Βενιζέλου στο κατάστημα «ΕΠΙΧΕΙΡΗΣΗ ΜΑΖΙΚΗΣ ΕΣΤΙΑΣΗΣ ΜΕΡΙΚΗΣ ΕΠΕΞΕΡΓΑΣΙΑΣ» που βρίσκεται στην οδό ΚΑΡΑΚΟΥΛΟΥΞΗ αρ. 39 στη Δημοτική Ενότητα Νίκαιας για το έτος 2026 κατόπιν αιτήσεως του  κ. FEKOLLARI FREDI.",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
-      "announced_date": "2026-05-11",
+      "announced_date": "2026-06-02",
       "deadline": null,
       "positions": null,
       "fek": null,
@@ -305,7 +237,7 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΕΛΟΔ6-05Τ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΒ3ΝΩΚΑ-4ΨΝ",
       "source": "diavgeia"
     }
   ]
