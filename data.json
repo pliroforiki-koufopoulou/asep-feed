@@ -1,10 +1,282 @@
 {
-  "last_updated": "29/06/2026 08:46",
-  "total": 19,
+  "last_updated": "06/07/2026 08:07",
+  "total": 18,
   "announcements": [
     {
-      "id": "diav-9ΤΩΠΩ9Ε-Σ3Ζ",
-      "title": "ΠΡΟΜΗΘΕΙΑ ΕΙΔΩΝ ΑΡΤΟΠΟΙΕΙΟΥ (ΤΜΗΜΑ Δ - ΤΡΟΦΙΜΑ 26-27) - ΣΥΜΒΑΣΗ ΜΕ ΑΔΑΜ: 25SYMV018040491 - Η.Τ",
+      "id": "diav-ΨΔΛΨΩΡΦ-ΑΡ1",
+      "title": "ΠΑΡΑΧΩΡΗΣΗ ΧΡΗΣΗΣ ΑΘΛΗΤΙΚΩΝ ΕΓΚΑΤΑΣΤΑΣΕΩΝ ΓΙΑ ΤΗΝ ΠΡΑΓΜΑΤΟΠΟΙΗΣΗ SUMMER CAMP 2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΔΛΨΩΡΦ-ΑΡ1",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΨΔΧ7ΛΕ-Ν2Ι",
+      "title": "ΕΝΤΟΛΗ ΠΛΗΡΩΜΗΣ οικ. 1194-06/07/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΨΔΧ7ΛΕ-Ν2Ι",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-68Β6ΩΞ8-ΦΩ7",
+      "title": "Μισθοδοσία Ιουνίου    2026 Επαλ Μαθητείας Δημαρχείου",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/68Β6ΩΞ8-ΦΩ7",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ρ6Ξ7ΩΚ1-ΛΤ9",
+      "title": "Δικαστικά έξοδα και έξοδα εκτέλεσης δικαστικών αποφάσεων - ΥΠΟΘΕΣΗ ΛΕΦΑΣ Γ. - ΑΓΩΓΗ 694 / 04-12-2024",
+      "organization": "ΑΣΕΠ",
+      "category": "Δικαστικό",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ρ6Ξ7ΩΚ1-ΛΤ9",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΡΨΔΟΡΛΟ-63Ζ",
+      "title": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΡΨΔΟΡΛΟ-63Ζ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΡΟΛ37ΛΗ-Λ63",
+      "title": "ΑΝΑΓΓΕΛΙΑ ΕΝΑΡΞΗΣ ΑΣΚΗΣΗ ΕΠΑΓΓΕΛΜΑΤΟΣ ΤΕΧΝΙΤΗ ΟΧΗΜΑΤΩΝ ΥΨΗΛΗΣ ΤΑΣΗΣ ΤΟΥ ΓΟΖΑΔΙΝΟΥ ΙΩΑΝΝΗ ΤΟΥ ΠΑΝΤΕΛΗ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΡΟΛ37ΛΗ-Λ63",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ57ΣΟΡΗ0-ΝΓΖ",
+      "title": "Απόδοση Κρατήσεων ΙΟΥΝΙΟΣ 2026 (ΠΡΟΜΗΘΕΙΕΣ κτλ) χε 134/2026 ΚΑΤΑΣΚΕΥΗ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ57ΣΟΡΗ0-ΝΓΖ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΑΡΩ46ΜΜ5Υ-ΡΚ6",
+      "title": "ΜΙΣΘΩΣΕΙΣ ΜΗΧΑΝΗΜΑΤΩΝ ΕΡΓΩΝ ΓΙΑ ΤΗΝ ΕΞΑΣΦΑΛΙΣΗ ΠΡΟΣΠΕΛΑΣΙΜΟΤΗΤΑΣ-ΑΠΟΚΑΤΑΣΤΑΣΗΣ ΣΤΙΣ ΥΠΟΔΟΜΕΣ ΥΔΡΕΥΣΗΣ Δ.Ε. ΧΑΣΙΩΝ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΑΡΩ46ΜΜ5Υ-ΡΚ6",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΩΓΚ465ΖΩ5-ΜΒ2",
+      "title": "ΧΡΗΜΑΤΙΚΟ ΕΝΤΑΛΜΑ ΠΛΗΡΩΜΗΣ ΤΑΚΤΙΚΟΣ 2025-2026 Β ΠΡΟΣΚΛΗΣΗ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΩΓΚ465ΖΩ5-ΜΒ2",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9Ψ4ΕΟΛΣΛ-205",
+      "title": "Απόφαση Δ.Σ περί  Έγκρισης πρακτικού – εισήγησης επί αποτελέσματος ηλεκτρονικού (Α/Α Συστήματος 462184) Δημόσιου ανοικτού διαγωνισμού για την\n«Προμήθεια τροφίμων, ποτών και ειδών παντοπωλείου για τις ανάγκες λειτουργίας της καντίνας Ελαφονησίου, για το έτος 2026»",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9Ψ4ΕΟΛΣΛ-205",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΓΝΨ46904Υ-ΘΕΔ",
+      "title": "ΧΕ Ε/682 - 06/07/2026 ΕΥΑΓΓΕΛΟΣ ΔΑΝΙΗΛ & ΣΙΑ ΟΕ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΓΝΨ46904Υ-ΘΕΔ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-Ψ4Ε07ΛΩ-9ΝΒ",
+      "title": "Βεβαίωση ορθής αναγγελίας έναρξης ασκήσεως επαγγέλματος Μηχανοτεχνίτη",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-06",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/Ψ4Ε07ΛΩ-9ΝΒ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-9ΡΙΡΩΕΡ-ΙΘ1",
+      "title": "ΑΠΟΔΟΣΗ ΚΡΑΤΗΣΕΩΝ ΓΙΑ ΦΟΡΟΣ 20% ΕΛΕΥΘΕΡΩΝ ΕΠΑΓΓΕΛΜΑΤΙΩΝ 20% ΧΕΠ: ΕΞΟΔΩΝ/826,ΕΞΟΔΩΝ/1080",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-03",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/9ΡΙΡΩΕΡ-ΙΘ1",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-90ΗΞ46ΨΧΗ8-ΚΗΙ",
+      "title": "ΔΑΠΑΝΗ ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΔΕΚΑ ΑΣΥΡΜΑΤΩΝ Π/Δ ΓΙΑ ΤΗΝ ΚΑΛΥΨΗ ΑΝΑΓΚΩΝ ΤΟΥ ΓΡ.\nΑΣΦΑΛΕΙΑΣ ΤΟΥ ΠΜ ΑΘΗΝΩΝ",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-07-01",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/90ΗΞ46ΨΧΗ8-ΚΗΙ",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΓΘΘ469Β7Θ-ΞΟ2",
+      "title": "Χρηματικό Ένταλμα 13436/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-30",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΓΘΘ469Β7Θ-ΞΟ2",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-ΨΓΨΗΩΞΑ-Η71",
+      "title": "ΧΕΠ 75Α/2026",
+      "organization": "ΑΣΕΠ",
+      "category": "ΑΣΕΠ",
+      "status": "active",
+      "announced_date": "2026-06-30",
+      "deadline": null,
+      "positions": null,
+      "fek": null,
+      "tags": [
+        "Διαύγεια",
+        "ΑΣΕΠ"
+      ],
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΓΨΗΩΞΑ-Η71",
+      "source": "diavgeia"
+    },
+    {
+      "id": "diav-90ΟΧ469Β7Θ-ΚΕ0",
+      "title": "Χρηματικό Ένταλμα 12955/2026",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
@@ -16,12 +288,12 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/9ΤΩΠΩ9Ε-Σ3Ζ",
+      "url": "https://diavgeia.gov.gr/decision/view/90ΟΧ469Β7Θ-ΚΕ0",
       "source": "diavgeia"
     },
     {
-      "id": "diav-ΨΨΒΩ46ΨΖΣΘ-ΖΟΒ",
-      "title": "Ετήσιος Προϋπολογισμός Έργου με κωδικό: 80705 #1975974 #366165",
+      "id": "diav-ΨΗ9Ω469Β7Θ-ΒΛΡ",
+      "title": "Χρηματικό Ένταλμα 12974/2026",
       "organization": "ΑΣΕΠ",
       "category": "ΑΣΕΠ",
       "status": "active",
@@ -33,296 +305,7 @@
         "Διαύγεια",
         "ΑΣΕΠ"
       ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΨΒΩ46ΨΖΣΘ-ΖΟΒ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-63ΕΣ469Η26-8ΦΣ",
-      "title": "πρόσληψη για τον/την ΚΛΕΜΕΝΤΙΝΑ  ΚΟΤΣΑΙ με όνομα πατρός ΚΩΣΤΑ στο ΓΝ ΠΑΙΔΩΝ ΠΕΝΤΕΛΗΣ, ως επικουρικό προσωπικό του κλάδου ΔΕ ΒΟΗΘΩΝ ΝΟΣΗΛΕΥΤΩΝ (ΚΥΡΙΑ ΠΡΟΣΟΝΤΑ),",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/63ΕΣ469Η26-8ΦΣ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-65ΟΒΩ1Ρ-Ζ1Β",
-      "title": "ΑΠΟΦΑΣΗ ΔΗΜΑΡΧΟΥ ΓΙΑ ΥΠΗΡΕΣΙΕΣ ΒΙΝΤΕΟΣΚΟΠΗΣΗΣ ΠΡΟΩΘΗΣΗΣ ΤΕΧΝΟΛΟΓΙΚΩΝ ΛΥΣΕΩΝ.",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/65ΟΒΩ1Ρ-Ζ1Β",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-9Λ1ΟΩ9Μ-Χ7Ρ",
-      "title": "ΟΡΙΣΜΟΣ ΥΠΑΛΛΗΛΩΝ ΣΕ ΣΥΝΕΡΓΕΙΑ ΑΝΤΙΜΕΤΩΠΙΣΗΣ ΕΚΤΑΚΤΩΝ ΑΝΑΓΚΩΝ ΑΠΟ 1-7-2026 ΕΩΣ 31-12-2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9Λ1ΟΩ9Μ-Χ7Ρ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ψ4ΘΛ4690ΒΥ-ΩΘ5",
-      "title": "ΧΕ-418 ΣΕΙΡΑ Β ΕΞΩΣΥΜΒΑΤΙΚΑ/2026 ΠΛΗΡΩΜΗ ΔΙΑΓΝΩΣΤΙΚΩΝ ΕΞΕΤΑΣΕΩΝ ΓΙΑ ΤΟ Γ.Ν. ΚΑΣΤΟΡΙΑΣ ΑΠΟ 1/01/2026 ΕΩΣ 28/02/2026",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ4ΘΛ4690ΒΥ-ΩΘ5",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-6Σ2ΒΩ9Δ-ΥΘΟ",
-      "title": "ΑΔΕΙΑ ΧΡΗΣΗΣ ΚΟΙΝΟΧΡΗΣΤΟΥ ΧΩΡΟΥ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/6Σ2ΒΩ9Δ-ΥΘΟ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-6ΜΟΩΩ17-ΘΨΣ",
-      "title": "ΔΑΠΑΝΗ ΕΠΙΣΚΕΥΗΣ-ΣΥΝΤΗΡΗΣΗΣ ΙΧ ΚΛΠ ΟΧΗΜΑΤΩΝ ΔΗΜΟΥ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/6ΜΟΩΩ17-ΘΨΣ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-Ψ08Ρ4653ΠΓ-ΞΒ4",
-      "title": "ΠΡΟΜΗΘΕΙΑ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/Ψ08Ρ4653ΠΓ-ΞΒ4",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΨΘΩΥ46ΨΖΣΘ-ΜΧΣ",
-      "title": "Προϋπολογισμός Έργου με κωδικό: 80203 #1975925 #366164",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΘΩΥ46ΨΖΣΘ-ΜΧΣ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΨΡ6ΓΩΚΦ-Δ8Ψ",
-      "title": "Περί έγκρισης εξειδίκευσης πίστωσης του Α.Λ.Ε. 015.2420301.009 «Συντήρηση & επισκευή μηχανοστασίων, λεβήτων και καυστήρων αθλητικών κτιρίων & εγκαταστάσεων».",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-29",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΡ6ΓΩΚΦ-Δ8Ψ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΨΔΚΩΟΞΧΣ-ΦΜ2",
-      "title": "ΕΚΤΙΜΗΣΗ ΑΓΟΡΑΙΑΣ ΑΞΙΑΣ ΠΟΣΟΣΤΟΥ ΑΓΡΟΤΕΜΑΧΙΟΥ ΣΤΟΝ ΠΟΛΥΓΥΡΟ ΧΑΛΚΙΔΙΚΗΣ ΑΠΟ ΠΙΣΤΟΠΟΙΗΜΕΝΟ ΕΚΤΙΜΗΤΗ ΤΟΥ ΥΠ-ΟΙΚ",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-24",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΨΔΚΩΟΞΧΣ-ΦΜ2",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-973Θ469Β7Λ-6Ν2",
-      "title": "Σύμβαση Έργου #136580 #207344",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/973Θ469Β7Λ-6Ν2",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΨΑ4ΟΚΩΞ-Ω9Ζ",
-      "title": "Αγορές πρώτων και βοηθητικών υλών- κατασκευών εργαστηρίου",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΨΑ4ΟΚΩΞ-Ω9Ζ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-95Φ5469Β7Λ-Ξ5Σ",
-      "title": "Σύμβαση Έργου #136577 #207343",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/95Φ5469Β7Λ-Ξ5Σ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-9Ζ4Γ469Β7Λ-ΚΓΞ",
-      "title": "Σύμβαση Έργου #136576 #207342",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9Ζ4Γ469Β7Λ-ΚΓΞ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-9Φ8Σ469Β7Λ-ΞΦ7",
-      "title": "Σύμβαση Έργου #136568 #207341",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/9Φ8Σ469Β7Λ-ΞΦ7",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-ΡΛ48469Β7Λ-ΡΓΦ",
-      "title": "Σύμβαση Έργου #136563 #207340",
-      "organization": "ΑΣΕΠ",
-      "category": "ΑΣΕΠ",
-      "status": "active",
-      "announced_date": "2026-06-23",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/ΡΛ48469Β7Λ-ΡΓΦ",
-      "source": "diavgeia"
-    },
-    {
-      "id": "diav-6ΖΔ5Ω17-Φ9Ζ",
-      "title": "Λήψη απόφασης περί ορισμού ή μη επιπλέον τεχνικού υπαλλήλου για τον χαρακτηρισμό και την παραλαβή του φυσικού εδάφους στο οποίο εκτελείται το έργο: «Αγροτική Οδοποιία Δήμου Πύργου (Υποέργο Ι",
-      "organization": "ΑΣΕΠ",
-      "category": "Δήμοι",
-      "status": "active",
-      "announced_date": "2026-06-22",
-      "deadline": null,
-      "positions": null,
-      "fek": null,
-      "tags": [
-        "Διαύγεια",
-        "ΑΣΕΠ"
-      ],
-      "url": "https://diavgeia.gov.gr/decision/view/6ΖΔ5Ω17-Φ9Ζ",
+      "url": "https://diavgeia.gov.gr/decision/view/ΨΗ9Ω469Β7Θ-ΒΛΡ",
       "source": "diavgeia"
     }
   ]
