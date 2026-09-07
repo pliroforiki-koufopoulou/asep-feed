@@ -1,44 +1,14 @@
-name: Update ΑΣΕΠ Feed
+name: Update ΑΣΕΠ Feed (DISABLED)
+
+# Αυτό το workflow δεν χρησιμοποιείται πλέον.
+# Ο scraper τρέχει τοπικά στον υπολογιστή μέσω Task Scheduler.
 
 on:
-  schedule:
-    # Δευτέρα, Τετάρτη, Παρασκευή στις 07:30 UTC (= 10:30 Ελλάδα)
-    - cron: '30 7 * * 1'
-    - cron: '30 7 * * 3'
-    - cron: '30 7 * * 5'
-
-  # Χειροκίνητη εκτέλεση από το GitHub Actions tab
   workflow_dispatch:
 
 jobs:
-  scrape:
+  info:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          pip install playwright requests beautifulsoup4
-          playwright install chromium
-          playwright install-deps chromium
-
-      - name: Run scraper
-        run: python scraper.py
-
-      - name: Commit & Push data.json
-        run: |
-          git config --global user.name "ΑΣΕΠ Feed Bot"
-          git config --global user.email "bot@asepfeed.gr"
-          git add data.json
-          git diff --staged --quiet || git commit -m "Update: $(date +'%d/%m/%Y %H:%M')"
-          git push
+      - name: Info
+        run: echo "Ο scraper τρέχει τοπικά στον υπολογιστή."
