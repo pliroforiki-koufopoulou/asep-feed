@@ -1,5 +1,494 @@
 {
-  "last_updated": "07/09/2026 12:40",
-  "total": 0,
-  "announcements": []
+  "last_updated": "07/09/2026 17:22",
+  "total": 49,
+  "announcements": [
+    {
+      "id": "asep-2309937360194392734",
+      "title": "5Κ/2026 : Πρόσκληση υποψηφίων για ηλεκτρονική Υποβολή Δικαιολογητικών",
+      "announced_date": "2026-09-03",
+      "deadline_start": "2026-09-04",
+      "deadline_end": "2026-09-17",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79715"
+    },
+    {
+      "id": "asep-8628668158077128948",
+      "title": "2Κ/2022 (Κατηγορία ΤΕ) και 9Κ/2022 (Κατηγορία ΔΕ) : Κλήρωση ισοβαθμούντων υποψηφίων στο πλαίσιο αναπληρώσεων",
+      "announced_date": "2026-08-10",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΤΕ",
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/79545"
+    },
+    {
+      "id": "asep-5649882559781735115",
+      "title": "6Κ/2026 : Πλήθος αιτήσεων συμμετοχής",
+      "announced_date": "2026-08-06",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79532"
+    },
+    {
+      "id": "asep-4207848623810579664",
+      "title": "1ΓΕ/2026 και 2ΓΕ/2026 : Ενεργοποίηση ηλεκτρονικής εφαρμογής λογισμικού ανοικτής κληρωτίδας",
+      "announced_date": "2026-08-06",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79520"
+    },
+    {
+      "id": "asep-999968669902571039",
+      "title": "5Κ/2026 : Πλήθος αιτήσεων συμμετοχής",
+      "announced_date": "2026-07-31",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79490"
+    },
+    {
+      "id": "asep-3912670866437135281",
+      "title": "8Κ/2024 : Πλήρωση θέσεων μόνιμου προσωπικού σε φορείς του δημοσίου από επιλαχόντες της Προκήρυξης.",
+      "announced_date": "2026-07-30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΤΕ"
+      ],
+      "url": "https://info.asep.gr/node/79479"
+    },
+    {
+      "id": "asep-4474539579705427988",
+      "title": "3ΓΒ/2023 : Ακύρωση διενέργειας δημόσιας κλήρωσης  ισοβαθμούντων υποψηφίων κλάδου/ειδικότητας ΠΕ ΔΙΟΙΚΗΤΙΚΟΥ -ΟΙΚΟΝΟΜΙΚΟΥ",
+      "announced_date": "2026-07-22",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/79408"
+    },
+    {
+      "id": "asep-5375930415060271507",
+      "title": "3ΓΒ/2023 : Κλήρωση ισοβαθμούντων υποψηφίων κλάδου/ειδικότητας ΠΕ Διοικητικού-Οικονομικού (Αναπληρώσεις)",
+      "announced_date": "2026-07-22",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/79407"
+    },
+    {
+      "id": "asep-809951370942605593",
+      "title": "2Κ/2024 : Κλήρωση ισοβαθμούντων υποψηφίων ειδικότητας ΠΕ ΗΛΕΚΤΡΟΛΟΓΩΝ ΜΗΧΑΝΙΚΩΝ",
+      "announced_date": "2026-07-20",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/79385"
+    },
+    {
+      "id": "asep-1010262669914864311",
+      "title": "2Κ/2023 : Κλήρωση ισοβαθμούντων υποψηφίων - Κατηγορία ΔΕ",
+      "announced_date": "2026-07-20",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/79384"
+    },
+    {
+      "id": "asep-6033211533168816466",
+      "title": "6Κ/2026 : Έκδοση ΦΕΚ Προκήρυξης",
+      "announced_date": "2026-07-14",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79346"
+    },
+    {
+      "id": "asep-6960730727418311755",
+      "title": "2Κ/2026 & 3Κ/2026 : Ενεργοποίηση ηλεκτρονικής εφαρμογής λογισμικού  ανοικτής κληρωτίδας",
+      "announced_date": "2026-07-14",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79342"
+    },
+    {
+      "id": "asep-925681280996365814",
+      "title": "1Κ/2024 : Πίνακας υποψήφιων Κατηγοριών ΠΕ & ΤΕ για τη διενέργεια αθλητικών & ψυχοτεχνικών δοκιμασίων",
+      "announced_date": "2026-07-12",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΠΕ",
+        "ΤΕ"
+      ],
+      "url": "https://info.asep.gr/node/79331"
+    },
+    {
+      "id": "asep-3185002432680980417",
+      "title": "1ΓΕ/2026 και 2ΓΕ/2026: Ανακοίνωση του Υπουργείου Παιδείας, Θρησκευμάτων και Αθλητισμού σχετικά με την προεπισκόπηση στοιχείων στο Ο.Π.ΣΥ.Δ.",
+      "announced_date": "2026-07-10",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/79329"
+    },
+    {
+      "id": "asep-7402547123622658431",
+      "title": "6Κ/2026: Αποστολή στο Εθνικό Τυπογραφείο",
+      "announced_date": "2026-06-30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79242"
+    },
+    {
+      "id": "asep-4079509910836449914",
+      "title": "2ΓΒ/2026 : Πλήθος αιτήσεων συμμετοχής",
+      "announced_date": "2026-06-23",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79154"
+    },
+    {
+      "id": "asep-8138328523052134309",
+      "title": "5Κ/2023 και 1Κ/2026: Ενεργοποίηση ηλεκτρονικής εφαρμογής λογισμικού ανοικτής κληρωτίδας",
+      "announced_date": "2026-06-16",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79104"
+    },
+    {
+      "id": "asep-769513561932663345",
+      "title": "2ΓΒ/2026 : Τροποποίηση Προκήρυξης",
+      "announced_date": "2026-06-12",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79087"
+    },
+    {
+      "id": "asep-7009593573136878813",
+      "title": "5Κ/2026 : Αποστολή στο Εθνικό Τυπογραφείο",
+      "announced_date": "2026-06-12",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79088"
+    },
+    {
+      "id": "asep-1535681120280274859",
+      "title": "1ΓΒ/2026 : Ενεργοποίηση της ηλεκτρονικής εφαρμογής λογισμικού ανοικτής κληρωτίδας",
+      "announced_date": "2026-06-03",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79013"
+    },
+    {
+      "id": "asep-8635242619586416683",
+      "title": "2ΓΒ/2026 : Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-06-03",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/79012"
+    },
+    {
+      "id": "asep-6513417640658778950",
+      "title": "1ΓΕ/2026, 2ΓΕ/2026 : Πλήθος αιτήσεων συμμετοχής",
+      "announced_date": "2026-05-28",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78975"
+    },
+    {
+      "id": "asep-5442791080725869038",
+      "title": "2ΓΒ/2026 : Έκδοση ΦΕΚ Προκήρυξης",
+      "announced_date": "2026-05-26",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78951"
+    },
+    {
+      "id": "asep-6065250046466497558",
+      "title": "2ΓΒ/2026 : Αποστολή στο Εθνικό Τυπογραφείο",
+      "announced_date": "2026-05-19",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78887"
+    },
+    {
+      "id": "asep-5800615484475419636",
+      "title": "5Ε/2020 : Έκδοση οριστικού πίνακα προσληπτέας από πίνακα Αναπληρωματικών (Επιλαχόντων - κωδικός θέσης 10007)",
+      "announced_date": "2026-05-15",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78868"
+    },
+    {
+      "id": "asep-6295916402902752909",
+      "title": "9Κ/2021 : Πρόσκληση για τη διενέργεια υγειονομικών εξετάσεων του Υπουργείου Προστασίας του Πολίτη από επιλαχούσες",
+      "announced_date": "2026-05-11",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78798"
+    },
+    {
+      "id": "asep-1990143354994617593",
+      "title": "3Κ/2022 : Κλήρωση ισοβαθμούντων υποψηφίων  προκήρυξη  κατηγορία ΠΕ",
+      "announced_date": "2026-05-11",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/78797"
+    },
+    {
+      "id": "asep-4778262657752603070",
+      "title": "Προκήρυξη 1/2026 για την πλήρωση 21 συνολικά θέσεων μονίμων Εκπαιδευτικών και Εκπαιδευτικών με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου στις Σχολές Ανώτερης Επαγγελματικής Κατάρτισης (Σ.Α.Ε.Κ.) τουρισμού του Υπουργείου Τουρισμού",
+      "announced_date": "2026-05-06",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΤΕ",
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/78754"
+    },
+    {
+      "id": "asep-7909735442161873318",
+      "title": "2ΓΕ/2026 : Αποστολή στο Εθνικό Τυπογραφείο",
+      "announced_date": "2026-04-24",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78703"
+    },
+    {
+      "id": "asep-1152039866759774366",
+      "title": "1ΓΕ/2026 : Αποστολή στο Εθνικό Τυπογραφείο",
+      "announced_date": "2026-04-24",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [],
+      "url": "https://info.asep.gr/node/78702"
+    },
+    {
+      "id": "asep-3867504060143101761",
+      "title": "Ενημέρωση σχετικά με την Προκήρυξη Πανεπιστημιακής Εκπαίδευσης (Β΄ Στάδιο) της 1Γ/2025",
+      "announced_date": "2026-04-16",
+      "deadline_start": null,
+      "deadline_end": null,
+      "tags": [
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/78657"
+    },
+    {
+      "id": "asep-7399616956077053617",
+      "title": "1ΓΕΠ/2026 : Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-08-26",
+      "deadline_start": null,
+      "deadline_end": "2026-09-10",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79631"
+    },
+    {
+      "id": "asep-1239232192585312885",
+      "title": "1ΓΕΠ/2026 : Πρόσκληση εκδήλωσης ενδιαφέροντος και υποβολή ηλεκτρονικών αιτήσεων για την κάλυψη θέσεων του Γενικού Επόπτη Νομιμότητας και Εποπτών Νομιμότητας Οργανισμών Τοπικής Αυτοδιοίκησης (Ο.Τ.Α.) της Υπηρεσίας Γενικής Εποπτείας Νομιμότητας Ο.Τ.Α",
+      "announced_date": "2026-08-11",
+      "deadline_start": null,
+      "deadline_end": "2026-09-10",
+      "tags": [
+        "ΤΕ"
+      ],
+      "url": "https://info.asep.gr/node/79581"
+    },
+    {
+      "id": "asep-5470773156838222901",
+      "title": "6Κ/2026 :  Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-07-21",
+      "deadline_start": "2026-07-21",
+      "deadline_end": "2026-08-05",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79400"
+    },
+    {
+      "id": "asep-2953078485057636817",
+      "title": "5Κ/2026 : Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-07-13",
+      "deadline_start": "2026-07-13",
+      "deadline_end": "2026-07-28",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79336"
+    },
+    {
+      "id": "asep-663679501297015784",
+      "title": "2Κ/2019 : Πρόσκληση για υποβολή δικαιολογητικών ΠΕ, ΤΕ, ΔΕ και ΥΕ (διαδικασία αναπληρώσεων)",
+      "announced_date": "2026-07-10",
+      "deadline_start": "2026-07-13",
+      "deadline_end": "2026-07-24",
+      "tags": [
+        "ΠΕ",
+        "ΤΕ",
+        "ΔΕ",
+        "ΥΕ"
+      ],
+      "url": "https://info.asep.gr/node/79327"
+    },
+    {
+      "id": "asep-8147989789641595312",
+      "title": "5Κ/2026 : Έκδοση ΦΕΚ Προκήρυξης  - Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-06-30",
+      "deadline_start": "2026-07-13",
+      "deadline_end": "2026-07-28",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79237"
+    },
+    {
+      "id": "asep-7867304986005912562",
+      "title": "4Κ/2026 : Πρόσκληση υποψηφίων για ηλεκτρονική Υποβολή Δικαιολογητικών",
+      "announced_date": "2026-06-30",
+      "deadline_start": null,
+      "deadline_end": "2026-07-14",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79234"
+    },
+    {
+      "id": "asep-5093932288074079960",
+      "title": "1Κ/2024 : Παράταση προθεσμίας υποβολής του Δελτίου Υγειονομικής Εξέτασης κατηγορίας ΤΕ",
+      "announced_date": "2026-06-26",
+      "deadline_start": null,
+      "deadline_end": "2026-07-03",
+      "tags": [
+        "ΤΕ",
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/79159"
+    },
+    {
+      "id": "asep-4844463487803989105",
+      "title": "2ΓΒ/2026 : Παράταση προθεσμίας ηλεκτρονικής υποβολής αιτήσεων και δικαιολογητικών",
+      "announced_date": "2026-06-22",
+      "deadline_start": null,
+      "deadline_end": "2026-06-22",
+      "tags": [],
+      "url": "https://info.asep.gr/node/79138"
+    },
+    {
+      "id": "asep-1419285542355598444",
+      "title": "1Κ/2024 : Διενέργεια Υγειονομικών Εξετάσεων Κατηγορία ΤΕ",
+      "announced_date": "2026-06-12",
+      "deadline_start": null,
+      "deadline_end": "2026-06-29",
+      "tags": [
+        "ΤΕ"
+      ],
+      "url": "https://info.asep.gr/node/79075"
+    },
+    {
+      "id": "asep-7536090796197673497",
+      "title": "1Κ/2024 : Διενέργεια Υγειονομικών Εξετάσεων Κατηγορία ΠΕ",
+      "announced_date": "2026-06-12",
+      "deadline_start": null,
+      "deadline_end": "2026-06-29",
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/79074"
+    },
+    {
+      "id": "asep-4883256865494603772",
+      "title": "2Κ/2022 : Πρόσκληση για υποβολή δικαιολογητικών ΠΕ (Διαδικασία Αναπληρώσεων)",
+      "announced_date": "2026-05-20",
+      "deadline_start": null,
+      "deadline_end": "2026-06-04",
+      "tags": [
+        "ΠΕ"
+      ],
+      "url": "https://info.asep.gr/node/78888"
+    },
+    {
+      "id": "asep-2408237214273892945",
+      "title": "1ΓΕ/2026, 2ΓΕ/2026 : Υποβολή Αιτήσεων Συμμετοχής",
+      "announced_date": "2026-05-12",
+      "deadline_start": null,
+      "deadline_end": "2026-05-29",
+      "tags": [],
+      "url": "https://info.asep.gr/node/78799"
+    },
+    {
+      "id": "asep-5185034343422840582",
+      "title": "2Κ/2026 : Πρόσκληση υποψηφίων για ηλεκτρονική Υποβολή Δικαιολογητικών - Κατηγορίες ΤΕ και ΔΕ",
+      "announced_date": "2026-05-07",
+      "deadline_start": "2026-05-08",
+      "deadline_end": "2026-05-21",
+      "tags": [
+        "ΤΕ",
+        "ΔΕ"
+      ],
+      "url": "https://info.asep.gr/node/78780"
+    },
+    {
+      "id": "asep-7129110043543167042",
+      "title": "1ΓΕ/2026 & 2ΓΕ/2026 : Έκδοση ΦΕΚ Προκήρυξης",
+      "announced_date": "2026-05-04",
+      "deadline_start": null,
+      "deadline_end": "2026-05-27",
+      "tags": [],
+      "url": "https://info.asep.gr/node/78737"
+    },
+    {
+      "id": "asep-1625420767582338529",
+      "title": "1ΓΕ/2026 και 2ΓΕ/2026 : Έκδοση ΦΕΚ Προκήρυξης",
+      "announced_date": "2026-05-04",
+      "deadline_start": null,
+      "deadline_end": "2026-05-27",
+      "tags": [],
+      "url": "https://info.asep.gr/node/78735"
+    },
+    {
+      "id": "asep-8967966356188142442",
+      "title": "3Κ/2026 : Πρόσκληση υποψηφίων για ηλεκτρονική Υποβολή Δικαιολογητικών",
+      "announced_date": "2026-04-28",
+      "deadline_start": "2026-04-29",
+      "deadline_end": "2026-05-13",
+      "tags": [],
+      "url": "https://info.asep.gr/node/78720"
+    },
+    {
+      "id": "asep-2099193288469298254",
+      "title": "1Κ/2026 : Πρόσκληση υποψηφίων για ηλεκτρονική Υποβολή Δικαιολογητικών  - Κατηγορίες ΠΕ και ΥΕ",
+      "announced_date": "2026-04-21",
+      "deadline_start": "2026-04-22",
+      "deadline_end": "2026-05-06",
+      "tags": [
+        "ΠΕ",
+        "ΥΕ"
+      ],
+      "url": "https://info.asep.gr/node/78674"
+    }
+  ]
 }
