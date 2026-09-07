@@ -1,10 +1,7 @@
 """
-ΑΣΕΠ Feed Scraper - Cloud Edition (Playwright)
-================================================
-Χρησιμοποιεί Playwright (headless Chrome) για να παρακάμψει
-το bot protection του info.asep.gr.
-
-Τρέχει μέσω GitHub Actions - δεν χρειάζεται τοπικός υπολογιστής.
+ΑΣΕΠ Feed Scraper - Cloud Edition v2 (Playwright)
+===================================================
+Fix: wait_for_selector("h3") για δυναμικό περιεχόμενο JS
 """
 
 import json
@@ -19,7 +16,7 @@ ANNOUNCEMENTS_URL = f"{BASE_URL}/announcements-list/7846"
 CACHE_FILE        = Path("asep_cache.json")
 OUTPUT_FILE       = Path("data.json")
 MAX_PAGES         = 5
-MAX_DETAIL_PAGES  = 50   # max ανακοινώσεις για detail fetch
+MAX_DETAIL_PAGES  = 50
 
 MONTHS_EL = {
     'Ιανουαρίου':1,'Φεβρουαρίου':2,'Μαρτίου':3,'Απριλίου':4,
@@ -29,11 +26,9 @@ MONTHS_EL = {
 
 SKIP_TITLES = [
     "ΚΕΝΤΡΙΚΗ ΥΠΗΡΕΣΙΑ","ΑΠΟΚΕΝΤΡΩΜΕΝΟ ΤΜΗΜΑ",
-    "Main navigation","Γρήγορη Αναζήτηση",
+    "Main navigation","Γρήγορη Αναζήτηση","Ανακοινώσεις",
 ]
 
-
-# ── Date helpers ──────────────────────────────────
 
 def parse_date_slash(text):
     m = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', str(text))
@@ -83,19 +78,13 @@ def save_cache(cache):
         json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-
-# ── Deadline extraction from page text ───────────
-
 def extract_deadlines_from_text(text):
     start = end = None
-
-    # Pattern: αρχίζει/ξεκινά ... λήγει/λήξει
     m_s = re.search(r'(?:αρχίζει|ξεκινά)\s+στις\s+([\w\s]+?\d{4})', text, re.I)
-    m_e = re.search(r'(?:λήγει|λήξει)\s+στις\s+([\w\s]+?\d{4})',     text, re.I)
+    m_e = re.search(r'(?:λήγει|λήξει)\s+στις\s+([\w\s]+?\d{4})', text, re.I)
     if m_s: start = parse_date_greek(m_s.group(1))
     if m_e: end   = parse_date_greek(m_e.group(1))
 
-    # Pattern: από DD/MM/YYYY ... έως DD/MM/YYYY
     if not start or not end:
         m2 = re.search(
             r'από\s+(\d{1,2}/\d{1,2}/\d{4})\s+(?:έως|μέχρι|ως)\s+(\d{1,2}/\d{1,2}/\d{4})',
@@ -105,12 +94,10 @@ def extract_deadlines_from_text(text):
             start = parse_date_slash(m2.group(1))
             end   = parse_date_slash(m2.group(2))
 
-    # Pattern: έως / μέχρι DD/MM/YYYY
     if not end:
         m3 = re.search(r'(?:έως|μέχρι|ως)\s+(\d{1,2}/\d{1,2}/\d{4})', text, re.I)
         if m3: end = parse_date_slash(m3.group(1))
 
-    # Pattern: λήγει ... greek month date
     if not end:
         m4 = re.search(
             r'(?:λήγει|μέχρι|καταληκτική)\s+.*?(\d{1,2}\s+\w+\s+\d{4})',
@@ -121,7 +108,72 @@ def extract_deadlines_from_text(text):
     return start, end
 
 
-# ── Main scraper ──────────────────────────────────
+def scrape_listing_page(page, url):
+    """Scrape one listing page, waiting for JS content."""
+    from bs4 import BeautifulSoup
+
+    items = []
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+
+        # KEY FIX: wait for h3 elements that contain announcement titles
+        # We wait for an h3 that contains "/" (like "3Κ/2026")
+        try:
+            page.wait_for_selector("h3", timeout=10000)
+            # Extra wait for dynamic content
+            time.sleep(2)
+        except PWTimeout:
+            print(f"    Timeout waiting for h3 — page may be empty")
+
+        html = page.content()
+        soup = BeautifulSoup(html, "html.parser")
+
+        # Debug: count all h3s
+        all_h3 = soup.find_all("h3")
+        print(f"    Found {len(all_h3)} h3 elements total")
+
+        for h3 in all_h3:
+            title = h3.get_text(strip=True)
+            if len(title) < 5:
+                continue
+            if any(s in title for s in SKIP_TITLES):
+                continue
+
+            # Must look like an announcement (contains / or Greek text)
+            if len(title) < 8:
+                continue
+
+            link = ""
+            next_a = h3.find_next("a", href=re.compile(r"/node/\d+"))
+            if next_a:
+                href = next_a.get("href", "")
+                link = (BASE_URL + href) if not href.startswith("http") else href
+
+            date_str = None
+            try:
+                date_str = parse_date_slash(
+                    h3.parent.parent.get_text(" ", strip=True)
+                )
+            except Exception:
+                pass
+
+            items.append({
+                "id":             f"asep-{abs(hash(title + (date_str or '')))}",
+                "title":          title,
+                "announced_date": date_str,
+                "deadline_start": None,
+                "deadline_end":   None,
+                "tags":           extract_tags(title),
+                "url":            link,
+            })
+
+        has_next = bool(soup.find("a", href=re.compile(r"page=\d+")))
+        return items, has_next
+
+    except Exception as e:
+        print(f"    Error: {e}")
+        return items, False
+
 
 def run():
     cache = load_cache()
@@ -135,6 +187,7 @@ def run():
                 "--no-sandbox",
                 "--disable-blink-features=AutomationControlled",
                 "--disable-dev-shm-usage",
+                "--disable-setuid-sandbox",
             ]
         )
 
@@ -146,79 +199,42 @@ def run():
             ),
             viewport={"width": 1280, "height": 900},
             locale="el-GR",
+            extra_http_headers={
+                "Accept-Language": "el-GR,el;q=0.9,en;q=0.8",
+            }
         )
 
-        # Mask automation signals
         context.add_init_script("""
             Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+            Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3]});
         """)
 
         page = context.new_page()
 
-        # ── Step 1: Visit homepage first (get cookies) ──
-        print(f"Visiting homepage...")
+        # Visit homepage first for cookies
+        print("Visiting homepage...")
         try:
-            page.goto(BASE_URL, wait_until="domcontentloaded", timeout=20000)
+            page.goto(BASE_URL, wait_until="networkidle", timeout=25000)
             time.sleep(2)
+            print(f"  Homepage title: {page.title()}")
         except Exception as e:
             print(f"  Homepage warning: {e}")
 
-        # ── Step 2: Scrape listing pages ──
+        # Scrape listing pages
         print(f"\n[1/2] Scraping listing pages...")
         for pg in range(MAX_PAGES):
             url = ANNOUNCEMENTS_URL if pg == 0 else f"{ANNOUNCEMENTS_URL}?page={pg}"
             print(f"  Page {pg+1}: {url}")
-            try:
-                page.goto(url, wait_until="domcontentloaded", timeout=25000)
-                time.sleep(1.5)
-
-                html = page.content()
-                from bs4 import BeautifulSoup
-                soup = BeautifulSoup(html, "html.parser")
-
-                page_items = []
-                for h3 in soup.find_all("h3"):
-                    title = h3.get_text(strip=True)
-                    if len(title) < 5 or any(s in title for s in SKIP_TITLES):
-                        continue
-
-                    link = ""
-                    next_a = h3.find_next("a", href=re.compile(r"/node/\d+"))
-                    if next_a:
-                        href = next_a.get("href", "")
-                        link = (BASE_URL + href) if not href.startswith("http") else href
-
-                    date_str = None
-                    try:
-                        date_str = parse_date_slash(
-                            h3.parent.parent.get_text(" ", strip=True)
-                        )
-                    except Exception:
-                        pass
-
-                    page_items.append({
-                        "id":             f"asep-{abs(hash(title + (date_str or '')))}",
-                        "title":          title,
-                        "announced_date": date_str,
-                        "deadline_start": None,
-                        "deadline_end":   None,
-                        "tags":           extract_tags(title),
-                        "url":            link,
-                    })
-
-                items.extend(page_items)
-                print(f"    {len(page_items)} items | total {len(items)}")
-
-                has_next = bool(soup.find("a", href=re.compile(r"page=\d+")))
-                if not has_next or len(page_items) == 0:
-                    break
-
-            except PWTimeout:
-                print(f"  Timeout on page {pg+1} — stopping")
+            page_items, has_next = scrape_listing_page(page, url)
+            items.extend(page_items)
+            print(f"    Accepted: {len(page_items)} | Total: {len(items)}")
+            if not has_next or len(page_items) == 0:
+                if pg == 0 and len(page_items) == 0:
+                    # Debug: print page title and URL
+                    print(f"    Page title: {page.title()}")
+                    print(f"    Current URL: {page.url}")
                 break
-            except Exception as e:
-                print(f"  Error: {e}")
-                break
+            time.sleep(1.5)
 
         # Deduplicate
         seen = set()
@@ -229,8 +245,9 @@ def run():
                 seen.add(key)
                 unique.append(a)
         items = unique
+        print(f"\n  Total unique items: {len(items)}")
 
-        # ── Step 3: Fetch deadline details ──
+        # Fetch deadline details
         print(f"\n[2/2] Fetching deadlines for {min(len(items), MAX_DETAIL_PAGES)} items...")
         cached_hits = 0
         fetched = 0
@@ -247,6 +264,7 @@ def run():
 
             try:
                 page.goto(a["url"], wait_until="domcontentloaded", timeout=20000)
+                page.wait_for_selector("body", timeout=5000)
                 time.sleep(0.8)
                 text = page.inner_text("body")
                 ds, de = extract_deadlines_from_text(text)
@@ -254,19 +272,17 @@ def run():
                 a["deadline_end"]   = de
                 cache[a["url"]] = {"deadline_start": ds, "deadline_end": de}
                 fetched += 1
-
                 if (i+1) % 10 == 0:
-                    print(f"  {i+1}/{min(len(items), MAX_DETAIL_PAGES)} "
-                          f"(cache: {cached_hits}, fetched: {fetched})")
+                    print(f"  {i+1}/{min(len(items),MAX_DETAIL_PAGES)} "
+                          f"(cache:{cached_hits} fetched:{fetched})")
             except Exception as e:
-                print(f"  Error fetching {a['url']}: {e}")
+                print(f"  Error {a['url']}: {e}")
 
         browser.close()
 
     save_cache(cache)
-    print(f"  Cache: {len(cache)} entries saved")
+    print(f"  Cache: {len(cache)} entries")
 
-    # Sort
     def sort_key(a):
         order = {"active":0,"soon":1,"expired":2}
         st = detect_status(a)
@@ -275,11 +291,10 @@ def run():
             ts = datetime.strptime(dt, "%Y-%m-%d").timestamp()
         except Exception:
             ts = 0
-        return (order.get(st, 3), -ts)
+        return (order.get(st,3), -ts)
 
     items.sort(key=sort_key)
 
-    # Stats
     active  = sum(1 for a in items if detect_status(a) == "active")
     soon    = sum(1 for a in items if detect_status(a) == "soon")
     expired = sum(1 for a in items if detect_status(a) == "expired")
@@ -304,7 +319,7 @@ def run():
 
 if __name__ == "__main__":
     print("=" * 52)
-    print("ΑΣΕΠ Scraper — Cloud Edition (Playwright)")
+    print("ΑΣΕΠ Scraper — Cloud Edition v2 (Playwright)")
     print(f"Started: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print("=" * 52)
     run()
