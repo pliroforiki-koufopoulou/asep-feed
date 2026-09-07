@@ -4,41 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ΑΣΕΠ — Ανακοινώσεις</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --ink:      #0D1B2A;
-  --ink-mid:  #3D5166;
-  --ink-soft: #7B93A8;
-  --rule:     #D6DEE6;
-  --bg:       #F0F4F7;
-  --white:    #FFFFFF;
-  --active:   #0057A8;
-  --active-bg:#E6EFF8;
-  --expired:  #94A3B0;
-  --expired-bg:#EDF0F3;
-  --warn:     #B34A00;
-  --warn-bg:  #FEF0E6;
-  --green:    #1A6B3C;
-  --green-bg: #E6F4ED;
+  --ink:       #0D1B2A;
+  --ink-mid:   #3D5166;
+  --ink-soft:  #7B93A8;
+  --rule:      #D6DEE6;
+  --bg:        #F0F4F7;
+  --white:     #FFFFFF;
+  --active:    #15803D;
+  --active-bg: #DCFCE7;
+  --soon:      #B45309;
+  --soon-bg:   #FEF3C7;
+  --expired:   #64748B;
+  --expired-bg:#F1F5F9;
+  --blue:      #1D4ED8;
 }
 
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: Calibri, 'Calibri', 'Trebuchet MS', sans-serif;
   background: var(--bg);
   color: var(--ink);
   min-height: 100vh;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.55;
 }
 
 /* ── Header ── */
 header {
   background: var(--ink);
-  color: var(--white);
+  color: white;
   padding: 20px 32px;
   display: flex;
   align-items: center;
@@ -50,335 +47,263 @@ header {
   z-index: 50;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
+.logo { display: flex; align-items: center; gap: 14px; }
 .logo-mark {
-  width: 40px; height: 40px;
+  width: 42px; height: 42px;
   background: var(--active);
-  border-radius: 6px;
+  border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 18px; font-weight: 600;
-  color: white; flex-shrink: 0;
+  font-size: 20px; font-weight: 700; color: white; flex-shrink: 0;
 }
+.logo-title { font-size: 1.25rem; font-weight: 700; }
+.logo-sub   { font-size: 0.78rem; opacity: 0.55; }
 
-.logo-text { line-height: 1.2; }
-.logo-title {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 1.15rem; font-weight: 600;
-}
-.logo-sub { font-size: 0.72rem; opacity: 0.55; letter-spacing: 0.04em; }
-
-.header-right {
-  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-}
-
-.last-updated {
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.5);
-}
+.header-right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.last-updated { font-size: 0.82rem; color: rgba(255,255,255,0.5); }
 
 .refresh-btn {
   background: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.2);
-  color: white;
-  padding: 7px 16px;
-  border-radius: 6px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.82rem;
-  cursor: pointer;
-  transition: background 0.15s;
+  color: white; padding: 7px 16px; border-radius: 7px;
+  font-family: Calibri, sans-serif; font-size: 0.88rem;
+  cursor: pointer; transition: background 0.15s;
   display: flex; align-items: center; gap: 6px;
 }
 .refresh-btn:hover { background: rgba(255,255,255,0.18); }
-.refresh-btn .spin { display: inline-block; }
 .refresh-btn.loading .spin { animation: rotate 0.8s linear infinite; }
 @keyframes rotate { to { transform: rotate(360deg); } }
 
 /* ── Stats bar ── */
 .stats-bar {
-  background: var(--white);
+  background: white;
   border-bottom: 1px solid var(--rule);
   padding: 14px 32px;
-  display: flex;
-  gap: 28px;
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex; gap: 28px; align-items: center; flex-wrap: wrap;
 }
-
-.stat {
-  display: flex; align-items: center; gap: 8px;
+.stat { display: flex; align-items: center; gap: 10px; }
+.stat-dot {
+  width: 10px; height: 10px; border-radius: 50%;
 }
-.stat-pill {
-  width: 8px; height: 8px; border-radius: 50%;
-}
-.stat-pill.active  { background: var(--active); }
-.stat-pill.expired { background: var(--expired); }
-.stat-pill.soon    { background: var(--warn); }
-
-.stat-num {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 1.15rem; font-weight: 600;
-}
-.stat-lbl { font-size: 0.75rem; color: var(--ink-soft); }
-
-.stat-divider { width: 1px; height: 28px; background: var(--rule); }
+.stat-dot.active  { background: var(--active); }
+.stat-dot.soon    { background: var(--soon); }
+.stat-dot.expired { background: var(--expired); }
+.stat-num { font-size: 1.25rem; font-weight: 700; }
+.stat-lbl { font-size: 0.78rem; color: var(--ink-soft); }
+.stat-divider { width: 1px; height: 30px; background: var(--rule); }
 
 /* ── Main ── */
-main {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 28px 24px 60px;
-}
+main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
 
 /* ── Controls ── */
 .controls {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 22px;
-  flex-wrap: wrap;
-  align-items: center;
+  display: flex; gap: 10px; margin-bottom: 22px;
+  flex-wrap: wrap; align-items: center;
 }
 
 .tab-group {
-  display: flex;
-  background: var(--white);
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  overflow: hidden;
+  display: flex; background: white;
+  border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
 }
 .tab {
-  padding: 8px 18px;
-  border: none;
-  background: none;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.84rem;
-  font-weight: 500;
-  color: var(--ink-soft);
-  cursor: pointer;
-  border-right: 1px solid var(--rule);
-  transition: all 0.12s;
+  padding: 9px 20px; border: none; background: none;
+  font-family: Calibri, sans-serif; font-size: 0.92rem; font-weight: 600;
+  color: var(--ink-soft); cursor: pointer;
+  border-right: 1px solid var(--rule); transition: all 0.12s;
 }
 .tab:last-child { border-right: none; }
 .tab:hover { color: var(--ink); background: var(--bg); }
 .tab.active { background: var(--ink); color: white; }
 
-.search-wrap {
-  flex: 1; min-width: 200px;
-  position: relative;
-}
-.search-wrap svg {
-  position: absolute; left: 11px; top: 50%;
-  transform: translateY(-50%);
-  color: var(--ink-soft);
-  pointer-events: none;
+.search-wrap { flex: 1; min-width: 200px; position: relative; }
+.search-wrap::before {
+  content: '🔍'; position: absolute; left: 12px;
+  top: 50%; transform: translateY(-50%); font-size: 0.9rem;
 }
 .search-input {
-  width: 100%;
-  padding: 9px 14px 9px 36px;
-  border: 1px solid var(--rule);
-  border-radius: 8px;
-  background: var(--white);
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.88rem;
-  color: var(--ink);
-  outline: none;
+  width: 100%; padding: 9px 14px 9px 38px;
+  border: 1px solid var(--rule); border-radius: 8px;
+  background: white; font-family: Calibri, sans-serif;
+  font-size: 0.94rem; color: var(--ink); outline: none;
   transition: border-color 0.15s;
 }
-.search-input:focus { border-color: var(--active); }
+.search-input:focus { border-color: var(--blue); }
 
-/* ── Grid ── */
+/* View toggle */
+.view-toggle {
+  display: flex; background: white;
+  border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
+}
+.view-btn {
+  padding: 9px 14px; border: none; background: none;
+  cursor: pointer; font-size: 1rem; color: var(--ink-soft);
+  border-right: 1px solid var(--rule); transition: all 0.12s;
+}
+.view-btn:last-child { border-right: none; }
+.view-btn:hover { background: var(--bg); }
+.view-btn.active { background: var(--ink); color: white; }
+
+/* ── GRID view ── */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
   gap: 16px;
 }
 
-/* ── Card ── */
 .card {
-  background: var(--white);
-  border: 1px solid var(--rule);
-  border-radius: 10px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  background: white; border: 1px solid var(--rule);
+  border-radius: 10px; overflow: hidden;
+  display: flex; flex-direction: column;
   transition: box-shadow 0.15s, transform 0.15s;
+  animation: fadeIn 0.25s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 .card:hover {
-  box-shadow: 0 4px 20px rgba(13,27,42,0.09);
+  box-shadow: 0 4px 20px rgba(13,27,42,0.1);
   transform: translateY(-2px);
 }
 
 .card-top {
-  padding: 16px 18px 12px;
+  padding: 14px 18px 10px;
   border-bottom: 1px solid var(--rule);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
 }
 
 .status-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 10px;
-  border-radius: 20px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 4px 12px; border-radius: 20px;
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em;
 }
-.status-badge.active  { background: var(--active-bg);  color: var(--active); }
-.status-badge.expired { background: var(--expired-bg); color: var(--expired); }
-.status-badge.soon    { background: var(--warn-bg);    color: var(--warn); }
 .status-badge::before {
-  content: ''; width: 6px; height: 6px; border-radius: 50%;
+  content: ''; width: 7px; height: 7px; border-radius: 50%;
   background: currentColor; display: inline-block;
 }
+.status-badge.active  { background: var(--active-bg);  color: var(--active); }
+.status-badge.soon    { background: var(--soon-bg);    color: var(--soon); }
+.status-badge.expired { background: var(--expired-bg); color: var(--expired); }
 
-.card-body {
-  padding: 14px 18px;
-  flex: 1;
-}
+.card-body { padding: 14px 18px; flex: 1; }
 
 .card-title {
-  font-family: 'IBM Plex Serif', serif;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.45;
-  color: var(--ink);
-  margin-bottom: 12px;
+  font-size: 1.05rem; font-weight: 700;
+  line-height: 1.45; color: var(--ink); margin-bottom: 12px;
 }
 
-.card-dates {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.date-block { flex: 1; min-width: 100px; }
+.card-dates { display: flex; gap: 18px; flex-wrap: wrap; }
+.date-block { flex: 1; min-width: 110px; }
 .date-lbl {
-  font-size: 0.66rem;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: var(--ink-soft);
-  margin-bottom: 2px;
-  font-weight: 600;
+  font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-soft);
+  margin-bottom: 2px; font-weight: 700;
 }
-.date-val {
-  font-size: 0.86rem;
-  font-weight: 500;
-  color: var(--ink);
-}
-.date-val.range {
+.date-val { font-size: 0.9rem; font-weight: 600; color: var(--ink); }
+.date-range {
   display: flex; flex-direction: column; gap: 1px;
 }
-.date-val.range span { font-weight: 400; color: var(--ink-mid); }
-.date-val.range span.end { font-weight: 600; color: var(--ink); }
-.date-val.expiring { color: var(--warn); }
+.date-range .from { font-weight: 400; color: var(--ink-mid); font-size: 0.88rem; }
+.date-range .to   { font-weight: 700; color: var(--ink); font-size: 0.9rem; }
+.date-range .to.expiring { color: var(--soon); }
 
-.tags {
-  display: flex; flex-wrap: wrap; gap: 5px;
-  margin-top: 12px;
-}
+.tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 12px; }
 .tag {
-  background: var(--bg);
-  color: var(--ink-mid);
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 500;
+  background: var(--bg); color: var(--ink-mid);
+  padding: 3px 9px; border-radius: 5px;
+  font-size: 0.76rem; font-weight: 600;
 }
 
 .card-footer {
-  padding: 10px 18px;
-  border-top: 1px solid var(--rule);
+  padding: 10px 18px; border-top: 1px solid var(--rule);
   background: var(--bg);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
 }
 
 .deadline-track {
-  flex: 1;
-  height: 3px;
-  background: var(--rule);
-  border-radius: 2px;
-  overflow: hidden;
+  flex: 1; height: 4px; background: var(--rule);
+  border-radius: 2px; overflow: hidden;
 }
 .deadline-fill {
-  height: 100%;
-  border-radius: 2px;
-  transition: width 0.4s ease;
+  height: 100%; border-radius: 2px; transition: width 0.4s ease;
 }
-.deadline-fill.ok      { background: var(--green); }
-.deadline-fill.warning { background: var(--warn); }
+.deadline-fill.ok      { background: var(--active); }
+.deadline-fill.warning { background: var(--soon); }
 .deadline-fill.done    { background: var(--expired); }
 
 .more-btn {
-  background: var(--ink);
-  color: white;
-  border: none;
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.78rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  transition: background 0.15s;
-  white-space: nowrap;
+  background: var(--ink); color: white; border: none;
+  padding: 7px 16px; border-radius: 7px;
+  font-family: Calibri, sans-serif; font-size: 0.86rem; font-weight: 600;
+  cursor: pointer; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 5px;
+  transition: background 0.15s; white-space: nowrap;
 }
-.more-btn:hover { background: var(--active); }
+.more-btn:hover { background: var(--blue); }
+
+/* ── LIST view ── */
+.list { display: flex; flex-direction: column; gap: 8px; }
+
+.list-item {
+  background: white; border: 1px solid var(--rule);
+  border-radius: 10px; padding: 14px 20px;
+  display: flex; align-items: center; gap: 18px;
+  transition: box-shadow 0.15s;
+  animation: fadeIn 0.25s ease forwards;
+}
+.list-item:hover {
+  box-shadow: 0 3px 14px rgba(13,27,42,0.08);
+}
+
+.list-badge { flex-shrink: 0; min-width: 110px; }
+
+.list-title {
+  flex: 1; font-size: 1rem; font-weight: 700;
+  color: var(--ink); line-height: 1.4;
+}
+
+.list-dates {
+  display: flex; gap: 24px; flex-shrink: 0;
+  align-items: center;
+}
+.list-date { text-align: right; }
+.list-date .lbl {
+  font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-soft);
+  font-weight: 700; margin-bottom: 1px;
+}
+.list-date .val { font-size: 0.88rem; font-weight: 600; color: var(--ink); }
+.list-date .val.expiring { color: var(--soon); }
+
+.list-link { flex-shrink: 0; }
 
 /* ── Empty / Loading ── */
-.empty {
-  grid-column: 1/-1;
-  text-align: center;
-  padding: 80px 20px;
+.empty, .loading {
+  text-align: center; padding: 80px 20px;
   color: var(--ink-soft);
 }
 .empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
-.empty h3 { font-family: 'IBM Plex Serif', serif; font-size: 1.2rem; color: var(--ink); margin-bottom: 6px; }
-
-.loading {
-  grid-column: 1/-1;
-  text-align: center;
-  padding: 80px 20px;
-}
+.empty h3 { font-size: 1.2rem; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
 .spinner {
   width: 36px; height: 36px;
-  border: 3px solid var(--rule);
-  border-top-color: var(--active);
-  border-radius: 50%;
-  animation: rotate 0.7s linear infinite;
+  border: 3px solid var(--rule); border-top-color: var(--active);
+  border-radius: 50%; animation: rotate 0.7s linear infinite;
   margin: 0 auto 14px;
 }
 
 /* ── Footer ── */
 footer {
-  text-align: center;
-  padding: 24px;
-  font-size: 0.78rem;
-  color: var(--ink-soft);
-  border-top: 1px solid var(--rule);
-  margin-top: 20px;
+  text-align: center; padding: 24px;
+  font-size: 0.82rem; color: var(--ink-soft);
+  border-top: 1px solid var(--rule); margin-top: 20px;
 }
-footer a { color: var(--active); text-decoration: none; }
+footer a { color: var(--blue); text-decoration: none; }
 
-@media (max-width: 600px) {
-  header { padding: 16px; }
-  main { padding: 16px 14px 40px; }
-  .stats-bar { padding: 12px 16px; gap: 16px; }
+@media (max-width: 640px) {
+  header { padding: 14px 16px; }
+  main { padding: 14px 12px 40px; }
+  .stats-bar { padding: 12px 16px; gap: 14px; }
   .grid { grid-template-columns: 1fr; }
+  .list-dates { display: none; }
+  .logo-sub { display: none; }
 }
 </style>
 </head>
@@ -387,7 +312,7 @@ footer a { color: var(--active); text-decoration: none; }
 <header>
   <div class="logo">
     <div class="logo-mark">Α</div>
-    <div class="logo-text">
+    <div>
       <div class="logo-title">ΑΣΕΠ Ανακοινώσεις</div>
       <div class="logo-sub">Αυτόματη παρακολούθηση προκηρύξεων</div>
     </div>
@@ -402,34 +327,22 @@ footer a { color: var(--active); text-decoration: none; }
 
 <div class="stats-bar">
   <div class="stat">
-    <div class="stat-pill active"></div>
-    <div>
-      <div class="stat-num" id="statActive">—</div>
-      <div class="stat-lbl">Ενεργές</div>
-    </div>
+    <div class="stat-dot active"></div>
+    <div><div class="stat-num" id="statActive">—</div><div class="stat-lbl">Ενεργές</div></div>
   </div>
   <div class="stat-divider"></div>
   <div class="stat">
-    <div class="stat-pill soon"></div>
-    <div>
-      <div class="stat-num" id="statSoon">—</div>
-      <div class="stat-lbl">Λήγουν σύντομα</div>
-    </div>
+    <div class="stat-dot soon"></div>
+    <div><div class="stat-num" id="statSoon">—</div><div class="stat-lbl">Λήγουν σύντομα</div></div>
   </div>
   <div class="stat-divider"></div>
   <div class="stat">
-    <div class="stat-pill expired"></div>
-    <div>
-      <div class="stat-num" id="statExpired">—</div>
-      <div class="stat-lbl">Ληγμένες</div>
-    </div>
+    <div class="stat-dot expired"></div>
+    <div><div class="stat-num" id="statExpired">—</div><div class="stat-lbl">Ληγμένες</div></div>
   </div>
   <div class="stat-divider"></div>
   <div class="stat">
-    <div>
-      <div class="stat-num" id="statTotal">—</div>
-      <div class="stat-lbl">Σύνολο</div>
-    </div>
+    <div><div class="stat-num" id="statTotal">—</div><div class="stat-lbl">Σύνολο</div></div>
   </div>
 </div>
 
@@ -441,17 +354,22 @@ footer a { color: var(--active); text-decoration: none; }
       <button class="tab" onclick="setFilter('expired', this)">Ληγμένες</button>
       <button class="tab" onclick="setFilter('all', this)">Όλες</button>
     </div>
+
     <div class="search-wrap">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-      </svg>
       <input class="search-input" type="text" id="searchInput"
              placeholder="Αναζήτηση ανακοίνωσης…" oninput="render()">
     </div>
+
+    <div class="view-toggle">
+      <button class="view-btn active" id="btnGrid" onclick="setView('grid')" title="Καρτέλες">⊞</button>
+      <button class="view-btn" id="btnList" onclick="setView('list')" title="Λίστα">☰</button>
+    </div>
   </div>
 
-  <div class="grid" id="grid">
-    <div class="loading"><div class="spinner"></div><p>Φόρτωση…</p></div>
+  <div id="container">
+    <div class="grid">
+      <div class="loading"><div class="spinner"></div><p>Φόρτωση…</p></div>
+    </div>
   </div>
 </main>
 
@@ -463,78 +381,72 @@ footer a { color: var(--active); text-decoration: none; }
 const DATA_URL = './data.json';
 let allData = [];
 let currentFilter = 'active';
-
-const MONTHS_EL = {
-  'Ιανουαρίου':1,'Φεβρουαρίου':2,'Μαρτίου':3,'Απριλίου':4,
-  'Μαΐου':5,'Ιουνίου':6,'Ιουλίου':7,'Αυγούστου':8,
-  'Σεπτεμβρίου':9,'Οκτωβρίου':10,'Νοεμβρίου':11,'Δεκεμβρίου':12,
-  'Ιαν':1,'Φεβ':2,'Μαρ':3,'Απρ':4,'Μαΐ':5,'Ιουν':6,
-  'Ιουλ':7,'Αυγ':8,'Σεπτ':9,'Οκτ':10,'Νοε':11,'Δεκ':12,
-};
+let currentView   = 'grid';
 
 const SHORT_MONTHS = ['','Ιαν','Φεβ','Μαρ','Απρ','Μαΐ','Ιουν','Ιουλ','Αυγ','Σεπτ','Οκτ','Νοε','Δεκ'];
 
 function fmtDate(iso) {
   if (!iso) return '—';
   const [y,m,d] = iso.split('-');
-  return `${parseInt(d)} ${SHORT_MONTHS[parseInt(m)]} ${y}`;
+  return parseInt(d) + ' ' + SHORT_MONTHS[parseInt(m)] + ' ' + y;
 }
 
 function daysLeft(iso) {
   if (!iso) return null;
-  const diff = new Date(iso) - new Date();
-  return Math.round(diff / 86400000);
+  return Math.round((new Date(iso) - new Date()) / 86400000);
 }
 
-function deadlineStatus(a) {
-  // Uses deadline_end if available, else announced_date as fallback
+function statusOf(a) {
   const dl = a.deadline_end || null;
   if (!dl) return 'active';
   const d = daysLeft(dl);
-  if (d < 0) return 'expired';
+  if (d < 0)  return 'expired';
   if (d <= 7) return 'soon';
   return 'active';
 }
 
 function progressPct(a) {
-  const start = a.deadline_start || a.announced_date;
-  const end   = a.deadline_end;
-  if (!start || !end) return 0;
-  const total = new Date(end) - new Date(start);
-  const elapsed = new Date() - new Date(start);
+  const s = a.deadline_start || a.announced_date;
+  const e = a.deadline_end;
+  if (!s || !e) return 0;
+  const total   = new Date(e) - new Date(s);
+  const elapsed = new Date() - new Date(s);
   if (total <= 0) return 100;
   return Math.min(100, Math.max(0, (elapsed / total) * 100));
 }
 
-async function loadData(showSpin = false) {
+function fillClass(st) {
+  return st === 'expired' ? 'done' : st === 'soon' ? 'warning' : 'ok';
+}
+
+function statusLabel(st) {
+  return { active: '● Ενεργή', soon: '● Λήγει σύντομα', expired: '● Ληγμένη' }[st] || st;
+}
+
+async function loadData(spin = false) {
   const btn = document.getElementById('refreshBtn');
-  if (showSpin) btn.classList.add('loading');
+  if (spin) btn.classList.add('loading');
   try {
     const r = await fetch(DATA_URL + '?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const json = await r.json();
     allData = json.announcements || [];
-    document.getElementById('lastUpdated').textContent =
-      'Ενημ. ' + (json.last_updated || '—');
+    document.getElementById('lastUpdated').textContent = 'Ενημ. ' + (json.last_updated || '—');
     updateStats();
     render();
   } catch(e) {
-    document.getElementById('grid').innerHTML = `
-      <div class="empty">
-        <div class="empty-icon">📭</div>
-        <h3>Δεν φορτώθηκαν δεδομένα</h3>
-        <p>Τρέξε τον scraper για να ενημερωθεί το dashboard.</p>
-      </div>`;
+    document.getElementById('container').innerHTML =
+      '<div class="grid"><div class="empty"><div class="empty-icon">📭</div><h3>Δεν φορτώθηκαν δεδομένα</h3><p>Τρέξε τον scraper για να ενημερωθεί το dashboard.</p></div></div>';
   } finally {
     btn.classList.remove('loading');
   }
 }
 
 function updateStats() {
-  const statuses = allData.map(deadlineStatus);
-  document.getElementById('statActive').textContent  = statuses.filter(s=>s==='active').length;
-  document.getElementById('statSoon').textContent    = statuses.filter(s=>s==='soon').length;
-  document.getElementById('statExpired').textContent = statuses.filter(s=>s==='expired').length;
+  const s = allData.map(statusOf);
+  document.getElementById('statActive').textContent  = s.filter(x=>x==='active').length;
+  document.getElementById('statSoon').textContent    = s.filter(x=>x==='soon').length;
+  document.getElementById('statExpired').textContent = s.filter(x=>x==='expired').length;
   document.getElementById('statTotal').textContent   = allData.length;
 }
 
@@ -545,78 +457,135 @@ function setFilter(f, el) {
   render();
 }
 
-function render() {
+function setView(v) {
+  currentView = v;
+  document.getElementById('btnGrid').classList.toggle('active', v === 'grid');
+  document.getElementById('btnList').classList.toggle('active', v === 'list');
+  render();
+}
+
+function filtered() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  const filtered = allData.filter(a => {
-    const st = deadlineStatus(a);
+  return allData.filter(a => {
+    const st = statusOf(a);
     const statusOk = currentFilter === 'all' || st === currentFilter;
     const searchOk = !q || a.title.toLowerCase().includes(q);
     return statusOk && searchOk;
   });
+}
 
-  const grid = document.getElementById('grid');
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div class="empty">
-      <div class="empty-icon">🔍</div>
-      <h3>Δεν βρέθηκαν αποτελέσματα</h3>
-      <p>Δοκίμασε διαφορετικά φίλτρα ή αναζήτηση.</p>
+function deadlineDateHtml(a, forList = false) {
+  const dl = daysLeft(a.deadline_end);
+  const st = statusOf(a);
+  const expClass = st === 'soon' ? ' expiring' : '';
+
+  if (a.deadline_start && a.deadline_end) {
+    if (forList) {
+      return `<div class="date-range">
+        <span class="from">${fmtDate(a.deadline_start)}</span>
+        <span class="to${expClass}">έως ${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}</span>
+      </div>`;
+    }
+    return `<div class="date-block">
+      <div class="date-lbl">Προθεσμία υποβολής</div>
+      <div class="date-val date-range">
+        <span class="from">${fmtDate(a.deadline_start)}</span>
+        <span class="to${expClass}">έως ${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}</span>
+      </div>
+    </div>`;
+  } else if (a.deadline_end) {
+    const val = `${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}`;
+    if (forList) return `<span class="val${expClass}">${val}</span>`;
+    return `<div class="date-block">
+      <div class="date-lbl">Καταληκτική</div>
+      <div class="date-val${expClass}">${val}</div>
+    </div>`;
+  }
+  return forList ? '<span class="val">—</span>' : '';
+}
+
+function renderCard(a, i) {
+  const st  = statusOf(a);
+  const pct = progressPct(a);
+  const tags = (a.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
+
+  return `<div class="card" style="animation-delay:${i*0.03}s">
+    <div class="card-top">
+      <span class="status-badge ${st}">${statusLabel(st)}</span>
+    </div>
+    <div class="card-body">
+      <div class="card-title">${a.title}</div>
+      <div class="card-dates">
+        <div class="date-block">
+          <div class="date-lbl">Ανακοίνωση</div>
+          <div class="date-val">${fmtDate(a.announced_date)}</div>
+        </div>
+        ${deadlineDateHtml(a)}
+      </div>
+      ${tags ? `<div class="tags">${tags}</div>` : ''}
+    </div>
+    <div class="card-footer">
+      <div class="deadline-track">
+        <div class="deadline-fill ${fillClass(st)}" style="width:${pct}%"></div>
+      </div>
+      ${a.url ? `<a class="more-btn" href="${a.url}" target="_blank">Περισσότερα ↗</a>` : ''}
+    </div>
+  </div>`;
+}
+
+function renderListItem(a, i) {
+  const st = statusOf(a);
+  const dl = daysLeft(a.deadline_end);
+  const expClass = st === 'soon' ? ' expiring' : '';
+
+  let deadlineVal = '—';
+  if (a.deadline_start && a.deadline_end) {
+    deadlineVal = `${fmtDate(a.deadline_start)} – ${fmtDate(a.deadline_end)}`;
+    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
+  } else if (a.deadline_end) {
+    deadlineVal = fmtDate(a.deadline_end);
+    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
+  }
+
+  return `<div class="list-item" style="animation-delay:${i*0.02}s">
+    <div class="list-badge">
+      <span class="status-badge ${st}">${statusLabel(st)}</span>
+    </div>
+    <div class="list-title">${a.title}</div>
+    <div class="list-dates">
+      <div class="list-date">
+        <div class="lbl">Ανακοίνωση</div>
+        <div class="val">${fmtDate(a.announced_date)}</div>
+      </div>
+      <div class="list-date">
+        <div class="lbl">Προθεσμία</div>
+        <div class="val${expClass}">${deadlineVal}</div>
+      </div>
+    </div>
+    ${a.url ? `<div class="list-link"><a class="more-btn" href="${a.url}" target="_blank">↗</a></div>` : ''}
+  </div>`;
+}
+
+function render() {
+  const data = filtered();
+  const container = document.getElementById('container');
+
+  if (data.length === 0) {
+    container.innerHTML = `<div class="${currentView === 'grid' ? 'grid' : 'list'}">
+      <div class="empty">
+        <div class="empty-icon">🔍</div>
+        <h3>Δεν βρέθηκαν αποτελέσματα</h3>
+        <p>Δοκίμασε διαφορετικά φίλτρα ή αναζήτηση.</p>
+      </div>
     </div>`;
     return;
   }
 
-  grid.innerHTML = filtered.map(a => {
-    const st  = deadlineStatus(a);
-    const pct = progressPct(a);
-    const dl  = daysLeft(a.deadline_end);
-    const fillCls = st === 'expired' ? 'done' : st === 'soon' ? 'warning' : 'ok';
-
-    const statusLabel = { active: 'Ενεργή', expired: 'Ληγμένη', soon: 'Λήγει σύντομα' }[st];
-
-    // Deadline display
-    let deadlineHtml = '';
-    if (a.deadline_start && a.deadline_end) {
-      const expiring = st === 'soon' ? ' expiring' : '';
-      deadlineHtml = `<div class="date-block">
-        <div class="date-lbl">Προθεσμία υποβολής</div>
-        <div class="date-val range${expiring}">
-          <span>${fmtDate(a.deadline_start)}</span>
-          <span class="end">έως ${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ` (${dl} μέρες)` : ''}</span>
-        </div>
-      </div>`;
-    } else if (a.deadline_end) {
-      const expiring = st === 'soon' ? ' expiring' : '';
-      deadlineHtml = `<div class="date-block">
-        <div class="date-lbl">Καταληκτική</div>
-        <div class="date-val${expiring}">${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ` (${dl} μέρες)` : ''}</div>
-      </div>`;
-    }
-
-    const tags = (a.tags || []).filter(t => t !== 'ΑΣΕΠ').map(t =>
-      `<span class="tag">${t}</span>`).join('');
-
-    return `<div class="card">
-      <div class="card-top">
-        <span class="status-badge ${st}">${statusLabel}</span>
-      </div>
-      <div class="card-body">
-        <div class="card-title">${a.title}</div>
-        <div class="card-dates">
-          <div class="date-block">
-            <div class="date-lbl">Ανακοίνωση</div>
-            <div class="date-val">${fmtDate(a.announced_date)}</div>
-          </div>
-          ${deadlineHtml}
-        </div>
-        ${tags ? `<div class="tags">${tags}</div>` : ''}
-      </div>
-      <div class="card-footer">
-        <div class="deadline-track">
-          <div class="deadline-fill ${fillCls}" style="width:${pct}%"></div>
-        </div>
-        ${a.url ? `<a class="more-btn" href="${a.url}" target="_blank">Περισσότερα ↗</a>` : ''}
-      </div>
-    </div>`;
-  }).join('');
+  if (currentView === 'grid') {
+    container.innerHTML = `<div class="grid">${data.map(renderCard).join('')}</div>`;
+  } else {
+    container.innerHTML = `<div class="list">${data.map(renderListItem).join('')}</div>`;
+  }
 }
 
 loadData();
