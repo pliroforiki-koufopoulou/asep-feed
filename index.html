@@ -477,13 +477,19 @@ function setView(v) {
 
 function filtered() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  return allData.filter(a => {
-    const st = statusOf(a);
-    const statusOk   = currentFilter === 'all' || st === currentFilter;
-    const searchOk   = !q || a.title.toLowerCase().includes(q);
-    const deadlineOk = !onlyWithDeadline || !!a.deadline_end;
-    return statusOk && searchOk && deadlineOk;
-  });
+  return allData
+    .filter(a => {
+      const st = statusOf(a);
+      const statusOk   = currentFilter === 'all' || st === currentFilter;
+      const searchOk   = !q || a.title.toLowerCase().includes(q);
+      const deadlineOk = !onlyWithDeadline || !!a.deadline_end;
+      return statusOk && searchOk && deadlineOk;
+    })
+    .sort((a, b) => {
+      const da = a.announced_date || '0000-00-00';
+      const db = b.announced_date || '0000-00-00';
+      return db.localeCompare(da);
+    });
 }
 
 function deadlineDateHtml(a, forList = false) {
