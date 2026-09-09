@@ -62,18 +62,6 @@ header {
 .header-right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 .last-updated { font-size: 0.82rem; color: rgba(255,255,255,0.6); }
 
-.refresh-btn {
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.25);
-  color: #FFFFFF; padding: 7px 16px; border-radius: 7px;
-  font-family: Calibri, sans-serif; font-size: 0.88rem;
-  cursor: pointer; transition: background 0.15s;
-  display: flex; align-items: center; gap: 6px;
-}
-.refresh-btn:hover { background: rgba(255,255,255,0.22); }
-.refresh-btn.loading .spin { animation: rotate 0.8s linear infinite; }
-@keyframes rotate { to { transform: rotate(360deg); } }
-
 /* ── Stats bar ── */
 .stats-bar {
   background: white;
@@ -337,9 +325,6 @@ footer a { color: var(--blue); text-decoration: none; }
   </div>
   <div class="header-right">
     <span class="last-updated" id="lastUpdated">Φόρτωση…</span>
-    <button class="refresh-btn" id="refreshBtn" onclick="loadData(true)">
-      <span class="spin">↻</span> Ανανέωση
-    </button>
   </div>
 </header>
 
@@ -373,15 +358,15 @@ footer a { color: var(--blue); text-decoration: none; }
       <button class="tab" onclick="setFilter('all', this)">Όλες</button>
     </div>
 
-    <div class="search-wrap">
-      <input class="search-input" type="text" id="searchInput"
-             placeholder="Αναζήτηση ανακοίνωσης…" oninput="render()">
-    </div>
-
     <label class="filter-check" id="checkLabel">
       <input type="checkbox" id="onlyDeadline" onchange="toggleDeadlineFilter(this)">
       📅 Μόνο με προθεσμία
     </label>
+
+    <div class="search-wrap">
+      <input class="search-input" type="text" id="searchInput"
+             placeholder="Αναζήτηση ανακοίνωσης…" oninput="render()">
+    </div>
 
     <div class="view-toggle">
       <button class="view-btn active" id="btnGrid" onclick="setView('grid')" title="Καρτέλες">⊞</button>
@@ -453,9 +438,7 @@ function statusLabel(st) {
   return { active: '● Ενεργή', soon: '● Λήγει σύντομα', expired: '● Ληγμένη' }[st] || st;
 }
 
-async function loadData(spin = false) {
-  const btn = document.getElementById('refreshBtn');
-  if (spin) btn.classList.add('loading');
+async function loadData() {
   try {
     const r = await fetch(DATA_URL + '?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -467,8 +450,6 @@ async function loadData(spin = false) {
   } catch(e) {
     document.getElementById('container').innerHTML =
       '<div class="grid"><div class="empty"><div class="empty-icon">📭</div><h3>Δεν φορτώθηκαν δεδομένα</h3><p>Τρέξε τον scraper για να ενημερωθεί το dashboard.</p></div></div>';
-  } finally {
-    btn.classList.remove('loading');
   }
 }
 
