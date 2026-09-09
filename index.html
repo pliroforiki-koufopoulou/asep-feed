@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ΑΣΕΠ — Ανακοινώσεις</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -272,6 +273,26 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
 
 .list-link { flex-shrink: 0; }
 
+/* ── Checkbox filter ── */
+.filter-check {
+  display: flex; align-items: center; gap: 8px;
+  background: white; border: 1px solid var(--rule);
+  border-radius: 8px; padding: 9px 16px;
+  cursor: pointer; user-select: none;
+  font-size: 0.92rem; font-weight: 600; color: var(--ink-mid);
+  transition: all 0.15s;
+}
+.filter-check:hover { border-color: var(--active); color: var(--active); }
+.filter-check input[type=checkbox] {
+  width: 16px; height: 16px; cursor: pointer;
+  accent-color: var(--active);
+}
+.filter-check.checked {
+  background: var(--active-bg);
+  border-color: var(--active);
+  color: var(--active);
+}
+
 /* ── Empty / Loading ── */
 .empty, .loading {
   text-align: center; padding: 80px 20px;
@@ -357,6 +378,11 @@ footer a { color: var(--blue); text-decoration: none; }
              placeholder="Αναζήτηση ανακοίνωσης…" oninput="render()">
     </div>
 
+    <label class="filter-check" id="checkLabel">
+      <input type="checkbox" id="onlyDeadline" onchange="toggleDeadlineFilter(this)">
+      📅 Μόνο με προθεσμία
+    </label>
+
     <div class="view-toggle">
       <button class="view-btn active" id="btnGrid" onclick="setView('grid')" title="Καρτέλες">⊞</button>
       <button class="view-btn" id="btnList" onclick="setView('list')" title="Λίστα">☰</button>
@@ -377,8 +403,15 @@ footer a { color: var(--blue); text-decoration: none; }
 <script>
 const DATA_URL = './data.json';
 let allData = [];
-let currentFilter = 'active';
-let currentView   = 'grid';
+let currentFilter   = 'active';
+let currentView     = 'grid';
+let onlyWithDeadline = false;
+
+function toggleDeadlineFilter(el) {
+  onlyWithDeadline = el.checked;
+  document.getElementById('checkLabel').classList.toggle('checked', el.checked);
+  render();
+}
 
 const SHORT_MONTHS = ['','Ιαν','Φεβ','Μαρ','Απρ','Μαΐ','Ιουν','Ιουλ','Αυγ','Σεπτ','Οκτ','Νοε','Δεκ'];
 
@@ -465,9 +498,10 @@ function filtered() {
   const q = document.getElementById('searchInput').value.toLowerCase().trim();
   return allData.filter(a => {
     const st = statusOf(a);
-    const statusOk = currentFilter === 'all' || st === currentFilter;
-    const searchOk = !q || a.title.toLowerCase().includes(q);
-    return statusOk && searchOk;
+    const statusOk   = currentFilter === 'all' || st === currentFilter;
+    const searchOk   = !q || a.title.toLowerCase().includes(q);
+    const deadlineOk = !onlyWithDeadline || !!a.deadline_end;
+    return statusOk && searchOk && deadlineOk;
   });
 }
 
