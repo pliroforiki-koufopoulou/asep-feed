@@ -2,8 +2,8 @@ name: Update proson.gr ASEP Data
 
 on:
   schedule:
-    # Mon, Wed, Fri at 09:00 UTC (12:00 Greece time in summer / 11:00 in winter)
-    - cron: '0 9 * * 1,3,5'
+    # Every day at 09:00 UTC (12:00 Greece time in summer / 11:00 in winter)
+    - cron: '0 9 * * *'
   workflow_dispatch:   # Allow manual trigger from GitHub Actions tab
 
 permissions:
