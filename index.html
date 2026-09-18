@@ -22,6 +22,8 @@
   --expired:   #64748B;
   --expired-bg:#F1F5F9;
   --blue:      #1D4ED8;
+  --proson:    #7C3AED;
+  --proson-bg: #EDE9FE;
 }
 
 body {
@@ -82,6 +84,26 @@ header {
 
 /* ── Main ── */
 main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
+
+/* ── Section heading ── */
+.section-heading {
+  display: flex; align-items: center; gap: 14px;
+  margin-bottom: 18px;
+}
+.section-heading h2 {
+  font-size: 1.15rem; font-weight: 700; color: var(--ink);
+}
+.section-divider {
+  border: none; border-top: 2px solid var(--rule);
+  margin: 48px 0 28px;
+}
+.section-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 14px; border-radius: 20px;
+  font-size: 0.78rem; font-weight: 700;
+}
+.section-badge.asep   { background: #DBEAFE; color: #1D4ED8; }
+.section-badge.proson { background: var(--proson-bg); color: var(--proson); }
 
 /* ── Controls ── */
 .controls {
@@ -168,12 +190,20 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
 .status-badge.active  { background: var(--active-bg);  color: var(--active); }
 .status-badge.soon    { background: var(--soon-bg);    color: var(--soon); }
 .status-badge.expired { background: var(--expired-bg); color: var(--expired); }
+.status-badge.article { background: var(--proson-bg);  color: var(--proson); }
 
 .card-body { padding: 14px 18px; flex: 1; }
 
 .card-title {
   font-size: 1.05rem; font-weight: 700;
   line-height: 1.45; color: var(--ink); margin-bottom: 12px;
+}
+
+.card-desc {
+  font-size: 0.88rem; color: var(--ink-mid);
+  margin-bottom: 12px; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; overflow: hidden;
 }
 
 .card-dates { display: flex; gap: 18px; flex-wrap: wrap; }
@@ -214,6 +244,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
 .deadline-fill.ok      { background: var(--active); }
 .deadline-fill.warning { background: var(--soon); }
 .deadline-fill.done    { background: var(--expired); }
+.deadline-fill.article { background: var(--proson); }
 
 .more-btn {
   background: var(--ink); color: white; border: none;
@@ -224,6 +255,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
   transition: background 0.15s; white-space: nowrap;
 }
 .more-btn:hover { background: var(--blue); }
+.more-btn.proson-btn:hover { background: var(--proson); }
 
 /* ── LIST view ── */
 .list { display: flex; flex-direction: column; gap: 8px; }
@@ -281,6 +313,18 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
   color: var(--active);
 }
 
+/* ── Proson search ── */
+.proson-search-wrap { flex: 1; min-width: 200px; position: relative; }
+.proson-search-wrap::before {
+  content: '🔍'; position: absolute; left: 12px;
+  top: 50%; transform: translateY(-50%); font-size: 0.9rem;
+}
+.proson-view-toggle {
+  display: flex; background: white;
+  border: 1px solid var(--rule); border-radius: 8px; overflow: hidden;
+}
+.proson-last-updated { font-size: 0.82rem; color: var(--ink-soft); padding: 9px 4px; }
+
 /* ── Empty / Loading ── */
 .empty, .loading {
   text-align: center; padding: 80px 20px;
@@ -294,6 +338,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
   border-radius: 50%; animation: rotate 0.7s linear infinite;
   margin: 0 auto 14px;
 }
+@keyframes rotate { to { transform: rotate(360deg); } }
 
 /* ── Footer ── */
 footer {
@@ -350,6 +395,13 @@ footer a { color: var(--blue); text-decoration: none; }
 </div>
 
 <main>
+
+  <!-- ══ SECTION 1: info.asep.gr ══ -->
+  <div class="section-heading">
+    <h2>Προκηρύξεις ΑΣΕΠ</h2>
+    <span class="section-badge asep">info.asep.gr</span>
+  </div>
+
   <div class="controls">
     <div class="tab-group">
       <button class="tab active" onclick="setFilter('active', this)">Ενεργές</button>
@@ -379,17 +431,50 @@ footer a { color: var(--blue); text-decoration: none; }
       <div class="loading"><div class="spinner"></div><p>Φόρτωση…</p></div>
     </div>
   </div>
+
+  <!-- ══ SECTION 2: proson.gr ══ -->
+  <hr class="section-divider">
+
+  <div class="section-heading">
+    <h2>proson.gr — ΑΣΕΠ</h2>
+    <span class="section-badge proson">30 τελευταία άρθρα</span>
+    <span class="proson-last-updated" id="prosonLastUpdated"></span>
+  </div>
+
+  <div class="controls">
+    <div class="proson-search-wrap search-wrap">
+      <input class="search-input" type="text" id="prosonSearch"
+             placeholder="Αναζήτηση στα άρθρα proson.gr…" oninput="renderProson()">
+    </div>
+
+    <div class="proson-view-toggle view-toggle">
+      <button class="view-btn active" id="prosonBtnGrid" onclick="setProsonView('grid')" title="Καρτέλες">⊞</button>
+      <button class="view-btn" id="prosonBtnList" onclick="setProsonView('list')" title="Λίστα">☰</button>
+    </div>
+  </div>
+
+  <div id="prosonContainer">
+    <div class="grid">
+      <div class="loading"><div class="spinner"></div><p>Φόρτωση άρθρων…</p></div>
+    </div>
+  </div>
+
 </main>
 
 <footer>
-  Δεδομένα από <a href="https://info.asep.gr/announcements-list/7846" target="_blank">info.asep.gr</a>
+  Δεδομένα ΑΣΕΠ από <a href="https://info.asep.gr/announcements-list/7846" target="_blank">info.asep.gr</a>
+  &nbsp;·&nbsp;
+  Άρθρα από <a href="https://www.proson.gr/ergasia/asep" target="_blank">proson.gr</a>
 </footer>
 
 <script>
+/* ════════════════════════════════════════════
+   SECTION 1 — info.asep.gr
+   ════════════════════════════════════════════ */
 const DATA_URL = './data.json';
 let allData = [];
-let currentFilter   = 'active';
-let currentView     = 'grid';
+let currentFilter    = 'active';
+let currentView      = 'grid';
 let onlyWithDeadline = false;
 
 function toggleDeadlineFilter(el) {
@@ -463,7 +548,7 @@ function updateStats() {
 
 function setFilter(f, el) {
   currentFilter = f;
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tab-group .tab').forEach(t => t.classList.remove('active'));
   el.classList.add('active');
   render();
 }
@@ -492,18 +577,12 @@ function filtered() {
     });
 }
 
-function deadlineDateHtml(a, forList = false) {
+function deadlineDateHtml(a) {
   const dl = daysLeft(a.deadline_end);
   const st = statusOf(a);
   const expClass = st === 'soon' ? ' expiring' : '';
 
   if (a.deadline_start && a.deadline_end) {
-    if (forList) {
-      return `<div class="date-range">
-        <span class="from">${fmtDate(a.deadline_start)}</span>
-        <span class="to${expClass}">έως ${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}</span>
-      </div>`;
-    }
     return `<div class="date-block">
       <div class="date-lbl">Προθεσμία υποβολής</div>
       <div class="date-val date-range">
@@ -513,13 +592,31 @@ function deadlineDateHtml(a, forList = false) {
     </div>`;
   } else if (a.deadline_end) {
     const val = `${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}`;
-    if (forList) return `<span class="val${expClass}">${val}</span>`;
     return `<div class="date-block">
       <div class="date-lbl">Καταληκτική</div>
       <div class="date-val${expClass}">${val}</div>
     </div>`;
   }
-  return forList ? '<span class="val">—</span>' : '';
+  return '';
+}
+
+function deadlineDateHtmlList(a) {
+  const dl = daysLeft(a.deadline_end);
+  const st = statusOf(a);
+  const expClass = st === 'soon' ? ' expiring' : '';
+
+  let deadlineVal = '—';
+  if (a.deadline_start && a.deadline_end) {
+    deadlineVal = `${fmtDate(a.deadline_start)} – ${fmtDate(a.deadline_end)}`;
+    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
+  } else if (a.deadline_end) {
+    deadlineVal = fmtDate(a.deadline_end);
+    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
+  }
+  return `<div class="list-date">
+    <div class="lbl">Προθεσμία</div>
+    <div class="val${expClass}">${deadlineVal}</div>
+  </div>`;
 }
 
 function renderCard(a, i) {
@@ -553,18 +650,6 @@ function renderCard(a, i) {
 
 function renderListItem(a, i) {
   const st = statusOf(a);
-  const dl = daysLeft(a.deadline_end);
-  const expClass = st === 'soon' ? ' expiring' : '';
-
-  let deadlineVal = '—';
-  if (a.deadline_start && a.deadline_end) {
-    deadlineVal = `${fmtDate(a.deadline_start)} – ${fmtDate(a.deadline_end)}`;
-    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
-  } else if (a.deadline_end) {
-    deadlineVal = fmtDate(a.deadline_end);
-    if (dl !== null && dl >= 0) deadlineVal += ` (${dl} μέρες)`;
-  }
-
   return `<div class="list-item" style="animation-delay:${i*0.02}s">
     <div class="list-badge">
       <span class="status-badge ${st}">${statusLabel(st)}</span>
@@ -575,10 +660,7 @@ function renderListItem(a, i) {
         <div class="lbl">Ανακοίνωση</div>
         <div class="val">${fmtDate(a.announced_date)}</div>
       </div>
-      <div class="list-date">
-        <div class="lbl">Προθεσμία</div>
-        <div class="val${expClass}">${deadlineVal}</div>
-      </div>
+      ${deadlineDateHtmlList(a)}
     </div>
     ${a.url ? `<div class="list-link"><a class="more-btn" href="${a.url}" target="_blank">↗</a></div>` : ''}
   </div>`;
@@ -606,7 +688,176 @@ function render() {
   }
 }
 
+/* ════════════════════════════════════════════
+   SECTION 2 — proson.gr
+   ════════════════════════════════════════════ */
+const PROSON_URL = './data_proson.json';
+let prosonData = [];
+let prosonView = 'grid';
+
+function setProsonView(v) {
+  prosonView = v;
+  document.getElementById('prosonBtnGrid').classList.toggle('active', v === 'grid');
+  document.getElementById('prosonBtnList').classList.toggle('active', v === 'list');
+  renderProson();
+}
+
+function prosonStatusOf(a) {
+  if (!a.deadline_end) return 'article';
+  const d = daysLeft(a.deadline_end);
+  if (d < 0)  return 'expired';
+  if (d <= 7) return 'soon';
+  return 'active';
+}
+
+function prosonStatusLabel(st) {
+  return {
+    article: '● Άρθρο',
+    active:  '● Ενεργή',
+    soon:    '● Λήγει σύντομα',
+    expired: '● Ληγμένη',
+  }[st] || '● Άρθρο';
+}
+
+function prosonDeadlineHtml(a) {
+  if (!a.deadline_end) return '';
+  const dl = daysLeft(a.deadline_end);
+  const st = prosonStatusOf(a);
+  const expClass = st === 'soon' ? ' expiring' : '';
+
+  if (a.deadline_start && a.deadline_end) {
+    return `<div class="date-block">
+      <div class="date-lbl">Προθεσμία</div>
+      <div class="date-val date-range">
+        <span class="from">${fmtDate(a.deadline_start)}</span>
+        <span class="to${expClass}">έως ${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}</span>
+      </div>
+    </div>`;
+  } else if (a.deadline_end) {
+    const val = `${fmtDate(a.deadline_end)}${dl !== null && dl >= 0 ? ' (' + dl + ' μέρες)' : ''}`;
+    return `<div class="date-block">
+      <div class="date-lbl">Καταληκτική</div>
+      <div class="date-val${expClass}">${val}</div>
+    </div>`;
+  }
+  return '';
+}
+
+function prosonDeadlineListVal(a) {
+  if (!a.deadline_end) return '—';
+  const dl = daysLeft(a.deadline_end);
+  const st = prosonStatusOf(a);
+  const expClass = st === 'soon' ? ' expiring' : '';
+  let val = '';
+  if (a.deadline_start && a.deadline_end) {
+    val = `${fmtDate(a.deadline_start)} – ${fmtDate(a.deadline_end)}`;
+  } else {
+    val = fmtDate(a.deadline_end);
+  }
+  if (dl !== null && dl >= 0) val += ` (${dl} μέρες)`;
+  return `<span class="val${expClass}">${val}</span>`;
+}
+
+function renderProsonCard(a, i) {
+  const st  = prosonStatusOf(a);
+  const pct = a.deadline_end ? progressPct({ deadline_start: a.deadline_start || a.published_date, deadline_end: a.deadline_end }) : 0;
+  const fillCls = st === 'article' ? 'article' : fillClass(st);
+
+  return `<div class="card" style="animation-delay:${i*0.03}s">
+    <div class="card-top">
+      <span class="status-badge ${st}">${prosonStatusLabel(st)}</span>
+    </div>
+    <div class="card-body">
+      <div class="card-title">${a.title}</div>
+      ${a.description ? `<div class="card-desc">${a.description}</div>` : ''}
+      <div class="card-dates">
+        <div class="date-block">
+          <div class="date-lbl">Δημοσίευση</div>
+          <div class="date-val">${fmtDate(a.published_date)}</div>
+        </div>
+        ${prosonDeadlineHtml(a)}
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="deadline-track">
+        <div class="deadline-fill ${fillCls}" style="width:${pct}%"></div>
+      </div>
+      ${a.url ? `<a class="more-btn proson-btn" href="${a.url}" target="_blank">Περισσότερα ↗</a>` : ''}
+    </div>
+  </div>`;
+}
+
+function renderProsonListItem(a, i) {
+  const st = prosonStatusOf(a);
+  return `<div class="list-item" style="animation-delay:${i*0.02}s">
+    <div class="list-badge">
+      <span class="status-badge ${st}">${prosonStatusLabel(st)}</span>
+    </div>
+    <div class="list-title">${a.title}</div>
+    <div class="list-dates">
+      <div class="list-date">
+        <div class="lbl">Δημοσίευση</div>
+        <div class="val">${fmtDate(a.published_date)}</div>
+      </div>
+      <div class="list-date">
+        <div class="lbl">Προθεσμία</div>
+        ${prosonDeadlineListVal(a)}
+      </div>
+    </div>
+    ${a.url ? `<div class="list-link"><a class="more-btn proson-btn" href="${a.url}" target="_blank">↗</a></div>` : ''}
+  </div>`;
+}
+
+function renderProson() {
+  const q = document.getElementById('prosonSearch').value.toLowerCase().trim();
+  const data = prosonData
+    .filter(a => !q || a.title.toLowerCase().includes(q))
+    .sort((a, b) => {
+      const da = a.published_date || '0000-00-00';
+      const db = b.published_date || '0000-00-00';
+      return db.localeCompare(da);
+    });
+
+  const container = document.getElementById('prosonContainer');
+
+  if (data.length === 0) {
+    container.innerHTML = `<div class="${prosonView === 'grid' ? 'grid' : 'list'}">
+      <div class="empty">
+        <div class="empty-icon">🔍</div>
+        <h3>Δεν βρέθηκαν άρθρα</h3>
+        <p>Δοκίμασε διαφορετική αναζήτηση.</p>
+      </div>
+    </div>`;
+    return;
+  }
+
+  if (prosonView === 'grid') {
+    container.innerHTML = `<div class="grid">${data.map(renderProsonCard).join('')}</div>`;
+  } else {
+    container.innerHTML = `<div class="list">${data.map(renderProsonListItem).join('')}</div>`;
+  }
+}
+
+async function loadProsonData() {
+  try {
+    const r = await fetch(PROSON_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const json = await r.json();
+    prosonData = json.articles || [];
+    const lu = document.getElementById('prosonLastUpdated');
+    if (json.last_updated) lu.textContent = 'Ενημ. ' + json.last_updated;
+    renderProson();
+  } catch(e) {
+    document.getElementById('prosonContainer').innerHTML =
+      '<div class="grid"><div class="empty"><div class="empty-icon">⏳</div>' +
+      '<h3>Τα άρθρα δεν είναι διαθέσιμα ακόμα</h3>' +
+      '<p>Το GitHub Actions workflow θα εκτελεστεί αυτόματα Δευτ/Τετ/Παρ.</p></div></div>';
+  }
+}
+
+/* Load both sections */
 loadData();
+loadProsonData();
 </script>
 </body>
 </html>
