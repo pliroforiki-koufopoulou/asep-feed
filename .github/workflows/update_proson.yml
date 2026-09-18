@@ -1,0 +1,38 @@
+name: Update proson.gr ASEP Data
+
+on:
+  schedule:
+    # Mon, Wed, Fri at 09:00 UTC (12:00 Greece time in summer / 11:00 in winter)
+    - cron: '0 9 * * 1,3,5'
+  workflow_dispatch:   # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run proson.gr scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scraper_proson.py
+
+      - name: Show result
+        run: |
+          if [ -f data_proson.json ]; then
+            echo "data_proson.json created successfully"
+            python -c "import json; d=json.load(open('data_proson.json')); print(f\"Articles: {d['total']}, Updated: {d['last_updated']}\")"
+          else
+            echo "ERROR: data_proson.json was not created"
+            exit 1
+          fi
