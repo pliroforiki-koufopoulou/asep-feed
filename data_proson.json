@@ -1,15 +1,225 @@
 {
-  "last_updated": "2026-09-27T14:23:38",
-  "total": 1,
+  "last_updated": "2026-09-28T10:05:54",
+  "total": 22,
   "articles": [
     {
-      "id": "1",
-      "title": "Τελευταία Νέα",
-      "description": "",
-      "published_date": "2026-09-27",
+      "id": "92391",
+      "title": "ΑΣΕΠ: Βγαίνει η μεγάλη προκήρυξη για περίπου 4.000 θέσεις ΔΕ – Ποιοι μπορούν να συμμετάσχουν",
+      "description": "Μία από τις μεγαλύτερες προκηρύξεις του ΑΣΕΠ για αποφοίτους Δευτεροβάθμιας Εκπαίδευσης βρίσκεται σε φάση προετοιμασίας, με τον σχεδιασμό να αφορά περίπου 4.000 θέσεις μόνιμου προσωπικού και προσωπικού με σχέση εργασίας Ιδιωτικού Δικαίου Αορίστου Χρόν",
+      "published_date": null,
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92391_asep-bgainei-i-megali-prokiryxi-gia-peripoy-4000-theseis-de-poioi-mporoyn-na",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92334",
+      "title": "ΑΣΕΠ: Στο Τυπογραφείο η 3ΓΒ/2026 για 97 μόνιμες προσλήψεις",
+      "description": "Στο Εθνικό Τυπογραφείο για δημοσίευση απεστάλη ηπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ, η οποία απευθύνεται αποκλειστικά σε συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92334_asep-sto-typografeio-i-3gb/2026-gia-97-monimes-proslipseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92301",
+      "title": "ΑΣΕΠ: «Κάτω» οι ηλεκτρονικές υπηρεσίες και το helpdesk για 6 ημέρες",
+      "description": "Στο πλαίσιο εκσυγχρονισμού των πληροφοριακών συστημάτων τουΑΣΕΠ, για την ασφαλή ολοκλήρωση απαραίτητων εργασιών συντήρησης και αναβάθμισης αυτών, οιηλεκτρονικές υπηρεσίεςκαι τοhelpdesk δεν θα είναι διαθέσιμααπό τηνΠαρασκευή, 25 Σεπτεμβρίουέως και την",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92301_asep-kato-oi-ilektronikes-ypiresies-kai-helpdesk-gia-6-imeres",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92286",
+      "title": "ΑΣΕΠ 2ΓΒ/2026: «Κληρώνει» σήμερα για 4.747 θέσεις - Βγαίνουν τα αποτελέσματα",
+      "description": "Σήμερα, Πέμπτη 24 Σεπτεμβρίου 2026, πραγματοποιείται ηηλεκτρονική κλήρωση του ΑΣΕΠγια τους υποψηφίους της προκήρυξης2ΓΒ/2026, σε ένα από τατελευταία βήματα πριν από την έκδοση τωνπροσωρινών αποτελεσμάτων.",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92286_asep-2gb/2026-klironei-simera-gia-4747-theseis-bgainoyn-ta-apotelesmata",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92285",
+      "title": "Προκηρύξεις ΑΣΕΠ: «Προσόν» διορισμού πλέον η Νοηματική - Πόσα μόρια δίνει",
+      "description": "Νέα δεδομένα στη μοριοδότηση υποψηφίων στις διαδικασίεςπροσλήψεων μέσω ΑΣΕΠφέρνει ο Ν. 5331/2026, καθώς εντάσσει την πιστοποιημένη επάρκεια στηνΕλληνική Νοηματική Γλώσσαστα κριτήρια που λαμβάνονται υπόψη κατά την επιλογή προσωπικού.",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92285_prokiryxeis-asep-proson-diorismoy-pleon-i-noimatiki-posa-moria-dinei",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92217",
+      "title": "ΑΣΕΠ 7Κ/2026: Έτοιμη η προκήρυξη για 3.265 μόνιμες προσλήψεις",
+      "description": "Έτοιμη να πάρει τον δρόμο προς το Εθνικό Τυπογραφείο είναι ηνέα μεγάλη προκήρυξη του ΑΣΕΠ για3.265 μόνιμες προσλήψειςκατηγορίαwΥποχρεωτικής Εκπαίδευσης(ΥΕ), με τη διαδικασία να περνά πλέον στην τελική ευθεία.",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92217_asep-7k/2026-etoimi-i-prokiryxi-gia-3265-monimes-proslipseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92257",
+      "title": "ΑΣΕΠ 3Κ/2026: Βγήκαν τα οριστικά αποτελέσματα για μόνιμες προσλήψεις στην ΥΠΑ",
+      "description": "Σήμερα, Τετάρτη 23 Σεπτεμβρίου,εκδόθηκανκαι καταχωρίστηκαν στην ιστοσελίδα του ΑΣΕΠ ταοριστικά αποτελέσματατης προκήρυξης 3Κ/2026για την πλήρωση, με σειρά προτεραιότητας,43 θέσεων μόνιμου προσωπικούτης κατηγορίας Πανεπιστημιακής Εκπαίδευσηςκλάδου ΠΕΗ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92257_asep-3k/2026-bgikan-ta-oristika-apotelesmata-gia-monimes-proslipseis-stin-ypa",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92234",
+      "title": "ΑΣΕΠ 2ΓΒ/2026: Ώρα μηδέν για τα προσωρινά αποτελέσματα",
+      "description": "Στηντελική φάσηεισέρχεται η διαδικασία έκδοσης τωνπροσωρινών αποτελεσμάτωντης προκήρυξης 2ΓΒ/2026, καθώς ενεργοποιείται η ηλεκτρονική εφαρμογή λογισμικούανοικτής κληρωτίδαςμεταξύ των υποψηφίων όλων των κλάδων/ειδικοτήτων της προκήρυξης, με σκοπό την ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92234_asep-2gb/2026-ora-miden-gia-ta-prosorina-apotelesmata",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92208",
+      "title": "ΑΣΕΠ 6Κ/2026: 315 μόνιμοι στο Δημόσιο - Μέχρι τις 14:00 η επίκληση",
+      "description": "Λήγει σήμεραΤετάρτη, 23 Σεπτεμβρίου 2026στις 14:00 ηεπίκληση δικαιολογητικών στην προκήρυξη 6Κ/2026 του ΑΣΕΠ, προκειμένου να καταρτιστούν οι προσωρινοί πίνακες κατάταξης. Σημειώνεται πως συνολικά καλούνται1.102 υποψήφιοι, δηλαδή όλοι όσοι έκαναν αίτη",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92208_asep-6k/2026-315-monimoi-sto-dimosio-mehri-tis-1400-i-epiklisi",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92149",
+      "title": "Δημόσιο: Νόμος του κράτους η επιλογή προϊσταμένων μέσω γραπτού ΑΣΕΠ",
+      "description": "Νόμος του κράτους είναι πλέον τονέο σύστημα επιλογής προϊσταμένων στο Δημόσιο μέσω γραπτής εξέτασης του ΑΣΕΠ, καθώςδημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως το σχετικό ΦΕΚμε τίτλο Αναµόρφωση της βαθµολογικής διάρθρωσης, του συστήµατος βαθµολογικών ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92149_dimosio-nomos-toy-kratoys-i-epilogi-proistamenon-meso-graptoy-asep",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92107",
+      "title": "ΑΣΕΠ 3Κ/2022: Κλήρωση μεταξύ ισοβαθμούντων για το ΥΠΑΙΘΑ",
+      "description": "Το ΑΣΕΠ ενημερώνει πως θα διεξάγει δημόσιακλήρωσημεταξύ των ισοβαθμούντων υποψηφίων τηςπροκήρυξης 3Κ/2022, του κλάδου/ειδικότηταςΤΕ Μηχανικών-Ηλεκτρονικής, για την κατηγορία Τεχνολογικής Εκπαίδευσης σε διάφορους φορείς του Υπουργείου Παιδείας και Θρη",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92107_asep-3k/2022-klirosi-metaxy-isobathmoynton-gia-ypaitha",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92085",
+      "title": "Επίκληση ΑΣΕΠ 6Κ/2026: Λήγει σε δύο 24ωρα η προθεσμία",
+      "description": "Λήγει τηνΤετάρτη, 23 Σεπτεμβρίου 2026στις 14:00 ηεπίκληση δικαιολογητικών στην προκήρυξη 6Κ/2026 του ΑΣΕΠ, προκειμένου να καταρτιστούν οι προσωρινοί πίνακες κατάταξης. Σημειώνεται πως συνολικά καλούνται1.102 υποψήφιοι, δηλαδή όλοι όσοι έκαναν αίτησησ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92085_epiklisi-asep-6k/2026-ligei-se-dyo-24ora-i-prothesmia",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92024",
+      "title": "ΑΣΕΠ: Χιλιάδες διορισμοί στο Δημόσιο - Τι πρέπει να κάνουν οι υποψήφιοι",
+      "description": "Σημαντικές ευκαιρίες γιαδιορισμό στο Δημόσιοδημιουργεί το νέο πακέτο προκηρύξεων που επεξεργάζεται τοΑΣΕΠ, με τον συνολικό αριθμό τωνμόνιμων θέσεωννα φτάνει περίπου τις9.273. Οι προκηρύξεις βρίσκονται σε διαφορετικά στάδια επεξεργασίας και αφορούν τό",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92024_asep-hiliades-diorismoi-sto-dimosio-ti-prepei-na-kanoyn-oi-ypopsifioi",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91947",
+      "title": "ΑΣΕΠ: Γραπτός διαγωνισμός για 29.978 προϊσταμένους - Πώς θα γίνεται η επιλογή",
+      "description": "Νέοσύστημα επιλογής προϊσταμένων στο Δημόσιοφέρνει τονομοσχέδιο του υπουργείου Εσωτερικών που ψηφίστηκε κατά πλειοψηφία στη Βουλή, με τηδιαδικασία να περιλαμβάνει γραπτή εξέταση μέσω ΑΣΕΠγια τους ήδη υπηρετούντες δημοσίους υπαλλήλους που διεκδικούν θ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91947_asep-graptos-diagonismos-gia-29978-proistamenoys-pos-tha-ginetai-i-epilogi",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91994",
+      "title": "3ος Πανελλήνιος Γραπτός Διαγωνισμός ΑΣΕΠ: 3500 άτομα πήραν ήδη την ύλη",
+      "description": "Πάνω από3.500 άτομα έχουν πάρει την ύλη για τον 3ο Πανελλήνιο Γραπτό Διαγωνισμό ΑΣΕΠενώ ακόμα1000 αναμένεται να αποκτήσουν πρόσβασηστηνπλατφόρμα προετοιμασίας του goLearnτο οποίο παρέχει όλη τηνεξ αποστάσεως προετοιμασία και τα τεστ με τις λύσεις του",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91994_3os-panellinios-graptos-diagonismos-asep-3500-atoma-piran-idi-tin-yli",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91939",
+      "title": "Επίκληση 5Κ/2026: Μέχρι της 14:00 τα δικαιολογητικά στο ΑΣΕΠ",
+      "description": "Λήγει σήμεραΠέμπτη,  17 Σεπτεμβρίου 2026 στις 14:00η προθεσμία για τηνεπίκληση δικαιολογητικών στην προκήρυξη 5Κ/2026 του ΑΣΕΠ. Συγκεκριμένα, η Ανεξάρτητη Αρχή καλεί συνολικά1.129υποψήφιους να προχωρήσουν στην ηλεκτρονική υποβολή των απαιτούμενωνδικα",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91939_epiklisi-5k/2026-mehri-tis-1400-ta-dikaiologitika-sto-asep",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91873",
+      "title": "Επίσημο: Το 2027 ο γραπτός ΑΣΕΠ για 29.976 προϊσταμένους στο Δημόσιο",
+      "description": "Νέο τρόποεπιλογής προϊσταμένων στο Δημόσιοκαθιερώνει τονομοσχέδιο του υπουργείου Εσωτερικώνπουψηφίστηκε από τη Βουλή, με τίτλο «Αναμόρφωση της βαθμολογικής διάρθρωσης, του συστήματος βαθμολογικών προαγωγών και του συστήματος επιλογής προϊσταμένων οργ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91873_episimo-2027-o-graptos-asep-gia-29976-proistamenoys-sto-dimosio",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91871",
+      "title": "ΑΣΕΠ 5Κ/2026: Μόνιμοι στο Δημόσιο - Λήγει αύριο η επίκληση",
+      "description": "Λήγει αύριοΠέμπτη,  17 Σεπτεμβρίου 2026 στις 14:00η προθεσμία για τηνεπίκληση δικαιολογητικών στην προκήρυξη 5Κ/2026 του ΑΣΕΠ. Συγκεκριμένα, η Ανεξάρτητη Αρχή καλεί συνολικά1.129υποψήφιους να προχωρήσουν στην ηλεκτρονική υποβολή των απαιτούμενωνδικαι",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91871_asep-5k/2026-monimoi-sto-dimosio-ligei-ayrio-i-epiklisi",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91769",
+      "title": "ΑΣΕΠ 1ΓΕΠ/2026: Πόσες αιτήσεις υποβλήθηκαν - Τα στατιστικά",
+      "description": "Έληξε η προθεσμία υποβολής των αιτήσεων των υποψηφίων στηνπρόσκληση εκδήλωσης ενδιαφέροντος1ΓΕΠ/2026 του ΑΣΕΠ, για προσλήψεις στηνΥπηρεσία Γενικής Εποπτείας Νομιμότητας ΟΤΑκαι το ΑΣΕΠ γνωστοποίησε ταστατιστικά στοιχείατης προκήρυξης.",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91769_asep-1gep/2026-poses-aitiseis-ypoblithikan-ta-statistika",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91688",
+      "title": "ΑΣΕΠ 6Κ/2026 - 315 μόνιμοι: Μέχρι πότε η επίκληση δικαιολογητικών",
+      "description": "Σε πλήρη εξέλιξη βρίσκεται ηεπίκληση δικαιολογητικών στην προκήρυξη 6Κ/2026 του ΑΣΕΠ, έτσι ώστε να καταρτιστούν οιπροσωρινοί πίνακεςκατάταξης.",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": "2026-09-13",
+      "url": "https://www.proson.gr/ergasia/asep/91688_asep-6k/2026-315-monimoi-mehri-pote-i-epiklisi-dikaiologitikon",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91636",
+      "title": "3ος Πανελλήνιος Διαγωνισμός ΑΣΕΠ: Ανανεώθηκαν τα τεστ - Βγήκε δημόσια παράδειγμα",
+      "description": "Ο3ος Πανελλήνιος Γραπτός Διαγωνισμός ΑΣΕΠ θα πραγματοποιηθεί τους επόμενους μήνες! Μάλιστα τις προηγούμενες ημέρες ο πρόεδρος του ΑΣΕΠ τόνισε ότι το 2027 θα γίνουν και οι δυο μεγάλοι διαγωνισμοί του ΑΣΕΠ (και ο πανελλήνιος για τους διορισμούς και ο γ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91636_3os-panellinios-diagonismos-asep-ananeothikan-ta-test-bgike-dimosia-paradeigma",
+      "source": "proson.gr"
+    },
+    {
+      "id": "91616",
+      "title": "ΑΣΕΠ 6Κ/2026: 315 μόνιμες προσλήψεις - Ξεκίνησε η επίκληση",
+      "description": "Ξεκίνησε σήμεραΠέμπτη, 10 Σεπτεμβρίου 2026από τις 08:00 τι πρωί ηεπίκληση δικαιολογητικών στην προκήρυξη 6Κ/2026 του ΑΣΕΠ,  προκειμένου να καταρτιστούν οι προσωρινοί πίνακες κατάταξης. Σημειώνεται πως συνολικά καλούνται1.102 υποψήφιοι, δηλαδή όλοι όσ",
+      "published_date": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/91616_asep-6k/2026-315-monimes-proslipseis-xekinise-i-epiklisi",
       "source": "proson.gr"
     }
   ]
