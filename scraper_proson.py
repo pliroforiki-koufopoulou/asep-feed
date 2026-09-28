@@ -78,7 +78,8 @@ def fetch(url, retries=3):
 
 def parse_greek_datetime(text):
     """
-    Parse dates like '27 Σεπ 2026 15:11' or '27/09/2026 10:30'.
+    Parse dates like '27 Σεπ 2026 15:11', '27/09/2026 10:30',
+    or ISO '2026-09-27T15:11:00'.
     Returns (date_str 'YYYY-MM-DD', time_str 'HH:MM') — either can be None.
     """
     if not text:
@@ -87,12 +88,22 @@ def parse_greek_datetime(text):
     date_str = None
     time_str = None
 
-    # Extract time HH:MM if present
-    tm = re.search(r'\b(\d{1,2}):(\d{2})\b', text)
-    if tm:
-        time_str = f"{int(tm.group(1)):02d}:{tm.group(2)}"
+    # ── ISO 8601: YYYY-MM-DDTHH:MM or YYYY-MM-DD HH:MM (datetime attribute) ──
+    m = re.match(r'(\d{4})-(\d{2})-(\d{2})[T ](\d{2}):(\d{2})', text.strip())
+    if m:
+        y, mo, d, h, mi = m.groups()
+        date_str = f"{y}-{mo}-{d}"
+        time_str = f"{int(h):02d}:{mi}"
+        return date_str, time_str
 
-    # Numeric DD/MM/YYYY
+    # ── Time HH:MM — require valid hour (0-23), avoid matching seconds ────────
+    tm = re.search(r'(?<!\d)(\d{1,2}):(\d{2})(?!\d)', text)
+    if tm:
+        h = int(tm.group(1))
+        if 0 <= h <= 23:
+            time_str = f"{h:02d}:{tm.group(2)}"
+
+    # ── Numeric DD/MM/YYYY ────────────────────────────────────────────────────
     m = re.search(r'\b(\d{1,2})[/\-\.](\d{1,2})[/\-\.](\d{4})\b', text)
     if m:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
@@ -100,7 +111,7 @@ def parse_greek_datetime(text):
             date_str = f"{y:04d}-{mo:02d}-{d:02d}"
             return date_str, time_str
 
-    # Greek text: "27 Σεπ 2026"
+    # ── Greek text: "27 Σεπ 2026" ─────────────────────────────────────────────
     m = re.search(r'\b(\d{1,2})\s+([Α-Ωα-ωΆ-Ώά-ώ]+)\s+(\d{4})\b', text, re.UNICODE)
     if m:
         d, month_word, y = int(m.group(1)), m.group(2).lower(), int(m.group(3))
@@ -235,8 +246,14 @@ def scrape_listing():
             pub_time = None
             time_tag = a.find("time")
             if time_tag:
-                dt = time_tag.get("datetime") or time_tag.get_text(strip=True)
-                pub_date, pub_time = parse_greek_datetime(dt)
+                dt_attr = time_tag.get("datetime", "").strip()
+                dt_text = time_tag.get_text(strip=True)
+                # Try datetime attribute first (may be ISO), then fall back to text
+                pub_date, pub_time = parse_greek_datetime(dt_attr)
+                if not pub_date:
+                    d2, t2 = parse_greek_datetime(dt_text)
+                    pub_date = pub_date or d2
+                    pub_time = pub_time or t2
 
             if not any(x["url"] == href for x in found):
                 found.append({
