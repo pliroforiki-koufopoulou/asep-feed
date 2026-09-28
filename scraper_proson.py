@@ -1,6 +1,6 @@
 """
 scraper_proson.py - Scraper for proson.gr/ergasia/asep
-Runs via GitHub Actions (Mon/Wed/Fri)
+Runs via GitHub Actions (daily)
 Pushes results to data_proson.json in GitHub repo
 """
 
@@ -9,7 +9,7 @@ import re
 import os
 import base64
 import time
-from datetime import datetime, date
+from datetime import datetime
 from pathlib import Path
 
 import requests
@@ -21,12 +21,12 @@ GITHUB_USER  = "pliroforiki-koufopoulou"
 GITHUB_REPO  = "asep-feed"
 GITHUB_FILE  = "data_proson.json"
 
-BASE_URL   = "https://www.proson.gr"
-LIST_URL   = BASE_URL + "/ergasia/asep"
+BASE_URL     = "https://www.proson.gr"
+LIST_URL     = BASE_URL + "/ergasia/asep"
 MAX_ARTICLES = 30
 
-CACHE_FILE  = Path(__file__).parent / "proson_cache.json"
-OUTPUT_FILE = Path(__file__).parent / "data_proson.json"
+CACHE_FILE   = Path(__file__).parent / "proson_cache.json"
+OUTPUT_FILE  = Path(__file__).parent / "data_proson.json"
 
 HEADERS = {
     "User-Agent": (
@@ -39,14 +39,11 @@ HEADERS = {
 
 # ── Greek month mapping ───────────────────────────────────
 GREEK_MONTHS = {
-    "ιανουαριου": 1, "ιανουαριου": 1, "φεβρουαριου": 2,
-    "μαρτιου": 3, "απριλιου": 4, "μαιου": 5, "ιουνιου": 6,
-    "ιουλιου": 7, "αυγουστου": 8, "σεπτεμβριου": 9,
-    "οκτωβριου": 10, "νοεμβριου": 11, "δεκεμβριου": 12,
-    # short forms
-    "ιαν": 1, "φεβ": 2, "μαρ": 3, "απρ": 4, "μαι": 5, "μαϊ": 5,
-    "ιουν": 6, "ιουλ": 7, "αυγ": 8, "σεπ": 9, "οκτ": 10,
-    "νοε": 11, "δεκ": 12,
+    "ιαν": 1, "φεβ": 2, "μαρ": 3, "απρ": 4,
+    "μαι": 5, "μαϊ": 5, "μάι": 5, "μάϊ": 5,
+    "ιουν": 6, "ιούν": 6, "ιουλ": 7, "ιούλ": 7,
+    "αυγ": 8, "αύγ": 8, "σεπ": 9, "σέπ": 9,
+    "οκτ": 10, "νοε": 11, "νοέ": 11, "δεκ": 12, "δέκ": 12,
 }
 
 
@@ -60,7 +57,9 @@ def load_cache():
 
 
 def save_cache(cache):
-    CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    CACHE_FILE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
 
 def fetch(url, retries=3):
@@ -71,48 +70,39 @@ def fetch(url, retries=3):
                 return r
             print(f"  HTTP {r.status_code} for {url}")
         except Exception as e:
-            print(f"  Error fetching {url}: {e}")
+            print(f"  Error: {e}")
         if attempt < retries - 1:
             time.sleep(2)
     return None
 
 
 def parse_greek_date(text):
-    """
-    Parse a Greek date like '15 Σεπτεμβριου 2026' or '15/09/2026'.
-    Returns 'YYYY-MM-DD' or None.
-    """
-    # Try numeric DD/MM/YYYY or DD-MM-YYYY
+    """Parse dates like '27 Σεπ 2026 15:11' or '27/09/2026'. Returns 'YYYY-MM-DD' or None."""
+    if not text:
+        return None
+
+    # Numeric DD/MM/YYYY or DD-MM-YYYY
     m = re.search(r'\b(\d{1,2})[/\-\.](\d{1,2})[/\-\.](\d{4})\b', text)
     if m:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
         if 1 <= mo <= 12 and 1 <= d <= 31:
             return f"{y:04d}-{mo:02d}-{d:02d}"
 
-    # Try Greek text: DD Μήνας YYYY
-    m = re.search(
-        r'\b(\d{1,2})\s+([Α-Ωα-ωΆ-Ώά-ώ]+)\s+(\d{4})\b',
-        text,
-        re.UNICODE,
-    )
+    # Greek text: "27 Σεπ 2026" or "27 Σεπτ 2026"
+    m = re.search(r'\b(\d{1,2})\s+([Α-Ωα-ωΆ-Ώά-ώ]+)\s+(\d{4})\b', text, re.UNICODE)
     if m:
         d, month_word, y = int(m.group(1)), m.group(2).lower(), int(m.group(3))
-        # strip accents for matching
-        normalized = month_word
         for key, val in GREEK_MONTHS.items():
-            if normalized.startswith(key[:4]):
+            if month_word.startswith(key):
                 return f"{y:04d}-{val:02d}-{d:02d}"
     return None
 
 
 def extract_deadlines(article_text):
-    """
-    Search article text for deadline dates.
-    Returns (deadline_start, deadline_end) as 'YYYY-MM-DD' strings or None.
-    """
+    """Extract deadline_start and deadline_end from article body text."""
     text = article_text
 
-    # Pattern: "αρχίζει ... DD/MM/YYYY ... λήγει ... DD/MM/YYYY"
+    # Pattern: αρχίζει / έναρξη
     m_start = re.search(
         r'(?:αρχ[ίι]ζει|εναρξη|εναρξ[ήη]|υποβολ[ήη]\s+αιτ[ήη]σεων[^.]*?απ[όο])[^\d]*'
         r'(\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{4}|\d{1,2}\s+[Α-Ωα-ω]+\s+\d{4})',
@@ -127,7 +117,7 @@ def extract_deadlines(article_text):
     deadline_start = parse_greek_date(m_start.group(1)) if m_start else None
     deadline_end   = parse_greek_date(m_end.group(1))   if m_end   else None
 
-    # Pattern: "από DD/MM/YYYY έως DD/MM/YYYY" (range in one phrase)
+    # Range: "από DD/MM/YYYY έως DD/MM/YYYY"
     if not (deadline_start and deadline_end):
         m_range = re.search(
             r'απ[όο]\s+(\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{4}|\d{1,2}\s+[Α-Ωα-ω]+\s+\d{4})'
@@ -139,21 +129,21 @@ def extract_deadlines(article_text):
             deadline_start = deadline_start or parse_greek_date(m_range.group(1))
             deadline_end   = deadline_end   or parse_greek_date(m_range.group(2))
 
-    # Fallback: "έως DD/MM/YYYY" only
+    # Fallback: only "έως DD/MM/YYYY"
     if not deadline_end:
-        m_only_end = re.search(
+        m_only = re.search(
             r'(?:εως|έως|ως|μ[εέ]χρι)\s+'
             r'(\d{1,2}[/\-\.]\d{1,2}[/\-\.]\d{4}|\d{1,2}\s+[Α-Ωα-ω]+\s+\d{4})',
             text, re.IGNORECASE | re.UNICODE,
         )
-        if m_only_end:
-            deadline_end = parse_greek_date(m_only_end.group(1))
+        if m_only:
+            deadline_end = parse_greek_date(m_only.group(1))
 
     return deadline_start, deadline_end
 
 
 def get_article_details(url, cache):
-    """Fetch article page and return (description, deadline_start, deadline_end)."""
+    """Fetch article and return (description, deadline_start, deadline_end)."""
     if url in cache:
         c = cache[url]
         return c.get("description", ""), c.get("deadline_start"), c.get("deadline_end")
@@ -164,102 +154,90 @@ def get_article_details(url, cache):
 
     soup = BeautifulSoup(r.text, "html.parser")
 
-    # Extract description (first ~200 chars of article body)
+    # Description: first meaty paragraph
     description = ""
-    body = soup.find("div", class_=re.compile(r"article|entry|content|post", re.I))
-    if body:
-        paragraphs = body.find_all("p")
-        for p in paragraphs:
-            t = p.get_text(strip=True)
-            if len(t) > 40:
-                description = t[:250]
-                break
+    for p in soup.find_all("p"):
+        t = p.get_text(strip=True)
+        if len(t) > 50:
+            description = t[:250]
+            break
 
-    # Extract all visible text for deadline search
     article_text = soup.get_text(" ", strip=True)
     deadline_start, deadline_end = extract_deadlines(article_text)
 
-    result = {
+    cache[url] = {
         "description": description,
         "deadline_start": deadline_start,
         "deadline_end": deadline_end,
     }
-    cache[url] = result
     return description, deadline_start, deadline_end
 
 
 def scrape_listing():
-    """Scrape proson.gr/ergasia/asep listing pages, return list of article stubs."""
+    """
+    Scrape proson.gr/ergasia/asep.
+    Article links have the format: /ergasia/asep/NNNNN_slug-text
+    Structure: <a href="..."><time>DD Mon YYYY HH:MM</time><h3>Title</h3>...</a>
+    """
     articles = []
     page = 1
 
-    while len(articles) < MAX_ARTICLES:
-        if page == 1:
-            url = LIST_URL
-        else:
-            url = f"{LIST_URL}/page/{page}"
+    # Link pattern: /ergasia/asep/ followed by digits + underscore + slug
+    LINK_RE = re.compile(r'/ergasia/asep/\d+_', re.IGNORECASE)
 
+    while len(articles) < MAX_ARTICLES:
+        url = LIST_URL if page == 1 else f"{LIST_URL}/page/{page}"
         print(f"Fetching listing page {page}: {url}")
         r = fetch(url)
         if not r:
-            print(f"  Could not fetch page {page}, stopping.")
+            print("  Could not fetch, stopping.")
             break
 
         soup = BeautifulSoup(r.text, "html.parser")
-
-        # Find article links — proson.gr uses <article> or <h2>/<h3> with links
         found = []
 
-        # Try standard article elements first
-        for tag in soup.find_all(["article", "div"], class_=re.compile(r"post|article|item|entry", re.I)):
-            a = tag.find("a", href=re.compile(r"/ergasia/asep/\d+", re.I))
-            if not a:
-                continue
+        # Primary: <a> tags whose href matches the article pattern
+        for a in soup.find_all("a", href=LINK_RE):
             href = a.get("href", "")
             if not href.startswith("http"):
                 href = BASE_URL + href
 
-            # title
-            title_tag = tag.find(["h2", "h3", "h4"])
+            # Title: prefer <h2>/<h3>/<h4> inside the link, else link text
+            title_tag = a.find(["h2", "h3", "h4"])
             title = title_tag.get_text(strip=True) if title_tag else a.get_text(strip=True)
+            # Clean up: remove leading date/time noise if title starts with digits
+            title = re.sub(r'^\d{1,2}\s+\w+\s+\d{4}.*?\d{2}:\d{2}\s*', '', title).strip()
             if not title:
                 continue
 
-            # date
+            # Date: <time> element inside the link
             pub_date = None
-            time_tag = tag.find("time")
+            time_tag = a.find("time")
             if time_tag:
-                pub_date = time_tag.get("datetime", time_tag.get_text(strip=True))
-                if pub_date and "T" in pub_date:
-                    pub_date = pub_date[:10]
-                elif pub_date:
-                    pub_date = parse_greek_date(pub_date) or pub_date[:10]
+                dt = time_tag.get("datetime") or time_tag.get_text(strip=True)
+                pub_date = parse_greek_date(dt)
 
             if not any(x["url"] == href for x in found):
-                found.append({"title": title, "url": href, "published_date": pub_date})
-
-        # Fallback: any link matching /ergasia/asep/\d+
-        if not found:
-            for a in soup.find_all("a", href=re.compile(r"/ergasia/asep/\d+", re.I)):
-                href = a.get("href", "")
-                if not href.startswith("http"):
-                    href = BASE_URL + href
-                title = a.get_text(strip=True)
-                if title and not any(x["url"] == href for x in found):
-                    found.append({"title": title, "url": href, "published_date": None})
+                found.append({
+                    "title": title,
+                    "url": href,
+                    "published_date": pub_date,
+                })
 
         if not found:
-            print(f"  No articles found on page {page}, stopping.")
+            print("  No articles found on this page, stopping.")
             break
 
-        articles.extend(found)
-        print(f"  Found {len(found)} articles (total so far: {len(articles)})")
+        # De-duplicate against already collected articles
+        existing_urls = {a["url"] for a in articles}
+        new = [x for x in found if x["url"] not in existing_urls]
+        articles.extend(new)
+        print(f"  Found {len(found)} articles ({len(new)} new, total: {len(articles)})")
 
-        # Check for next page link
-        next_link = soup.find("a", string=re.compile(r"επ[οό]μενη|next|>", re.I))
+        # Check for next-page link
+        next_link = soup.find("a", href=re.compile(r'/ergasia/asep/page/\d+', re.I))
         if not next_link:
-            # Also check for numbered pagination
-            next_link = soup.find("a", class_=re.compile(r"next", re.I))
+            next_link = soup.find("a", class_=re.compile(r'next', re.I))
         if not next_link:
             break
 
@@ -270,33 +248,35 @@ def scrape_listing():
 
 
 def push_to_github(data):
-    """Push data_proson.json to GitHub via API."""
+    """Push data_proson.json to GitHub via Contents API."""
     if not GITHUB_TOKEN:
-        print("No GITHUB_TOKEN found, skipping push.")
+        print("No GITHUB_TOKEN, skipping push.")
         return False
 
-    api_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{GITHUB_FILE}"
-    headers = {
+    api_url = (
+        f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}"
+        f"/contents/{GITHUB_FILE}"
+    )
+    hdrs = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github+json",
     }
 
-    # Get current SHA if file exists
     sha = None
-    r = requests.get(api_url, headers=headers, timeout=15)
+    r = requests.get(api_url, headers=hdrs, timeout=15)
     if r.status_code == 200:
         sha = r.json().get("sha")
 
     content = json.dumps(data, ensure_ascii=False, indent=2)
     payload = {
-        "message": f"Update data_proson.json ({datetime.now().strftime('%Y-%m-%d %H:%M')})",
+        "message": f"Update {GITHUB_FILE} ({datetime.now().strftime('%Y-%m-%d %H:%M')})",
         "content": base64.b64encode(content.encode("utf-8")).decode("ascii"),
         "committer": {"name": "proson-scraper", "email": "bot@asep-feed.local"},
     }
     if sha:
         payload["sha"] = sha
 
-    r = requests.put(api_url, headers=headers, json=payload, timeout=30)
+    r = requests.put(api_url, headers=hdrs, json=payload, timeout=30)
     if r.status_code in (200, 201):
         print(f"Pushed {GITHUB_FILE} to GitHub successfully.")
         return True
@@ -306,25 +286,22 @@ def push_to_github(data):
 
 
 def main():
-    print("=" * 50)
+    print("=" * 52)
     print(f"proson.gr ASEP Scraper - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    print("=" * 50)
+    print("=" * 52)
 
     cache = load_cache()
     print(f"Cache loaded: {len(cache)} entries")
 
-    # Step 1: Get article list from listing pages
     stubs = scrape_listing()
     print(f"\nTotal articles from listing: {len(stubs)}")
 
-    # Step 2: Visit each article for details
     results = []
     for i, stub in enumerate(stubs, 1):
-        print(f"  [{i}/{len(stubs)}] {stub['title'][:60]}")
+        print(f"  [{i}/{len(stubs)}] {stub['title'][:65]}")
         desc, dl_start, dl_end = get_article_details(stub["url"], cache)
 
-        # Build article ID from URL
-        m = re.search(r"/(\d+)(?:[/?#]|$)", stub["url"])
+        m = re.search(r'/(\d+)_', stub["url"])
         article_id = m.group(1) if m else str(i)
 
         results.append({
@@ -339,24 +316,21 @@ def main():
         })
         time.sleep(0.5)
 
-    # Save cache
     save_cache(cache)
     print(f"\nCache saved: {len(cache)} entries")
 
-    # Build output
     output = {
         "last_updated": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
         "total": len(results),
         "articles": results,
     }
 
-    # Save locally
-    OUTPUT_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUTPUT_FILE.write_text(
+        json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
     print(f"Saved {OUTPUT_FILE} ({len(results)} articles)")
 
-    # Push to GitHub
     push_to_github(output)
-
     print("\nDone!")
 
 
