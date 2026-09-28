@@ -76,26 +76,46 @@ def fetch(url, retries=3):
     return None
 
 
-def parse_greek_date(text):
-    """Parse dates like '27 Σεπ 2026 15:11' or '27/09/2026'. Returns 'YYYY-MM-DD' or None."""
+def parse_greek_datetime(text):
+    """
+    Parse dates like '27 Σεπ 2026 15:11' or '27/09/2026 10:30'.
+    Returns (date_str 'YYYY-MM-DD', time_str 'HH:MM') — either can be None.
+    """
     if not text:
-        return None
+        return None, None
 
-    # Numeric DD/MM/YYYY or DD-MM-YYYY
+    date_str = None
+    time_str = None
+
+    # Extract time HH:MM if present
+    tm = re.search(r'\b(\d{1,2}):(\d{2})\b', text)
+    if tm:
+        time_str = f"{int(tm.group(1)):02d}:{tm.group(2)}"
+
+    # Numeric DD/MM/YYYY
     m = re.search(r'\b(\d{1,2})[/\-\.](\d{1,2})[/\-\.](\d{4})\b', text)
     if m:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
         if 1 <= mo <= 12 and 1 <= d <= 31:
-            return f"{y:04d}-{mo:02d}-{d:02d}"
+            date_str = f"{y:04d}-{mo:02d}-{d:02d}"
+            return date_str, time_str
 
-    # Greek text: "27 Σεπ 2026" or "27 Σεπτ 2026"
+    # Greek text: "27 Σεπ 2026"
     m = re.search(r'\b(\d{1,2})\s+([Α-Ωα-ωΆ-Ώά-ώ]+)\s+(\d{4})\b', text, re.UNICODE)
     if m:
         d, month_word, y = int(m.group(1)), m.group(2).lower(), int(m.group(3))
         for key, val in GREEK_MONTHS.items():
             if month_word.startswith(key):
-                return f"{y:04d}-{val:02d}-{d:02d}"
-    return None
+                date_str = f"{y:04d}-{val:02d}-{d:02d}"
+                return date_str, time_str
+
+    return None, time_str
+
+
+def parse_greek_date(text):
+    """Convenience wrapper — returns only the date part."""
+    date_str, _ = parse_greek_datetime(text)
+    return date_str
 
 
 def extract_deadlines(article_text):
@@ -210,18 +230,20 @@ def scrape_listing():
             if not title:
                 continue
 
-            # Date: <time> element inside the link
+            # Date + time: <time> element inside the link
             pub_date = None
+            pub_time = None
             time_tag = a.find("time")
             if time_tag:
                 dt = time_tag.get("datetime") or time_tag.get_text(strip=True)
-                pub_date = parse_greek_date(dt)
+                pub_date, pub_time = parse_greek_datetime(dt)
 
             if not any(x["url"] == href for x in found):
                 found.append({
                     "title": title,
                     "url": href,
                     "published_date": pub_date,
+                    "published_time": pub_time,
                 })
 
         if not found:
@@ -309,6 +331,7 @@ def main():
             "title": stub["title"],
             "description": desc,
             "published_date": stub["published_date"],
+            "published_time": stub.get("published_time"),
             "deadline_start": dl_start,
             "deadline_end": dl_end,
             "url": stub["url"],
