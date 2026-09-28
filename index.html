@@ -238,6 +238,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
   margin-bottom: 2px; font-weight: 700;
 }
 .date-val { font-size: 0.9rem; font-weight: 600; color: var(--ink); }
+.pub-time { font-size: 0.82rem; font-weight: 400; color: var(--ink-mid); }
 .date-range { display: flex; flex-direction: column; gap: 1px; }
 .date-range .from { font-weight: 400; color: var(--ink-mid); font-size: 0.88rem; }
 .date-range .to   { font-weight: 700; color: var(--ink); font-size: 0.9rem; }
@@ -710,7 +711,7 @@ function renderProsonCard(a, i) {
       <div class="card-title">${a.title}</div>
       ${a.description ? `<div class="card-desc">${a.description}</div>` : ''}
       <div class="card-dates">
-        <div class="date-block"><div class="date-lbl">Δημοσίευση</div><div class="date-val">${fmtDate(a.published_date)}</div></div>
+        <div class="date-block"><div class="date-lbl">Δημοσίευση</div><div class="date-val">${fmtDate(a.published_date)}${a.published_time ? '<span class="pub-time"> ' + a.published_time + '</span>' : ''}</div></div>
         ${prosonDeadlineHtml(a)}
       </div>
     </div>
@@ -727,7 +728,7 @@ function renderProsonListItem(a, i) {
     <div class="list-badge"><span class="status-badge ${st}">${prosonStatusLabel(st)}</span></div>
     <div class="list-title">${a.title}</div>
     <div class="list-dates">
-      <div class="list-date"><div class="lbl">Δημοσίευση</div><div class="val">${fmtDate(a.published_date)}</div></div>
+      <div class="list-date"><div class="lbl">Δημοσίευση</div><div class="val">${fmtDate(a.published_date)}${a.published_time ? '<span class="pub-time"> ' + a.published_time + '</span>' : ''}</div></div>
       <div class="list-date"><div class="lbl">Προθεσμία</div>${prosonDeadlineListVal(a)}</div>
     </div>
     ${a.url ? `<div class="list-link"><a class="more-btn proson-btn" href="${a.url}" target="_blank">↗</a></div>` : ''}
