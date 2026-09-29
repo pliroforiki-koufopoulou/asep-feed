@@ -22,6 +22,8 @@
   --expired:   #64748B;
   --expired-bg:#F1F5F9;
   --blue:      #1D4ED8;
+  --info:      #0369A1;
+  --info-bg:   #E0F2FE;
   --proson:    #7C3AED;
   --proson-bg: #EDE9FE;
 }
@@ -99,6 +101,7 @@ header {
 .stat { display: flex; align-items: center; gap: 10px; }
 .stat-dot { width: 10px; height: 10px; border-radius: 50%; }
 .stat-dot.active  { background: var(--active); }
+.stat-dot.info    { background: var(--info); }
 .stat-dot.soon    { background: var(--soon); }
 .stat-dot.expired { background: var(--expired); }
 .stat-num { font-size: 1.25rem; font-weight: 700; }
@@ -216,6 +219,7 @@ main { max-width: 1160px; margin: 0 auto; padding: 28px 24px 60px; }
   font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em;
 }
 .status-badge.active  { background: var(--active-bg);  color: var(--active); }
+.status-badge.info    { background: var(--info-bg);    color: var(--info); }
 .status-badge.soon    { background: var(--soon-bg);    color: var(--soon); }
 .status-badge.expired { background: var(--expired-bg); color: var(--expired); }
 .status-badge.article { background: var(--proson-bg);  color: var(--proson); }
@@ -361,6 +365,11 @@ footer a { color: var(--blue); text-decoration: none; }
     </div>
     <div class="stat-divider"></div>
     <div class="stat">
+      <div class="stat-dot info"></div>
+      <div><div class="stat-num" id="statInfo">—</div><div class="stat-lbl">Ανακοινώσεις</div></div>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
       <div class="stat-dot soon"></div>
       <div><div class="stat-num" id="statSoon">—</div><div class="stat-lbl">Λήγουν σύντομα</div></div>
     </div>
@@ -379,6 +388,7 @@ footer a { color: var(--blue); text-decoration: none; }
     <div class="controls">
       <div class="tab-group">
         <button class="tab active" onclick="setFilter('active', this)">Ενεργές</button>
+        <button class="tab" onclick="setFilter('info', this)">Ανακοινώσεις</button>
         <button class="tab" onclick="setFilter('soon', this)">Λήγουν σύντομα</button>
         <button class="tab" onclick="setFilter('expired', this)">Ληγμένες</button>
         <button class="tab" onclick="setFilter('all', this)">Όλες</button>
@@ -495,7 +505,7 @@ function toggleDeadlineFilter(el) {
 
 function statusOf(a) {
   const dl = a.deadline_end || null;
-  if (!dl) return 'active';
+  if (!dl) return 'info';
   const d = daysLeft(dl);
   if (d < 0)  return 'expired';
   if (d <= 7) return 'soon';
@@ -511,11 +521,11 @@ function progressPct(s, e) {
 }
 
 function fillClass(st) {
-  return st === 'expired' ? 'done' : st === 'soon' ? 'warning' : 'ok';
+  return st === 'expired' ? 'done' : st === 'soon' ? 'warning' : st === 'info' ? 'none' : 'ok';
 }
 
 function statusLabel(st) {
-  return { active: '● Ενεργή', soon: '● Λήγει σύντομα', expired: '● Ληγμένη' }[st] || st;
+  return { active: '● Ενεργή', info: '● Ανακοίνωση', soon: '● Λήγει σύντομα', expired: '● Ληγμένη' }[st] || st;
 }
 
 async function loadData() {
@@ -537,6 +547,7 @@ async function loadData() {
 function updateStats() {
   const s = allData.map(statusOf);
   document.getElementById('statActive').textContent  = s.filter(x=>x==='active').length;
+  document.getElementById('statInfo').textContent    = s.filter(x=>x==='info').length;
   document.getElementById('statSoon').textContent    = s.filter(x=>x==='soon').length;
   document.getElementById('statExpired').textContent = s.filter(x=>x==='expired').length;
   document.getElementById('statTotal').textContent   = allData.length;
