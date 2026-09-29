@@ -129,6 +129,18 @@ def parse_greek_date(text):
     return date_str
 
 
+def _valid_deadline(date_str):
+    """Return date_str only if the year is plausibly a future/recent deadline (>= 2020)."""
+    if not date_str:
+        return None
+    try:
+        if int(date_str[:4]) >= 2020:
+            return date_str
+    except (ValueError, IndexError):
+        pass
+    return None
+
+
 def extract_deadlines(article_text):
     """Extract deadline_start and deadline_end from article body text."""
     text = article_text
@@ -145,8 +157,8 @@ def extract_deadlines(article_text):
         text, re.IGNORECASE | re.UNICODE,
     )
 
-    deadline_start = parse_greek_date(m_start.group(1)) if m_start else None
-    deadline_end   = parse_greek_date(m_end.group(1))   if m_end   else None
+    deadline_start = _valid_deadline(parse_greek_date(m_start.group(1)) if m_start else None)
+    deadline_end   = _valid_deadline(parse_greek_date(m_end.group(1))   if m_end   else None)
 
     # Range: "από DD/MM/YYYY έως DD/MM/YYYY"
     if not (deadline_start and deadline_end):
@@ -177,7 +189,11 @@ def get_article_details(url, cache):
     """Fetch article and return (description, deadline_start, deadline_end)."""
     if url in cache:
         c = cache[url]
-        return c.get("description", ""), c.get("deadline_start"), c.get("deadline_end")
+        return (
+            c.get("description", ""),
+            _valid_deadline(c.get("deadline_start")),
+            _valid_deadline(c.get("deadline_end")),
+        )
 
     r = fetch(url)
     if not r:
