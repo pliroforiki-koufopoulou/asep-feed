@@ -169,8 +169,8 @@ def extract_deadlines(article_text):
             text, re.IGNORECASE | re.UNICODE,
         )
         if m_range:
-            deadline_start = deadline_start or parse_greek_date(m_range.group(1))
-            deadline_end   = deadline_end   or parse_greek_date(m_range.group(2))
+            deadline_start = deadline_start or _valid_deadline(parse_greek_date(m_range.group(1)))
+            deadline_end   = deadline_end   or _valid_deadline(parse_greek_date(m_range.group(2)))
 
     # Fallback: only "έως DD/MM/YYYY"
     if not deadline_end:
@@ -180,7 +180,7 @@ def extract_deadlines(article_text):
             text, re.IGNORECASE | re.UNICODE,
         )
         if m_only:
-            deadline_end = parse_greek_date(m_only.group(1))
+            deadline_end = _valid_deadline(parse_greek_date(m_only.group(1)))
 
     return deadline_start, deadline_end
 
