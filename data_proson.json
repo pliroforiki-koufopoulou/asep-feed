@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-09-28T17:10:18",
+  "last_updated": "2026-09-29T11:58:47",
   "total": 22,
   "articles": [
+    {
+      "id": "92420",
+      "title": "ΑΣΕΠ: Ποια πτυχία διορίζουν 97 μόνιμες θέσεις στο Δημόσιο (πίνακας)",
+      "description": "Έφυγε για το Εθνικό Τυπογραφείο την προηγούμενη εβδομάδα η νέα προκήρυξη του ΑΣΕΠγια συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-09-29",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": "1993-12-31",
+      "url": "https://www.proson.gr/ergasia/asep/92420_asep-poia-ptyhia-diorizoyn-97-monimes-theseis-sto-dimosio-pinakas",
+      "source": "proson.gr"
+    },
     {
       "id": "92391",
       "title": "ΑΣΕΠ: Βγαίνει η μεγάλη προκήρυξη για περίπου 4.000 θέσεις ΔΕ – Ποιοι μπορούν να συμμετάσχουν",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/91636_3os-panellinios-diagonismos-asep-ananeothikan-ta-test-bgike-dimosia-paradeigma",
-      "source": "proson.gr"
-    },
-    {
-      "id": "91616",
-      "title": "ΑΣΕΠ 6Κ/2026: 315 μόνιμες προσλήψεις - Ξεκίνησε η επίκληση",
-      "description": "Ξεκίνησε σήμεραΠέμπτη, 10 Σεπτεμβρίου 2026από τις 08:00 τι πρωί ηεπίκληση δικαιολογητικών στην προκήρυξη 6Κ/2026 του ΑΣΕΠ,  προκειμένου να καταρτιστούν οι προσωρινοί πίνακες κατάταξης. Σημειώνεται πως συνολικά καλούνται1.102 υποψήφιοι, δηλαδή όλοι όσ",
-      "published_date": "2026-09-10",
-      "published_time": "08:57",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/91616_asep-6k/2026-315-monimes-proslipseis-xekinise-i-epiklisi",
       "source": "proson.gr"
     }
   ]
