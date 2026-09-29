@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-09-29T11:58:47",
+  "last_updated": "2026-09-29T12:36:17",
   "total": 22,
   "articles": [
+    {
+      "id": "92529",
+      "title": "Αποκλειστικό ΑΣΕΠ: Μια «ανάσα» πριν τη δημοσίευση η 7Κ/2026",
+      "description": "Θέμα ημερών είναι, σύμφωνα με πληροφορίες του proson.gr, η δημοσίευση τηςνέας προκήρυξης του ΑΣΕΠ για3.265 μόνιμες θέσεις στο Δημόσιο, που απευθύνονται σε υποψηφίους της κατηγορίαςΥποχρεωτικής Εκπαίδευσης(ΥΕ).",
+      "published_date": "2026-09-29",
+      "published_time": "15:31",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92529_apokleistiko-asep-mia-anasa-prin-ti-dimosieysi-i-7k/2026",
+      "source": "proson.gr"
+    },
     {
       "id": "92420",
       "title": "ΑΣΕΠ: Ποια πτυχία διορίζουν 97 μόνιμες θέσεις στο Δημόσιο (πίνακας)",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": "2026-09-13",
       "url": "https://www.proson.gr/ergasia/asep/91688_asep-6k/2026-315-monimoi-mehri-pote-i-epiklisi-dikaiologitikon",
-      "source": "proson.gr"
-    },
-    {
-      "id": "91636",
-      "title": "3ος Πανελλήνιος Διαγωνισμός ΑΣΕΠ: Ανανεώθηκαν τα τεστ - Βγήκε δημόσια παράδειγμα",
-      "description": "Ο3ος Πανελλήνιος Γραπτός Διαγωνισμός ΑΣΕΠ θα πραγματοποιηθεί τους επόμενους μήνες! Μάλιστα τις προηγούμενες ημέρες ο πρόεδρος του ΑΣΕΠ τόνισε ότι το 2027 θα γίνουν και οι δυο μεγάλοι διαγωνισμοί του ΑΣΕΠ (και ο πανελλήνιος για τους διορισμούς και ο γ",
-      "published_date": "2026-09-10",
-      "published_time": "14:10",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/91636_3os-panellinios-diagonismos-asep-ananeothikan-ta-test-bgike-dimosia-paradeigma",
       "source": "proson.gr"
     }
   ]
