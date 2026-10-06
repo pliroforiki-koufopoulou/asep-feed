@@ -1,7 +1,40 @@
 {
-  "last_updated": "2026-10-05T17:34:11",
+  "last_updated": "2026-10-06T15:32:56",
   "total": 22,
   "articles": [
+    {
+      "id": "92870",
+      "title": "ΑΣΕΠ 1Γ/2025: Βγαίνει ολοκαίνουργια προκήρυξη για όλους τους συμμετέχοντες",
+      "description": "Το ΑΣΕΠ ετοιμάζει και νέα προκήρυξη η οποία αφοράόλους τουςσυμμετέχοντεςτουδεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025), που διεξήχθη πέρσι το καλοκαίρι. Σύμφωνα με έγγραφο της Ανεξάρτητης Αρχής που έχει στην κατοχή του το Proson.gr, η εν λόγω ",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92870_asep-1g/2025-bgainei-olokainoyrgia-prokiryxi-gia-oloys-toys-symmetehontes",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92436",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμες θέσεις στο Δημόσιο - Βγήκε το ΦΕΚ",
+      "description": "Δημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως στο τεύχος ΑΣΕΠ ολόκληρηη προκήρυξη3ΓΒ/2026 του ΑΣΕΠ, γιαμόνιμες προσλήψειςσε φορείς του Δημοσίου.",
+      "published_date": "2026-10-06",
+      "published_time": "07:17",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92436_asep-3gb/2026-97-monimes-theseis-sto-dimosio-bgike-fek",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92774",
+      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις σε Δήμους όλης της Ελλάδας",
+      "description": "Από ημέρα σε ημέρα πρόκειται να δημοσιευθεί ηπροκήρυξη 7Κ/2026 του ΑΣΕΠ, που προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο σε όλη την Ελλάδα.",
+      "published_date": "2026-10-06",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92774_asep-7k/2026-monimes-proslipseis-se-dimoys-olis-tis-elladas",
+      "source": "proson.gr"
+    },
     {
       "id": "92796",
       "title": "Πρόεδρος ΑΣΕΠ: Στις οι 20.000 προσλήψεις στο Δημόσιο το 2027 - Πότε ο 3ος γραπτός διαγωνισμός",
@@ -75,7 +108,7 @@
       "published_date": "2026-10-01",
       "published_time": "15:03",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-01",
       "url": "https://www.proson.gr/ergasia/asep/92655_asep-se-leitoyrgia-kai-pali-help-desk-kai-oi-ilektronikes-ypiresies",
       "source": "proson.gr"
     },
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92301_asep-kato-oi-ilektronikes-ypiresies-kai-helpdesk-gia-6-imeres",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92286",
-      "title": "ΑΣΕΠ 2ΓΒ/2026: «Κληρώνει» σήμερα για 4.747 θέσεις - Βγαίνουν τα αποτελέσματα",
-      "description": "Σήμερα, Πέμπτη 24 Σεπτεμβρίου 2026, πραγματοποιείται ηηλεκτρονική κλήρωση του ΑΣΕΠγια τους υποψηφίους της προκήρυξης2ΓΒ/2026, σε ένα από τατελευταία βήματα πριν από την έκδοση τωνπροσωρινών αποτελεσμάτων.",
-      "published_date": "2026-09-24",
-      "published_time": "09:06",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92286_asep-2gb/2026-klironei-simera-gia-4747-theseis-bgainoyn-ta-apotelesmata",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92285",
-      "title": "Προκηρύξεις ΑΣΕΠ: «Προσόν» διορισμού πλέον η Νοηματική - Πόσα μόρια δίνει",
-      "description": "Νέα δεδομένα στη μοριοδότηση υποψηφίων στις διαδικασίεςπροσλήψεων μέσω ΑΣΕΠφέρνει ο Ν. 5331/2026, καθώς εντάσσει την πιστοποιημένη επάρκεια στηνΕλληνική Νοηματική Γλώσσαστα κριτήρια που λαμβάνονται υπόψη κατά την επιλογή προσωπικού.",
-      "published_date": "2026-09-24",
-      "published_time": "08:56",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92285_prokiryxeis-asep-proson-diorismoy-pleon-i-noimatiki-posa-moria-dinei",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92217",
-      "title": "ΑΣΕΠ 7Κ/2026: Έτοιμη η προκήρυξη για 3.265 μόνιμες προσλήψεις",
-      "description": "Έτοιμη να πάρει τον δρόμο προς το Εθνικό Τυπογραφείο είναι ηνέα μεγάλη προκήρυξη του ΑΣΕΠ για3.265 μόνιμες προσλήψειςκατηγορίαwΥποχρεωτικής Εκπαίδευσης(ΥΕ), με τη διαδικασία να περνά πλέον στην τελική ευθεία.",
-      "published_date": "2026-09-24",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92217_asep-7k/2026-etoimi-i-prokiryxi-gia-3265-monimes-proslipseis",
       "source": "proson.gr"
     }
   ]
