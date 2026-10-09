@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-10-08T15:57:10",
+  "last_updated": "2026-10-09T15:39:35",
   "total": 22,
   "articles": [
+    {
+      "id": "93068",
+      "title": "ΑΣΕΠ: Γραπτός για 29.976 προϊσταμένους στο Δημόσιο – Νέα εγκύκλιος",
+      "description": "Νέες οδηγίες για την εφαρμογή του συστήματος επιλογήςπροϊσταμένων στο Δημόσιο μέσω ΑΣΕΠδίνει τουπουργείο Εσωτερικών, με εγκύκλιο που εκδόθηκε μετά την ψήφιση του νόμου 5331/2026.",
+      "published_date": "2026-10-09",
+      "published_time": "14:43",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93068_asep-graptos-gia-29976-proistamenoys-sto-dimosio-nea-egkyklios",
+      "source": "proson.gr"
+    },
+    {
+      "id": "92996",
+      "title": "ΑΣΕΠ: 7Κ, 8Κ και 9Κ φέρουν 8.400 μόνιμες προσλήψεις στο Δημόσιο το 2026",
+      "description": "Το ΑΣΕΠ σχεδιάζει την πλήρωση περίπου8.400 μόνιμων θέσεων εργασίαςσε φορείς του Δημοσίου το επόμενο διάστημα, μέσω τριών μεγάλων προκηρύξεων, στα πρότυπα των αντίστοιχων 6Κ/2024, 7Κ/2024 και 8Κ/2024.",
+      "published_date": "2026-10-09",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/92996_asep-7k-8k-kai-9k-feroyn-8400-monimes-proslipseis-sto-dimosio-2026",
+      "source": "proson.gr"
+    },
     {
       "id": "92982",
       "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμες θέσεις στο ΕΣΥ - Ξεκίνησαν οι ενστάσεις",
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92549_deyteros-graptos-asep-bgainei-nea-prokiryxi-gia-oloys-toys-symmetehontes",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92548",
-      "title": "ΑΣΕΠ 8Κ/2026: 1.138 μόνιμες προσλήψεις ΑμεΑ - Πού βρίσκεται η προκήρυξη",
-      "description": "Στις1.138,αντί των 1.866καθορίζεται τελικά ο αριθμός των θέσεων που θα περιλαμβάνειη νέα προκήρυξη 8Κ/2026 του ΑΣΕΠ, η οποία αφοράμόνιμες προσλήψειςκαι προσλήψεις προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου (ΙΔΑΧ) στο Δημόσιο.",
-      "published_date": "2026-09-30",
-      "published_time": "08:48",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92548_asep-8k/2026-1138-monimes-proslipseis-amea-poy-brisketai-i-prokiryxi",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92545",
-      "title": "Επιβεβαίωση Proson.gr: Δημοσιεύεται η 7Κ/2026 του ΑΣΕΠ",
-      "description": "Επιβεβαιώνεται το ρεπορτάζ του proson.gr για την 7Κ/2026 του ΑΣΕΠ, καθώς σύμφωνα με έγγραφο της Ανεξάρτητης Αρχής, η νέα προκήρυξη αναμένεται να αποσταλείσύντομα στο Εθνικό Τυπογραφείο.",
-      "published_date": "2026-09-30",
-      "published_time": "08:34",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92545_epibebaiosi-prosongr-dimosieyetai-i-7k/2026-toy-asep",
       "source": "proson.gr"
     }
   ]
