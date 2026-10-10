@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-10-09T15:39:35",
+  "last_updated": "2026-10-10T14:54:31",
   "total": 22,
   "articles": [
+    {
+      "id": "93089",
+      "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι στο ΕΣΥ - Μέχρι πότε οι ενστάσεις",
+      "description": "Σε πλήρη εξέλιξη βρίσκονται οιενστάσειςκατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορείς τουΥπουργείου Υγείαςκαι προ",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93089_asep-2k/2026-839-monimoi-sto-esy-mehri-pote-oi-enstaseis",
+      "source": "proson.gr"
+    },
     {
       "id": "93068",
       "title": "ΑΣΕΠ: Γραπτός για 29.976 προϊσταμένους στο Δημόσιο – Νέα εγκύκλιος",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92571_graptos-asep-1gep/2026-paradeigmata-erotiseon-apantiseon",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92549",
-      "title": "Δεύτερος γραπτός ΑΣΕΠ: Βγαίνει νέα προκήρυξη για όλους τους συμμετέχοντες",
-      "description": "Νέα προκήρυξη για μόνιμες προσλήψεις στο Δημόσιο ετοιμάζει τοΑΣΕΠ, η οποία θα αφοράαποκλειστικάυποψηφίους που συμμετείχαν στονδεύτερο πανελλήνιο γραπτό διαγωνισμό.",
-      "published_date": "2026-09-30",
-      "published_time": "09:04",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92549_deyteros-graptos-asep-bgainei-nea-prokiryxi-gia-oloys-toys-symmetehontes",
       "source": "proson.gr"
     }
   ]
