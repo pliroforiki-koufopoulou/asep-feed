@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-10-11T15:11:35",
+  "last_updated": "2026-10-12T18:20:56",
   "total": 22,
   "articles": [
+    {
+      "id": "93170",
+      "title": "ΑΣΕΠ 2ΓΒ/2026: Βγήκαν τα προσωρινά αποτελέσματα για 4.747 μόνιμες προσλήψεις",
+      "description": "Η Κεντρική Επιτροπή Διαγωνισμού (Κ.Ε.Δ.) ανακοίνωσε την έκδοση και καταχώριση στην ιστοσελίδα τουΑΣΕΠτωνπροσωρινών αποτελεσμάτων της προκήρυξης 2ΓΒ/2026για την πλήρωση συνολικά4.747 θέσεων μόνιμου προσωπικούκαι προσωπικού με σχέση εργασίας ιδιωτικού ",
+      "published_date": "2026-10-12",
+      "published_time": "12:34",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93170_asep-2gb/2026-bgikan-ta-prosorina-apotelesmata-gia-4747-monimes-proslipseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93167",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: Μόνιμες προσλήψεις στην ΕΕΤΑΑ - Η κατανομή",
+      "description": "Ξεκινούν σύντομα οι αιτήσεις στηνπροκήρυξη3ΓΒ/2026 του ΑΣΕΠ, η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-10-12",
+      "published_time": "12:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93167_asep-3gb/2026-monimes-proslipseis-stin-eetaa-i-katanomi",
+      "source": "proson.gr"
+    },
     {
       "id": "93089",
       "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι στο ΕΣΥ - Μέχρι πότε οι ενστάσεις",
@@ -130,7 +152,7 @@
       "published_date": "2026-10-06",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": "2026-10-10",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92774_asep-7k/2026-monimes-proslipseis-se-dimoys-olis-tis-elladas",
       "source": "proson.gr"
     },
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92586_apotelesmata-asep-erhontai-12165-monimes-proslipseis-sto-dimosio",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92576",
-      "title": "ΑΣΕΠ: 4.000 μόνιμες προσλήψεις σε όλη την Ελλάδα (με απολυτήριο λυκείου)",
-      "description": "Νέα μεγάλη προκήρυξη για περίπου4.000 μόνιμες προσλήψεις στο Δημόσιο ετοιμάζει το ΑΣΕΠ, με το μεγαλύτερο μέρος των θέσεων να απευθύνεται σε υποψηφίους Δευτεροβάθμιας Εκπαίδευσης (ΔΕ), δηλαδή κυρίως σεαποφοίτους λυκείουκαι ΙΕΚ.",
-      "published_date": "2026-10-01",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92576_asep-4000-monimes-proslipseis-se-oli-tin-ellada-me-apolytirio-lykeioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92571",
-      "title": "Γραπτός ΑΣΕΠ 1ΓΕΠ/2026: Παραδείγματα ερωτήσεων-απαντήσεων",
-      "description": "Το ΑΣΕΠ ενημερώνει πως οιυποψήφιοι της προκήρυξης 1ΓΕΠ/2026 για την κάλυψη της θέσης του Γενικού Επόπτη Νομιμότητας και θέσεων Εποπτών Νομιμότητας της Υπηρεσίας Γενικής Εποπτείας Νομιμότητας Ο.Τ.Α., θα λάβουν μέρος σεγραπτή ηλεκτρονική εξέτασηδιακρίβ",
-      "published_date": "2026-09-30",
-      "published_time": "11:55",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92571_graptos-asep-1gep/2026-paradeigmata-erotiseon-apantiseon",
       "source": "proson.gr"
     }
   ]
