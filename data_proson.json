@@ -1,7 +1,73 @@
 {
-  "last_updated": "2026-10-12T18:20:56",
+  "last_updated": "2026-10-13T16:35:12",
   "total": 22,
   "articles": [
+    {
+      "id": "93293",
+      "title": "ΑΣΕΠ: Άνοιξε θέση εργασίας στο υπουργείο Δικαιοσύνης",
+      "description": "Δημοσιεύθηκε σήμερα, Τρίτη, στο ΦΕΚ του ΑΣΕΠ, ηεπαναπροκήρυξη πλήρωσης κενής οργανικής θέσης στην Α’ Διεύθυνση Ιατροδικαστική Υπηρεσία του υπουργείου Δικαιοσύνης.",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93293_asep-anoixe-thesi-ergasias-sto-ypoyrgeio-dikaiosynis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93227",
+      "title": "ΑΣΕΠ 2ΓΒ/2026: Ξεκίνησαν οι ενστάσεις για 4.747 μόνιμες θέσεις",
+      "description": "Ξεκίνησαν σήμερα Τρίτη, 13 Οκτωβρίου 2026 οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2ΓΒ/2026, για  πλήρωση συνολικά4.747 θέσεων μόνιμου προσωπικούκαι προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου κατηγορίαςΠανεπιστ",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93227_asep-2gb/2026-xekinisan-oi-enstaseis-gia-4747-monimes-theseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93289",
+      "title": "ΑΣΕΠ: Αλλαγή στην προκήρυξη 3ΓΒ/2026 - Τι προβλέπει νέο ΦΕΚ",
+      "description": "Αλλαγέςστηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ, η οποία αφορά97 θέσεις στο Δημόσιο, προβλέπεινεό ΦΕΚπου δημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως.",
+      "published_date": "2026-10-13",
+      "published_time": "16:57",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93289_asep-allagi-stin-prokiryxi-3gb/2026-ti-problepei-neo-fek",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93220",
+      "title": "Παπαϊωάννου (πρόεδρος ΑΣΕΠ) στο Proson.gr: Γιατί καθυστερούν οι διορισμοί στο Δημόσιο",
+      "description": "Οικαθυστερήσειςστις προσλήψεις του Δημοσίου εξακολουθούν να αποτελούν ένα από ταβασικά ζητήματαπου απασχολούν τους υποψηφίους των προκηρύξεων του ΑΣΕΠ. Παρά τη μείωση του χρόνου έκδοσης των οριστικών αποτελεσμάτων τα τελευταία χρόνια, η ολοκλήρωση τω",
+      "published_date": "2026-10-13",
+      "published_time": "08:26",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93220_papaioannoy-proedros-asep-sto-prosongr-giati-kathysteroyn-oi-diorismoi-sto",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93152",
+      "title": "ΑΣΕΠ 7Κ/2026: Απολυτήριο γυμνασίου, δημοτικού ή ΟΑΕΔ; Οι τίτλοι σπουδών ανά θέση",
+      "description": "Από ημέρα σε ημέρα αναμένεται η δημοσίευση τηςπροκήρυξης 7Κ/2026 του ΑΣΕΠ, η οποία αφορά χιλιάδες υποψηφίους με απολυτήριο γυμνασίου που ενδιαφέρονται για μια θέση στο Δημόσιο.",
+      "published_date": "2026-10-13",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93152_asep-7k/2026-apolytirio-gymnasioy-dimotikoy-i-oaed-oi-titloi-spoydon-ana-thesi",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93213",
+      "title": "Χιλιάδες προσλήψεις με ΠΕ,ΤΕ,ΔΕ με νέες προκηρύξεις ΑΣΕΠ: Σας κάνουμε την αίτηση",
+      "description": "Όπωςέχουμε ενημερώσει με δεκάδες ρεπορτάζ και προετοιμάσει τους αναγνώστες μας τρέχουν αυτή τη στιγμή μεγάλες προκηρύξεις για εκατοντάδες θέσεις στο Δημόσιο και οι πρώτες λήγουν τις επόμενες ημέρε:",
+      "published_date": "2026-10-12",
+      "published_time": "21:53",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93213_hiliades-proslipseis-me-petede-me-nees-prokiryxeis-asep-sas-kanoyme-tin-aitisi",
+      "source": "proson.gr"
+    },
     {
       "id": "93170",
       "title": "ΑΣΕΠ 2ΓΒ/2026: Βγήκαν τα προσωρινά αποτελέσματα για 4.747 μόνιμες προσλήψεις",
@@ -176,72 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92792_3os-panellinios-diagonismos-asep-oli-i-yli-gia-ola-ta-ptyhia",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92754",
-      "title": "ΑΣΕΠ: Βγαίνει η προκήρυξη γίγας για 4.000 θέσεις με μόνο απολυτήριο λυκείου",
-      "description": "Μία από τις μεγαλύτερες προκηρύξεις του ΑΣΕΠ για υποψηφίους Δευτεροβάθμιας Εκπαίδευσης βρίσκεταιστον προγραμματισμό για το επόμενο διάστημα, δημιουργώντας προοπτικές διορισμού σεχιλιάδες αποφοίτους Λυκείου, ΕΠΑΛ και επαγγελματικής κατάρτισης.",
-      "published_date": "2026-10-04",
-      "published_time": "19:16",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92754_asep-bgainei-i-prokiryxi-gigas-gia-4000-theseis-me-mono-apolytirio-lykeioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92693",
-      "title": "ΑΣΕΠ 1ΓΒ/2026: 2.628 μόνιμες προσλήψεις - Βγήκαν τα οριστικά αποτελέσματα",
-      "description": "Νωρίτερα από το αναμενόμενο δημοσιεύθηκαν τελικά ταοριστικά αποτελέσματατης προκήρυξης1ΓΒ/2026του ΑΣΕΠ, για την πλήρωση συνολικά2.628 θέσεων μόνιμου προσωπικούκαι προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου σε φορείς του Δημοσίου",
-      "published_date": "2026-10-02",
-      "published_time": "13:02",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92693_asep-1gb/2026-2628-monimes-proslipseis-bgikan-ta-oristika-apotelesmata",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92691",
-      "title": "Έκτακτο ΑΣΕΠ: Πήγε Τυπογραφείο η 7Κ/2026 - 3.262 μόνιμες θέσεις ΥΕ",
-      "description": "Έφυγε και επισήμως για το Εθνικό Τυπογραφείο η μεγάληπροκήρυξη 7Κ/2026 του ΑΣΕΠ, που προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο σε όλη την Ελλάδα,επιβεβαιώνοντας το σχετικό ρεπορτάζ του Proson.gr.",
-      "published_date": "2026-10-02",
-      "published_time": "12:34",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92691_ektakto-asep-pige-typografeio-i-7k/2026-3262-monimes-theseis-ye",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92679",
-      "title": "ΑΣΕΠ 1ΓΒ και 2ΓΒ/2026: Αγωνία τέλος - Βγαίνουν τα αποτελέσματα",
-      "description": "Τελειώνει η αγωνία για τους συμμετέχοντες Πανεπιστημιακής και Τεχνολογικής του δεύτερου γραπτού διαγωνισμού του ΑΣΕΠ, που διεξήχθη το καλοκαίρι του 2025, καθώς σύντομα αναμένονται τααποτελέσματα στις προκηρύξεις 1ΓΒ/2026 και 2ΓΒ/2026.",
-      "published_date": "2026-10-02",
-      "published_time": "10:52",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92679_asep-1gb-kai-2gb/2026-agonia-telos-bgainoyn-ta-apotelesmata",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92655",
-      "title": "ΑΣΕΠ: Σε λειτουργία και πάλι το help desk και οι ηλεκτρονικές υπηρεσίες",
-      "description": "Με την ολοκλήρωση των απαραίτητωνεργασιών συντήρησης και αναβάθμισης των πληροφοριακών συστημάτων του ΑΣΕΠ, οι οποίες πραγματοποιήθηκαν στο πλαίσιο του εκσυγχρονισμού τους και της ενίσχυσης της ασφαλούς και απρόσκοπτης λειτουργίας τους, οιηλεκτρονικέ",
-      "published_date": "2026-10-01",
-      "published_time": "15:03",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92655_asep-se-leitoyrgia-kai-pali-help-desk-kai-oi-ilektronikes-ypiresies",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92586",
-      "title": "Αποτελέσματα ΑΣΕΠ: Έρχονται 12.165 μόνιμες προσλήψεις στο Δημόσιο",
-      "description": "ΤοΑΣΕΠσυνεχίζει με αμείωτους ρυθμούς τηνεπεξεργασία δεκάδων προκηρύξεων για μόνιμες θέσεις στο Δημόσιο, καθώς το επόμενο διάστημα αναμένεται να προχωρήσει στηνέκδοση προσωρινών και οριστικών αποτελεσμάτων, στις διαδικασίεςαναπληρώσεωνυποψηφίων, καθώς",
-      "published_date": "2026-10-01",
-      "published_time": "05:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92586_apotelesmata-asep-erhontai-12165-monimes-proslipseis-sto-dimosio",
       "source": "proson.gr"
     }
   ]
