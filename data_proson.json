@@ -1,16 +1,38 @@
 {
-  "last_updated": "2026-10-14T14:10:23",
+  "last_updated": "2026-10-15T13:47:28",
   "total": 22,
   "articles": [
     {
-      "id": "93322",
-      "title": "Παπαϊωάννου για αποτελέσματα ΑΣΕΠ: «Οι αριθμοί μιλούν από μόνοι τους» - Τι είπε για τις καθυστερήσεις στις προκηρύξεις Υγείας",
-      "description": "Ο πρόεδρος του ΑΣΕΠ, κος Θάνος Παπαϊωάννου, προχώρησε σε διαδικτυακήανάρτησητονίζοντας τοσύντομο χρονικό διάστημαπου χρειάστηκεγια ναεκδοθούντα προσωρινά αποτελέσματα της προκήρυξης 2ΓΒ/2026, η οποία αφορά4.747 θέσεις μόνιμου προσωπικούκαι προσωπικού",
-      "published_date": null,
-      "published_time": null,
+      "id": "93404",
+      "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι σε Νοσοκομεία - Λήγουν τη Δευτέρα οι ενστάσεις",
+      "description": "Λήγει σύντομα η προθεσμία υποβολής των ενστάσεωνκατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορείς τουΥπουργείου Υγεί",
+      "published_date": "2026-10-15",
+      "published_time": "09:23",
       "deadline_start": null,
       "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
+      "url": "https://www.proson.gr/ergasia/asep/93404_asep-2k/2026-839-monimoi-se-nosokomeia-ligoyn-ti-deytera-oi-enstaseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93399",
+      "title": "ΑΣΕΠ: «Κληρώνουν» σήμερα 1.705 μόνιμες θέσεις (4Κ και 5Κ/2026)",
+      "description": "Στηντελική ευθεία για την έκδοση των προσωρινών αποτελεσμάτωνμπαίνουν οι προκηρύξεις4Κ/2026 και 5Κ/2026 του ΑΣΕΠ, καθώς σήμερα, Πέμπτη 15 Οκτωβρίου,ενεργοποιείται η ηλεκτρονική εφαρμογή λογισμικού ανοικτής κληρωτίδας.",
+      "published_date": "2026-10-15",
+      "published_time": "08:44",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93399_asep-klironoyn-simera-1705-monimes-theseis-4k-kai-5k/2026",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93321",
+      "title": "Θάνος Παπαϊωάννου στο proson.gr: Οι νέες προκηρύξεις του ΑΣΕΠ και ο «γρίφος» του νέου γραπτού διαγωνισμού",
+      "description": "Έναν πυκνό προγραμματισμό νέων προκηρύξεων και αποτελεσμάτων για το επόμενο διάστημα περιγράφει ο πρόεδρος του ΑΣΕΠ, Θάνος Παπαϊωάννου,σε συνέντευξή του στο Proson.gr. Μεταξύ άλλων, αναφέρεται στις χιλιάδες θέσεις που βρίσκονται σε διαδικασία προκήρυ",
+      "published_date": "2026-10-15",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93321_thanos-papaioannoy-sto-prosongr-oi-nees-prokiryxeis-toy-asep-kai-o-grifos-toy",
       "source": "proson.gr"
     },
     {
@@ -44,6 +66,17 @@
       "deadline_start": null,
       "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93331_apokleistiko-asep-bgainei-sto-telos-toy-oktobrioy-i-8k/2026-amea",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93322",
+      "title": "Παπαϊωάννου για αποτελέσματα ΑΣΕΠ: «Οι αριθμοί μιλούν από μόνοι τους» - Τι είπε για τις καθυστερήσεις στις προκηρύξεις Υγείας",
+      "description": "Ο πρόεδρος του ΑΣΕΠ, κος Θάνος Παπαϊωάννου, προχώρησε σε διαδικτυακήανάρτησητονίζοντας τοσύντομο χρονικό διάστημαπου χρειάστηκεγια ναεκδοθούντα προσωρινά αποτελέσματα της προκήρυξης 2ΓΒ/2026, η οποία αφορά4.747 θέσεις μόνιμου προσωπικούκαι προσωπικού",
+      "published_date": "2026-10-14",
+      "published_time": "10:29",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
       "source": "proson.gr"
     },
     {
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/92920_asep-7k/2026-monimes-proslipseis-apofoiton-gymnasioy-stin-aade",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92954",
-      "title": "ΑΣΕΠ 2Κ/2026: Βγήκαν τα προσωρινά αποτελέσματα για 839 μόνιμες θέσεις",
-      "description": "Σήμερα, Τετάρτη 7 Οκτωβρίου,εκδόθηκανκαι καταχωρίστηκαν στην ιστοσελίδα τουΑΣΕΠταπροσωρινά αποτελέσματα της προκήρυξης 2Κ/2026που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορε",
-      "published_date": "2026-10-07",
-      "published_time": "13:46",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92954_asep-2k/2026-bgikan-ta-prosorina-apotelesmata-gia-839-monimes-theseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92944",
-      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο υπουργείο Δικαιοσύνης",
-      "description": "Βρισκόμαστε εν αναμονή του ΦΕΚ τηςπροκήρυξης 7Κ/2026 του ΑΣΕΠ, που προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο σε όλη την Ελλάδα, για διάφορες ειδικότητες (δείτε τις όλες ΕΔΩ).",
-      "published_date": "2026-10-07",
-      "published_time": "12:56",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92944_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-dikaiosynis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92923",
-      "title": "ΑΣΕΠ 1ΓΕΠ/2026: Αυτή είναι η ημερομηνία της γραπτής εξέτασης",
-      "description": "Το ΑΣΕΠ ενημέρωσε πως οιυποψήφιοι της προκήρυξης 1ΓΕΠ/2026, για την κάλυψη της θέσης του Γενικού Επόπτη Νομιμότητας και θέσεων Εποπτών Νομιμότητας της Υπηρεσίας Γενικής Εποπτείας Νομιμότητας ΟΤΑ, καλούνται να λάβουν μέρος στηγραπτή ηλεκτρονική εξέτασ",
-      "published_date": "2026-10-07",
-      "published_time": "10:50",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92923_asep-1gep/2026-ayti-einai-i-imerominia-tis-graptis-exetasis",
       "source": "proson.gr"
     }
   ]
