@@ -1,7 +1,40 @@
 {
-  "last_updated": "2026-10-15T13:47:28",
+  "last_updated": "2026-10-16T13:37:27",
   "total": 22,
   "articles": [
+    {
+      "id": "93536",
+      "title": "ΑΣΕΠ: Σε εξέλιξη οι ενστάσεις για 5.586 μόνιμες προσλήψεις στο Δημόσιο",
+      "description": "Σε εξέλιξη βρίσκεται η διαδικασία υποβολής ενστάσεων για5.586 θέσεις μέσω ΑΣΕΠ, στο πλαίσιο των προκηρύξεων2ΓΒ/2026 και 2Κ/2026. Οι υποψήφιοι που διαφωνούν με τα προσωρινά αποτελέσματα θα πρέπει να προσέξουν τις καταληκτικές ημερομηνίες, καθώς η προθ",
+      "published_date": "2026-10-16",
+      "published_time": "15:21",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93536_asep-se-exelixi-oi-enstaseis-gia-5586-monimes-proslipseis-sto-dimosio",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93514",
+      "title": "Αναπληρώσεις ΑΣΕΠ 12Κ/2021: Ποιοι καλούνται σε επίκληση δικαιολογητικών",
+      "description": "Το ΑΣΕΠ καλεί τους υποψηφίους του κλάδου/ειδικότητας ΠΕ Νομικών (κωδ. 513) τηςπροκήρυξης 12Κ/2021να υποβάλουν ηλεκτρονικά τα απαιτούμενα δικαιολογητικά, για τηνπλήρωση 3 θέσεωνπροσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου Πανεπιστημι",
+      "published_date": "2026-10-16",
+      "published_time": "12:47",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93514_anapliroseis-asep-12k/2021-poioi-kaloyntai-se-epiklisi-dikaiologitikon",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93241",
+      "title": "ΑΣΕΠ 7Κ/2026: 3.262 μόνιμες θέσεις ΥΕ - Οι περιοχές με εντοπιότητα",
+      "description": "Συνολικά3.262 μόνιμου προσωπικού, καθώς και προσωπικό με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου, κατηγορίας Υποχρεωτικής Εκπαίδευσης (ΥΕ) σε φορείς του Δημοσίου προβλέπει ηπροκήρυξη 7/2026 του ΑΣΕΠ.",
+      "published_date": "2026-10-16",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93241_asep-7k/2026-3262-monimes-theseis-ye-oi-periohes-me-entopiotita",
+      "source": "proson.gr"
+    },
     {
       "id": "93404",
       "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι σε Νοσοκομεία - Λήγουν τη Δευτέρα οι ενστάσεις",
@@ -42,7 +75,7 @@
       "published_date": "2026-10-14",
       "published_time": "14:09",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93361_asep-enimerosi-gia-ti-hrisi-toy-mitrooy-thematon-gnoseon-apo-tritoys",
       "source": "proson.gr"
     },
@@ -75,7 +108,7 @@
       "published_date": "2026-10-14",
       "published_time": "10:29",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
       "source": "proson.gr"
     },
@@ -86,7 +119,7 @@
       "published_date": "2026-10-14",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93248_papaioannoy-gia-diorismoys-meso-asep-den-arkoyn-oi-gnoseis-kai-ta-ptyhia-poia",
       "source": "proson.gr"
     },
@@ -108,7 +141,7 @@
       "published_date": "2026-10-13",
       "published_time": "17:59",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-13",
       "url": "https://www.proson.gr/ergasia/asep/93293_asep-anoixe-thesi-ergasias-sto-ypoyrgeio-dikaiosynis",
       "source": "proson.gr"
     },
@@ -141,7 +174,7 @@
       "published_date": "2026-10-13",
       "published_time": "08:26",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-13",
       "url": "https://www.proson.gr/ergasia/asep/93220_papaioannoy-proedros-asep-sto-prosongr-giati-kathysteroyn-oi-diorismoi-sto",
       "source": "proson.gr"
     },
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93068_asep-graptos-gia-29976-proistamenoys-sto-dimosio-nea-egkyklios",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92996",
-      "title": "ΑΣΕΠ: 7Κ, 8Κ και 9Κ φέρουν 8.400 μόνιμες προσλήψεις στο Δημόσιο το 2026",
-      "description": "Το ΑΣΕΠ σχεδιάζει την πλήρωση περίπου8.400 μόνιμων θέσεων εργασίαςσε φορείς του Δημοσίου το επόμενο διάστημα, μέσω τριών μεγάλων προκηρύξεων, στα πρότυπα των αντίστοιχων 6Κ/2024, 7Κ/2024 και 8Κ/2024.",
-      "published_date": "2026-10-09",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92996_asep-7k-8k-kai-9k-feroyn-8400-monimes-proslipseis-sto-dimosio-2026",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92982",
-      "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμες θέσεις στο ΕΣΥ - Ξεκίνησαν οι ενστάσεις",
-      "description": "Ξεκίνησαν σήμερα οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορείς τουΥπουργείου Υγείαςκαι προσωπικού μ",
-      "published_date": "2026-10-08",
-      "published_time": "08:58",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92982_asep-2k/2026-839-monimes-theseis-sto-esy-xekinisan-oi-enstaseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92920",
-      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις απόφοιτων γυμνασίου στην ΑΑΔΕ",
-      "description": "Δημοσιεύεται πολύ σύντομα ηπροκήρυξη 7Κ/2026 του ΑΣΕΠ, που προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο σε όλη την Ελλάδα.",
-      "published_date": "2026-10-08",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92920_asep-7k/2026-monimes-proslipseis-apofoiton-gymnasioy-stin-aade",
       "source": "proson.gr"
     }
   ]
