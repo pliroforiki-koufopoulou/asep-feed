@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-10-16T13:37:27",
+  "last_updated": "2026-10-17T12:34:27",
   "total": 22,
   "articles": [
+    {
+      "id": "93543",
+      "title": "ΑΣΕΠ: Υπεγράφη μνημόνιο συνεργασίας με Αλβανία - Διαμόρφωση πλαισίου θεσμικής συνεργασίας",
+      "description": "Μνημόνιο Συνεργασίας υπεγράφηχθες, Πέμπτη 15 Οκτωβρίου 2026,μεταξύ του Προέδρου του ΑΣΕΠ, κ. Αθανασίου Παπαϊωάννου, και τηςΕπιτρόπουγια τηνΕποπτεία της Δημόσιας Διοίκησης της ΔημοκρατίαςτηςΑλβανίας, κυρίας Lefterije Lleshi.",
+      "published_date": "2026-10-16",
+      "published_time": "17:24",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93543_asep-ypegrafi-mnimonio-synergasias-me-albania-diamorfosi-plaisioy-thesmikis",
+      "source": "proson.gr"
+    },
     {
       "id": "93536",
       "title": "ΑΣΕΠ: Σε εξέλιξη οι ενστάσεις για 5.586 μόνιμες προσλήψεις στο Δημόσιο",
@@ -75,7 +86,7 @@
       "published_date": "2026-10-14",
       "published_time": "14:09",
       "deadline_start": null,
-      "deadline_end": "2026-10-14",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93361_asep-enimerosi-gia-ti-hrisi-toy-mitrooy-thematon-gnoseon-apo-tritoys",
       "source": "proson.gr"
     },
@@ -108,7 +119,7 @@
       "published_date": "2026-10-14",
       "published_time": "10:29",
       "deadline_start": null,
-      "deadline_end": "2026-10-14",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
       "source": "proson.gr"
     },
@@ -119,7 +130,7 @@
       "published_date": "2026-10-14",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": "2026-10-14",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93248_papaioannoy-gia-diorismoys-meso-asep-den-arkoyn-oi-gnoseis-kai-ta-ptyhia-poia",
       "source": "proson.gr"
     },
@@ -141,7 +152,7 @@
       "published_date": "2026-10-13",
       "published_time": "17:59",
       "deadline_start": null,
-      "deadline_end": "2026-10-13",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93293_asep-anoixe-thesi-ergasias-sto-ypoyrgeio-dikaiosynis",
       "source": "proson.gr"
     },
@@ -174,7 +185,7 @@
       "published_date": "2026-10-13",
       "published_time": "08:26",
       "deadline_start": null,
-      "deadline_end": "2026-10-13",
+      "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93220_papaioannoy-proedros-asep-sto-prosongr-giati-kathysteroyn-oi-diorismoi-sto",
       "source": "proson.gr"
     },
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93089_asep-2k/2026-839-monimoi-sto-esy-mehri-pote-oi-enstaseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93068",
-      "title": "ΑΣΕΠ: Γραπτός για 29.976 προϊσταμένους στο Δημόσιο – Νέα εγκύκλιος",
-      "description": "Νέες οδηγίες για την εφαρμογή του συστήματος επιλογήςπροϊσταμένων στο Δημόσιο μέσω ΑΣΕΠδίνει τουπουργείο Εσωτερικών, με εγκύκλιο που εκδόθηκε μετά την ψήφιση του νόμου 5331/2026.",
-      "published_date": "2026-10-09",
-      "published_time": "14:43",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93068_asep-graptos-gia-29976-proistamenoys-sto-dimosio-nea-egkyklios",
       "source": "proson.gr"
     }
   ]
