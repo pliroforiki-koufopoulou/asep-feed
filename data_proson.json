@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-10-17T12:34:27",
+  "last_updated": "2026-10-18T12:51:52",
   "total": 22,
   "articles": [
+    {
+      "id": "93425",
+      "title": "Μόνιμες προσλήψεις στα γραφεία του ΑΣΕΠ στην Αθήνα (7Κ/2026)",
+      "description": "Μόνιμες προσλήψεις στο ίδιο το ΑΣΕΠ προβλέπει ηπροκήρυξη 7Κ/2026, που προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο σε όλη την Ελλάδα.",
+      "published_date": "2026-10-18",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93425_monimes-proslipseis-sta-grafeia-toy-asep-stin-athina-7k/2026",
+      "source": "proson.gr"
+    },
     {
       "id": "93543",
       "title": "ΑΣΕΠ: Υπεγράφη μνημόνιο συνεργασίας με Αλβανία - Διαμόρφωση πλαισίου θεσμικής συνεργασίας",
@@ -9,7 +20,7 @@
       "published_date": "2026-10-16",
       "published_time": "17:24",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-16",
       "url": "https://www.proson.gr/ergasia/asep/93543_asep-ypegrafi-mnimonio-synergasias-me-albania-diamorfosi-plaisioy-thesmikis",
       "source": "proson.gr"
     },
@@ -86,7 +97,7 @@
       "published_date": "2026-10-14",
       "published_time": "14:09",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93361_asep-enimerosi-gia-ti-hrisi-toy-mitrooy-thematon-gnoseon-apo-tritoys",
       "source": "proson.gr"
     },
@@ -119,7 +130,7 @@
       "published_date": "2026-10-14",
       "published_time": "10:29",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
       "source": "proson.gr"
     },
@@ -130,7 +141,7 @@
       "published_date": "2026-10-14",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-14",
       "url": "https://www.proson.gr/ergasia/asep/93248_papaioannoy-gia-diorismoys-meso-asep-den-arkoyn-oi-gnoseis-kai-ta-ptyhia-poia",
       "source": "proson.gr"
     },
@@ -152,7 +163,7 @@
       "published_date": "2026-10-13",
       "published_time": "17:59",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-13",
       "url": "https://www.proson.gr/ergasia/asep/93293_asep-anoixe-thesi-ergasias-sto-ypoyrgeio-dikaiosynis",
       "source": "proson.gr"
     },
@@ -185,7 +196,7 @@
       "published_date": "2026-10-13",
       "published_time": "08:26",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-10-13",
       "url": "https://www.proson.gr/ergasia/asep/93220_papaioannoy-proedros-asep-sto-prosongr-giati-kathysteroyn-oi-diorismoi-sto",
       "source": "proson.gr"
     },
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93167_asep-3gb/2026-monimes-proslipseis-stin-eetaa-i-katanomi",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93089",
-      "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι στο ΕΣΥ - Μέχρι πότε οι ενστάσεις",
-      "description": "Σε πλήρη εξέλιξη βρίσκονται οιενστάσειςκατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορείς τουΥπουργείου Υγείαςκαι προ",
-      "published_date": "2026-10-10",
-      "published_time": "13:37",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93089_asep-2k/2026-839-monimoi-sto-esy-mehri-pote-oi-enstaseis",
       "source": "proson.gr"
     }
   ]
