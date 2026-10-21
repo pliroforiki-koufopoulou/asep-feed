@@ -1,16 +1,38 @@
 {
-  "last_updated": "2026-10-20T13:57:58",
+  "last_updated": "2026-10-21T14:13:44",
   "total": 22,
   "articles": [
     {
-      "id": "93605",
-      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμοι στο Δημόσιο - Από σήμερα οι αιτήσεις",
-      "description": "Ξεκινούν σήμερα Τρίτη, 20 Οκτωβρίου 2026 και ώρα 08:00το πρωίοι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
-      "published_date": null,
-      "published_time": null,
+      "id": "93746",
+      "title": "ΑΣΕΠ - Είναι επίσημο: Έρχεται προκήρυξη για 728 μόνιμες θέσεις ΑμεΑ",
+      "description": "Σύμφωνα με το τέταρτο τεύχος του ενημερωτικού δελτίου του ΑΣΕΠ, το οποίο αναρτήθηκεσήμερα, Τετάρτη 21 Οκτωβρίου, ετοιμάζεται καιδεύτερη προκήρυξηγια τηνκάλυψη 728 μόνιμων θέσεωνατόμων με αναπηρία(ΑμεΑ).",
+      "published_date": "2026-10-21",
+      "published_time": "16:11",
       "deadline_start": null,
       "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93605_asep-3gb/2026-97-monimoi-sto-dimosio-apo-simera-oi-aitiseis",
+      "url": "https://www.proson.gr/ergasia/asep/93746_asep-einai-episimo-erhetai-prokiryxi-gia-728-monimes-theseis-amea",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93739",
+      "title": "ΑΣΕΠ 1Κ/2026: Βγήκαν τα οριστικά αποτελέσματα για 324 μόνιμες προσλήψεις",
+      "description": "Σήμερα, Τετάρτη 21 Οκτωβρίου 2026,εκδόθηκανκαικαταχωρίστηκανστην ιστοσελίδα του ΑΣΕΠταοριστικά αποτελέσματατηςπροκήρυξης1Κ/2026για την πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων324 θέσεων μόνιμου προσωπικούΥποχρεωτικής Εκπαίδευσηςσε φορείς τουυπου",
+      "published_date": "2026-10-21",
+      "published_time": "14:37",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93739_asep-1k/2026-bgikan-ta-oristika-apotelesmata-gia-324-monimes-proslipseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93729",
+      "title": "ΑΣΕΠnews: Κυκλοφόρησε το τέταρτο τεύχος του ενημερωτικού δελτίου",
+      "description": "ΤοΑΣΕΠδημοσίευσεσήμερα, Τετάρτη 21 Οκτωβρίου, τοτέταρτο τεύχοςτου ηλεκτρονικού ενημερωτικού δελτίου«ΑΣΕΠnews», συνεχίζοντας την τακτική ενημέρωση των πολιτών, των υποψηφίων και των φορέωνγια τις σημαντικότερες εξελίξεις και δράσειςτης Ανεξάρτητης Αρχ",
+      "published_date": "2026-10-21",
+      "published_time": "11:14",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93729_asepnews-kykloforise-tetarto-teyhos-toy-enimerotikoy-deltioy",
       "source": "proson.gr"
     },
     {
@@ -22,6 +44,17 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93667_xenes-glosses-ypohreotiko-b2-prin-apo-c2-asep-apanta",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93605",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμοι στο Δημόσιο - Από σήμερα οι αιτήσεις",
+      "description": "Ξεκινούν σήμερα Τρίτη, 20 Οκτωβρίου 2026 και ώρα 08:00το πρωίοι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-10-20",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93605_asep-3gb/2026-97-monimoi-sto-dimosio-apo-simera-oi-aitiseis",
       "source": "proson.gr"
     },
     {
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93293_asep-anoixe-thesi-ergasias-sto-ypoyrgeio-dikaiosynis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93289",
-      "title": "ΑΣΕΠ: Αλλαγή στην προκήρυξη 3ΓΒ/2026 - Τι προβλέπει νέο ΦΕΚ",
-      "description": "Αλλαγέςστηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ, η οποία αφορά97 θέσεις στο Δημόσιο, προβλέπεινεό ΦΕΚπου δημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως.",
-      "published_date": "2026-10-13",
-      "published_time": "16:57",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93289_asep-allagi-stin-prokiryxi-3gb/2026-ti-problepei-neo-fek",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93227",
-      "title": "ΑΣΕΠ 2ΓΒ/2026: Ξεκίνησαν οι ενστάσεις για 4.747 μόνιμες θέσεις",
-      "description": "Ξεκίνησαν σήμερα Τρίτη, 13 Οκτωβρίου 2026 οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2ΓΒ/2026, για  πλήρωση συνολικά4.747 θέσεων μόνιμου προσωπικούκαι προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου κατηγορίαςΠανεπιστ",
-      "published_date": "2026-10-13",
-      "published_time": "09:24",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93227_asep-2gb/2026-xekinisan-oi-enstaseis-gia-4747-monimes-theseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93220",
-      "title": "Παπαϊωάννου (πρόεδρος ΑΣΕΠ) στο Proson.gr: Γιατί καθυστερούν οι διορισμοί στο Δημόσιο",
-      "description": "Οικαθυστερήσειςστις προσλήψεις του Δημοσίου εξακολουθούν να αποτελούν ένα από ταβασικά ζητήματαπου απασχολούν τους υποψηφίους των προκηρύξεων του ΑΣΕΠ. Παρά τη μείωση του χρόνου έκδοσης των οριστικών αποτελεσμάτων τα τελευταία χρόνια, η ολοκλήρωση τω",
-      "published_date": "2026-10-13",
-      "published_time": "08:26",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93220_papaioannoy-proedros-asep-sto-prosongr-giati-kathysteroyn-oi-diorismoi-sto",
       "source": "proson.gr"
     }
   ]
