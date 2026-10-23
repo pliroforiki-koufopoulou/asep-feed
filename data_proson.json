@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-10-22T14:13:02",
+  "last_updated": "2026-10-23T13:55:57",
   "total": 22,
   "articles": [
+    {
+      "id": "93836",
+      "title": "ΑΣΕΠ: Στο Τυπογραφείο η 1Ε/2026 για Ελεγκτές Ιατρούς",
+      "description": "ΤοΑΣΕΠέστειλεσήμερα, Παρασκευή 23 Οκτωβρίου,στο Εθνικό Τυπογραφείογιαδημοσίευσητηνπροκήρυξη 1Ε/2026, η οποία αφορά στηνπλήρωσησυνολικά10 θέσεων Ελεγκτών Ιατρών.",
+      "published_date": "2026-10-23",
+      "published_time": "15:43",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93836_asep-sto-typografeio-i-1e/2026-gia-elegktes-iatroys",
+      "source": "proson.gr"
+    },
+    {
+      "id": "93782",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμες προσλήψεις σε φορείς του Δημοσίου - Η κατανομή",
+      "description": "Σε πλήρηεξέλιξηβρίσκονται οιαιτήσειςστηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-10-23",
+      "published_time": "04:00",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93782_asep-3gb/2026-97-monimes-proslipseis-se-foreis-toy-dimosioy-i-katanomi",
+      "source": "proson.gr"
+    },
     {
       "id": "93780",
       "title": "ΑΣΕΠ 4Κ/2026: Εκδόθηκαν τα προσωρινά αποτελέσματα για μόνιμους στα νοσοκομεία",
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93336_asep-4k/2026-kai-5k/2026-ayrio-i-anoikti-klirotida-erhontai-ta-prosorina",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93331",
-      "title": "Αποκλειστικό ΑΣΕΠ: Βγαίνει στο τέλος του Οκτωβρίου η 8Κ/2026 (ΑμεΑ)",
-      "description": "Αποκλειστικές πληροφορίες για τη νέαπροκήρυξη 8Κ/2026 του ΑΣΕΠπαρουσιάζει το proson.gr, καθώς, σύμφωνα με όσα αποκάλυψε ο πρόεδρος της Αρχής, Θάνος Παπαϊωάννου, η έκδοσή της αναμένεταιέως το τέλος Οκτωβρίου. Η προκήρυξη αφορά προσλήψεις στο Δημόσιο κ",
-      "published_date": "2026-10-14",
-      "published_time": "11:28",
-      "deadline_start": null,
-      "deadline_end": "2026-10-14",
-      "url": "https://www.proson.gr/ergasia/asep/93331_apokleistiko-asep-bgainei-sto-telos-toy-oktobrioy-i-8k/2026-amea",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93322",
-      "title": "Παπαϊωάννου για αποτελέσματα ΑΣΕΠ: «Οι αριθμοί μιλούν από μόνοι τους» - Τι είπε για τις καθυστερήσεις στις προκηρύξεις Υγείας",
-      "description": "Ο πρόεδρος του ΑΣΕΠ, κος Θάνος Παπαϊωάννου, προχώρησε σε διαδικτυακήανάρτησητονίζοντας τοσύντομο χρονικό διάστημαπου χρειάστηκεγια ναεκδοθούντα προσωρινά αποτελέσματα της προκήρυξης 2ΓΒ/2026, η οποία αφορά4.747 θέσεις μόνιμου προσωπικούκαι προσωπικού",
-      "published_date": "2026-10-14",
-      "published_time": "10:29",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93322_papaioannoy-gia-apotelesmata-asep-oi-arithmoi-miloyn-apo-monoi-toys-ti-eipe-gia",
       "source": "proson.gr"
     }
   ]
