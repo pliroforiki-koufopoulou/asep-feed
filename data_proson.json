@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-10-25T13:26:53",
+  "last_updated": "2026-10-26T15:36:37",
   "total": 22,
   "articles": [
+    {
+      "id": "93905",
+      "title": "ΑΣΕΠ 2ΓΒ/2026: Πώς κατανέμονται 3.819 μόνιμες θέσεις στο Δημόσιο (ΦΕΚ)",
+      "description": "Δημοσιεύθηκε σεΦΕΚ η κατανομή των 3.819 θέσεωνπου αντιστοιχούν στους διοριστέους τηςπροκήρυξης2ΓΒ/2026του ΑΣΕΠ, για την πλήρωση θέσεων μόνιμου προσωπικού και προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου σε φορείς του Δημοσίου.",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93905_asep-2gb/2026-pos-katanemontai-3819-monimes-theseis-sto-dimosio-fek",
+      "source": "proson.gr"
+    },
     {
       "id": "93836",
       "title": "ΑΣΕΠ: Στο Τυπογραφείο η 1Ε/2026 για Ελεγκτές Ιατρούς",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93361_asep-enimerosi-gia-ti-hrisi-toy-mitrooy-thematon-gnoseon-apo-tritoys",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93336",
-      "title": "ΑΣΕΠ 4Κ/2026 και 5Κ/2026: Αύριο η ανοικτή κληρωτίδα - Έρχονται τα προσωρινά αποτελέσματα",
-      "description": "ΤοΑΣΕΠανακοίνωσε ότι θα προβείστην διαδικασία ενεργοποίησης της ηλεκτρονικής εφαρμογής λογισμικούανοικτής κληρωτίδαςγια τις προκηρύξεις4Κ/2026 και 5Κ/2026.",
-      "published_date": "2026-10-14",
-      "published_time": "11:54",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93336_asep-4k/2026-kai-5k/2026-ayrio-i-anoikti-klirotida-erhontai-ta-prosorina",
       "source": "proson.gr"
     }
   ]
