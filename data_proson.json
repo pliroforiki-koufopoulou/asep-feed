@@ -1,13 +1,24 @@
 {
-  "last_updated": "2026-10-27T15:00:59",
+  "last_updated": "2026-10-28T15:36:50",
   "total": 22,
   "articles": [
+    {
+      "id": "93934",
+      "title": "ΑΣΕΠ: Μόνιμες θέσεις σε οκτώ Υπουργεία - Ποιοι τις διεκδικούν",
+      "description": "Σε πλήρη εξέλιξη βρίσκονταιοι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-10-28",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/93934_asep-monimes-theseis-se-okto-ypoyrgeia-poioi-tis-diekdikoyn",
+      "source": "proson.gr"
+    },
     {
       "id": "94000",
       "title": "ΑΣΕΠ 4Κ/2026: Μόνιμοι στο ΕΣΥ - Μέχρι τις 2 Νοεμβρίου οι ενστάσεις",
       "description": "Συνεχίζεται η υποβολή των ενστάσεων κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 4Κ/2026 του ΑΣΕΠ, για την πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,64 θέσεων μόνιμου προσωπικού Πανεπιστημιακής Εκπαίδευσηςσε φορείς τουυπουργείου Υγείας.",
-      "published_date": null,
-      "published_time": null,
+      "published_date": "2026-10-27",
+      "published_time": "10:22",
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94000_asep-4k/2026-monimoi-sto-esy-mehri-tis-2-noembrioy-oi-enstaseis",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93404_asep-2k/2026-839-monimoi-se-nosokomeia-ligoyn-ti-deytera-oi-enstaseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93399",
-      "title": "ΑΣΕΠ: «Κληρώνουν» σήμερα 1.705 μόνιμες θέσεις (4Κ και 5Κ/2026)",
-      "description": "Στηντελική ευθεία για την έκδοση των προσωρινών αποτελεσμάτωνμπαίνουν οι προκηρύξεις4Κ/2026 και 5Κ/2026 του ΑΣΕΠ, καθώς σήμερα, Πέμπτη 15 Οκτωβρίου,ενεργοποιείται η ηλεκτρονική εφαρμογή λογισμικού ανοικτής κληρωτίδας.",
-      "published_date": "2026-10-15",
-      "published_time": "08:44",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93399_asep-klironoyn-simera-1705-monimes-theseis-4k-kai-5k/2026",
       "source": "proson.gr"
     }
   ]
