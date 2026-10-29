@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-10-28T15:36:50",
+  "last_updated": "2026-10-29T15:43:16",
   "total": 22,
   "articles": [
+    {
+      "id": "94103",
+      "title": "Προσλήψεις σε Δήμους: 112 προσλήψεις χωρίς πτυχίο στη Λάρισα",
+      "description": "ΟΔήμος Λαρισαίωνανακοινώνει την πρόσληψη, με συμβάσεις εργασίας ιδιωτικού δικαίου ορισμένου χρόνου,συνολικά 112 ατόμωνγια την κάλυψη αναγκών ανταποδοτικού χαρακτήρα.",
+      "published_date": "2026-10-29",
+      "published_time": "09:45",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94103_proslipseis-se-dimoys-112-proslipseis-horis-ptyhio-sti-larisa",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94006",
+      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο υπουργείο Ανάπτυξης",
+      "description": "Ξεκινά αύριο η διαδικασία υποβολής των αιτήσεων συμμετοχής στην προκήρυξηη προκήρυξη 7Κ/2026 του ΑΣΕΠπου απεστάλη τηνΠαρασκευή, 2 Οκτωβρίου στο Εθνικό Τυπογραφείο, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
+      "published_date": "2026-10-29",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94006_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-anaptyxis",
+      "source": "proson.gr"
+    },
     {
       "id": "93934",
       "title": "ΑΣΕΠ: Μόνιμες θέσεις σε οκτώ Υπουργεία - Ποιοι τις διεκδικούν",
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93514_anapliroseis-asep-12k/2021-poioi-kaloyntai-se-epiklisi-dikaiologitikon",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93241",
-      "title": "ΑΣΕΠ 7Κ/2026: 3.262 μόνιμες θέσεις ΥΕ - Οι περιοχές με εντοπιότητα",
-      "description": "Συνολικά3.262 μόνιμου προσωπικού, καθώς και προσωπικό με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου, κατηγορίας Υποχρεωτικής Εκπαίδευσης (ΥΕ) σε φορείς του Δημοσίου προβλέπει ηπροκήρυξη 7/2026 του ΑΣΕΠ.",
-      "published_date": "2026-10-16",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93241_asep-7k/2026-3262-monimes-theseis-ye-oi-periohes-me-entopiotita",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93404",
-      "title": "ΑΣΕΠ 2Κ/2026: 839 μόνιμοι σε Νοσοκομεία - Λήγουν τη Δευτέρα οι ενστάσεις",
-      "description": "Λήγει σύντομα η προθεσμία υποβολής των ενστάσεωνκατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορoύν στην πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,839 θέσεων μόνιμου προσωπικούΤεχνολογικής Εκπαίδευσης σε φορείς τουΥπουργείου Υγεί",
-      "published_date": "2026-10-15",
-      "published_time": "09:23",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93404_asep-2k/2026-839-monimoi-se-nosokomeia-ligoyn-ti-deytera-oi-enstaseis",
       "source": "proson.gr"
     }
   ]
