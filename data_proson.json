@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-10-30T15:26:03",
+  "last_updated": "2026-10-31T14:54:14",
   "total": 22,
   "articles": [
     {
-      "id": "94186",
-      "title": "Νέα προκήρυξη ΑΣΕΠ: 400 μόνιμες προσλήψεις στο Δημόσιο (5ΓΒ/2026)",
-      "description": "Μιαολοκαίνουργια προκήρυξηετοιμάζει το ΑΣΕΠ, σύμφωνα με πληροφορίες του proson.gr, για τους συμμετέχοντες Πανεπιστημιακής και Τεχνολογικής Εκπαίδευσης του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
-      "published_date": null,
-      "published_time": null,
+      "id": "94188",
+      "title": "ΑΣΕΠ: «Κλειδώνουν» 3.800 μόνιμες προσλήψεις απόφοιτων λυκείου",
+      "description": "Περίπου3.800 μόνιμες θέσεις εργασίαςεκτιμάται ότι θα περιλαμβάνει η νέα μεγάλη προκήρυξη του ΑΣΕΠ, η οποία θα απευθύνεται αποκλειστικά σε αποφοίτους Λυκείου. Σύμφωνα με πληροφορίες τουproson.gr, η προκήρυξη αφορά την κατηγορία Δευτεροβάθμιας Εκπαίδευ",
+      "published_date": "2026-10-31",
+      "published_time": "06:00",
       "deadline_start": null,
       "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94186_nea-prokiryxi-asep-400-monimes-proslipseis-sto-dimosio-5gb/2026",
+      "url": "https://www.proson.gr/ergasia/asep/94188_asep-kleidonoyn-3800-monimes-proslipseis-apofoiton-lykeioy",
       "source": "proson.gr"
     },
     {
@@ -33,6 +33,17 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94187_asep-8k/2026-ena-bima-prin-apo-typografeio-1138-monimes-theseis-gia-amea",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94186",
+      "title": "Νέα προκήρυξη ΑΣΕΠ: 400 μόνιμες προσλήψεις στο Δημόσιο (5ΓΒ/2026)",
+      "description": "Μιαολοκαίνουργια προκήρυξηετοιμάζει το ΑΣΕΠ, σύμφωνα με πληροφορίες του proson.gr, για τους συμμετέχοντες Πανεπιστημιακής και Τεχνολογικής Εκπαίδευσης του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-10-30",
+      "published_time": "14:50",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94186_nea-prokiryxi-asep-400-monimes-proslipseis-sto-dimosio-5gb/2026",
       "source": "proson.gr"
     },
     {
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93605_asep-3gb/2026-97-monimoi-sto-dimosio-apo-simera-oi-aitiseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "92699",
-      "title": "ΑΣΕΠ 7Κ/2026: Βγήκε το ΦΕΚ για 3.262 μόνιμους ΥΕ - Ξεκινούν οι αιτήσεις",
-      "description": "Δημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως η μεγάληπροκήρυξη 7Κ/2026 του ΑΣΕΠπουαπεστάλη την Παρασκευή, 2 Οκτωβρίου στο Εθνικό Τυπογραφείο, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο.",
-      "published_date": "2026-10-19",
-      "published_time": "08:26",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/92699_asep-7k/2026-bgike-fek-gia-3262-monimoys-ye-xekinoyn-oi-aitiseis",
       "source": "proson.gr"
     }
   ]
