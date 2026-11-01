@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-10-31T14:54:14",
+  "last_updated": "2026-11-01T15:34:31",
   "total": 22,
   "articles": [
+    {
+      "id": "94113",
+      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο Υπουργείο Οικογένειας",
+      "description": "Ξεκίνησαν οι αιτήσεις στηνμεγάλη προκήρυξη 7Κ/2026 του ΑΣΕΠπου απεστάλη τηνΠαρασκευή, 2 Οκτωβρίου στο Εθνικό Τυπογραφείο, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
+      "published_date": "2026-11-01",
+      "published_time": "04:32",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94113_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-oikogeneias",
+      "source": "proson.gr"
+    },
     {
       "id": "94188",
       "title": "ΑΣΕΠ: «Κλειδώνουν» 3.800 μόνιμες προσλήψεις απόφοιτων λυκείου",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93667_xenes-glosses-ypohreotiko-b2-prin-apo-c2-asep-apanta",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93605",
-      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμοι στο Δημόσιο - Από σήμερα οι αιτήσεις",
-      "description": "Ξεκινούν σήμερα Τρίτη, 20 Οκτωβρίου 2026 και ώρα 08:00το πρωίοι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
-      "published_date": "2026-10-20",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93605_asep-3gb/2026-97-monimoi-sto-dimosio-apo-simera-oi-aitiseis",
       "source": "proson.gr"
     }
   ]
