@@ -1,7 +1,40 @@
 {
-  "last_updated": "2026-11-01T15:34:31",
+  "last_updated": "2026-11-02T18:57:52",
   "total": 22,
   "articles": [
+    {
+      "id": "94289",
+      "title": "ΑΣΕΠ 1ΓΕΠ/2026: Πόσοι υποψήφιοι συμμετείχαν στις εξετάσεις",
+      "description": "Το Σάββατο 31 Οκτωβρίου 2026 διεξήχθη ηγραπτή ηλεκτρονική εξέτασηγια την κάλυψη της θέσης του Γενικού Επόπτη Νομιμότητας και θέσεων Εποπτών Νομιμότητας της Υπηρεσίας Γενικής Εποπτείας Νομιμότητας ΟΤΑ, στο πλαίσιο τηςπρόσκλησης 1ΓΕΠ/2026.",
+      "published_date": "2026-11-02",
+      "published_time": "13:04",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94289_asep-1gep/2026-posoi-ypopsifioi-symmeteihan-stis-exetaseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94023",
+      "title": "ΑΣΕΠ 4Κ/2026: Μόνιμοι στο ΕΣΥ - Μέχρι σήμερα οι ενστάσεις για 64 μόνιμους",
+      "description": "Μέχρι σήμερα,Δευτέρα 2 Νοεμβρίου 2026 και ώρα 14:00,θα γίνει δεκτή η υποβολή των ενστάσεων κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 4Κ/2026 του ΑΣΕΠ, για την πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,64 θέσεων μόνιμου προσωπικού Πανεπιστημ",
+      "published_date": "2026-11-02",
+      "published_time": "05:00",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94023_asep-4k/2026-monimoi-sto-esy-mehri-simera-oi-enstaseis-gia-64-monimoys",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94111",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: 97 μόνιμοι στο Δημόσιο - Λήγουν οι αιτήσεις",
+      "description": "Σε εξέλιξη βρίσκονται από την Τρίτη, 20 Οκτωβρίου 2026 οι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
+      "published_date": "2026-11-02",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94111_asep-3gb/2026-97-monimoi-sto-dimosio-ligoyn-oi-aitiseis",
+      "source": "proson.gr"
+    },
     {
       "id": "94113",
       "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο Υπουργείο Οικογένειας",
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93746_asep-einai-episimo-erhetai-prokiryxi-gia-728-monimes-theseis-amea",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93739",
-      "title": "ΑΣΕΠ 1Κ/2026: Βγήκαν τα οριστικά αποτελέσματα για 324 μόνιμες προσλήψεις",
-      "description": "Σήμερα, Τετάρτη 21 Οκτωβρίου 2026,εκδόθηκανκαικαταχωρίστηκανστην ιστοσελίδα του ΑΣΕΠταοριστικά αποτελέσματατηςπροκήρυξης1Κ/2026για την πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων324 θέσεων μόνιμου προσωπικούΥποχρεωτικής Εκπαίδευσηςσε φορείς τουυπου",
-      "published_date": "2026-10-21",
-      "published_time": "14:37",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93739_asep-1k/2026-bgikan-ta-oristika-apotelesmata-gia-324-monimes-proslipseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93729",
-      "title": "ΑΣΕΠnews: Κυκλοφόρησε το τέταρτο τεύχος του ενημερωτικού δελτίου",
-      "description": "ΤοΑΣΕΠδημοσίευσεσήμερα, Τετάρτη 21 Οκτωβρίου, τοτέταρτο τεύχοςτου ηλεκτρονικού ενημερωτικού δελτίου«ΑΣΕΠnews», συνεχίζοντας την τακτική ενημέρωση των πολιτών, των υποψηφίων και των φορέωνγια τις σημαντικότερες εξελίξεις και δράσειςτης Ανεξάρτητης Αρχ",
-      "published_date": "2026-10-21",
-      "published_time": "11:14",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93729_asepnews-kykloforise-tetarto-teyhos-toy-enimerotikoy-deltioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93667",
-      "title": "Ξένες γλώσσες: Υποχρεωτικό το Β2 πριν από το C2; Το ΑΣΕΠ απαντά",
-      "description": "Δεν προβλέπεται γενικός κανόνας που να ορίζει υποχρεωτικό χρονικό διάστημα ανάμεσα στην απόκτηση πιστοποιητικών διαφορετικών επιπέδων γλωσσομάθειας, όπως τοΒ2 και το C2, σύμφωνα με διευκρίνιση του ΑΣΕΠ σε έγγραφη απάντησή του προς τη Βουλή.",
-      "published_date": "2026-10-20",
-      "published_time": "09:17",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93667_xenes-glosses-ypohreotiko-b2-prin-apo-c2-asep-apanta",
       "source": "proson.gr"
     }
   ]
