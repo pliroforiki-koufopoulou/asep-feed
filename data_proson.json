@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-11-05T16:56:27",
+  "last_updated": "2026-11-06T16:28:31",
   "total": 22,
   "articles": [
+    {
+      "id": "94418",
+      "title": "Ανοικτές μόνιμες θέσεις στα γραφεία του ΑΣΕΠ στην Αθήνα (7Κ/2026)",
+      "description": "Σε εξέλιξη βρίσκονται οι αιτήσεις στηνμεγάλη προκήρυξη 7Κ/2026 του ΑΣΕΠ, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
+      "published_date": "2026-11-06",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94418_anoiktes-monimes-theseis-sta-grafeia-toy-asep-stin-athina-7k/2026",
+      "source": "proson.gr"
+    },
     {
       "id": "94445",
       "title": "ΑΣΕΠ 3ΓΒ/2026: Τέλος χρόνου για 97 μόνιμες προσλήψεις στο Δημόσιο",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94000_asep-4k/2026-monimoi-sto-esy-mehri-tis-2-noembrioy-oi-enstaseis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93922",
-      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες θέσεις στα υπουργεία Εξωτερικών και Εργασίας",
-      "description": "Λίγες ημέρες απομένουν για την έναρξη υποβολής των αιτήσεων συμμετοχής στην προκήρυξηη προκήρυξη 7Κ/2026 του ΑΣΕΠπου απεστάλη τηνΠαρασκευή, 2 Οκτωβρίου στο Εθνικό Τυπογραφείο, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημ",
-      "published_date": "2026-10-27",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93922_asep-7k/2026-monimes-theseis-sta-ypoyrgeia-exoterikon-kai-ergasias",
       "source": "proson.gr"
     }
   ]
