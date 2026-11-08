@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-11-07T15:15:56",
+  "last_updated": "2026-11-08T15:39:39",
   "total": 22,
   "articles": [
+    {
+      "id": "94421",
+      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις χωρίς πτυχίο στο Υπουργείο Υγείας",
+      "description": "Σε εξέλιξη βρίσκονται οι αιτήσεις στηνμεγάλη προκήρυξη 7Κ/2026 του ΑΣΕΠ, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
+      "published_date": "2026-11-08",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94421_asep-7k/2026-monimes-proslipseis-horis-ptyhio-sto-ypoyrgeio-ygeias",
+      "source": "proson.gr"
+    },
     {
       "id": "94418",
       "title": "Ανοικτές μόνιμες θέσεις στα γραφεία του ΑΣΕΠ στην Αθήνα (7Κ/2026)",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/93934_asep-monimes-theseis-se-okto-ypoyrgeia-poioi-tis-diekdikoyn",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94000",
-      "title": "ΑΣΕΠ 4Κ/2026: Μόνιμοι στο ΕΣΥ - Μέχρι τις 2 Νοεμβρίου οι ενστάσεις",
-      "description": "Συνεχίζεται η υποβολή των ενστάσεων κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 4Κ/2026 του ΑΣΕΠ, για την πλήρωση με σειρά προτεραιότητας, μεταξύ άλλων,64 θέσεων μόνιμου προσωπικού Πανεπιστημιακής Εκπαίδευσηςσε φορείς τουυπουργείου Υγείας.",
-      "published_date": "2026-10-27",
-      "published_time": "10:22",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94000_asep-4k/2026-monimoi-sto-esy-mehri-tis-2-noembrioy-oi-enstaseis",
       "source": "proson.gr"
     }
   ]
