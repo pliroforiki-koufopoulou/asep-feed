@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-11-08T15:39:39",
+  "last_updated": "2026-11-09T19:18:56",
   "total": 22,
   "articles": [
+    {
+      "id": "94651",
+      "title": "ΑΣΕΠ 3ΓΒ/2026: Ποιοι διεκδικούν τις 97 μόνιμες θέσεις - Τα στατιστικά",
+      "description": "Τα στατιστικά συμμετοχής στηνπροκήρυξη 3ΓΒ/2026, η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025) δημοσιοποίησε ήμερα το ΑΣΕΠ, ύστερα από τηνλήξη της προθεσμίας υποβολής των",
+      "published_date": "2026-11-09",
+      "published_time": "14:16",
+      "deadline_start": null,
+      "deadline_end": "2026-11-08",
+      "url": "https://www.proson.gr/ergasia/asep/94651_asep-3gb/2026-poioi-diekdikoyn-tis-97-monimes-theseis-ta-statistika",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94635",
+      "title": "Παπαϊωάννου (Πρόεδρος ΑΣΕΠ): Γιατί οι Δήμοι δυσκολεύονται να βρουν προσωπικό",
+      "description": "ΟΠρόεδρος του ΑΣΕΠ, κ. Αθανάσιος Παπαϊωάννου, συμμετείχε και μίλησε στο Ετήσιο Τακτικό Συνέδριο της Κεντρικής Ένωσης Δήμων Ελλάδας (ΚΕΔΕ), το οποίο πραγματοποιήθηκε στην Καλαμάτα από τις 5 έως τις 7 Νοεμβρίου 2026, αναδεικνύοντας τιςβασικές προκλήσει",
+      "published_date": "2026-11-09",
+      "published_time": "12:07",
+      "deadline_start": null,
+      "deadline_end": "2026-11-09",
+      "url": "https://www.proson.gr/ergasia/asep/94635_papaioannoy-proedros-asep-giati-oi-dimoi-dyskoleyontai-na-broyn-prosopiko",
+      "source": "proson.gr"
+    },
     {
       "id": "94421",
       "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις χωρίς πτυχίο στο Υπουργείο Υγείας",
@@ -9,7 +31,7 @@
       "published_date": "2026-11-08",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94421_asep-7k/2026-monimes-proslipseis-horis-ptyhio-sto-ypoyrgeio-ygeias",
       "source": "proson.gr"
     },
@@ -20,7 +42,7 @@
       "published_date": "2026-11-06",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94418_anoiktes-monimes-theseis-sta-grafeia-toy-asep-stin-athina-7k/2026",
       "source": "proson.gr"
     },
@@ -31,7 +53,7 @@
       "published_date": "2026-11-05",
       "published_time": "05:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94445_asep-3gb/2026-telos-hronoy-gia-97-monimes-proslipseis-sto-dimosio",
       "source": "proson.gr"
     },
@@ -42,7 +64,7 @@
       "published_date": "2026-11-04",
       "published_time": "12:56",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94435_asep-2e/2026-erhetai-nea-prokiryxi-gia-theseis-stin-eadisy",
       "source": "proson.gr"
     },
@@ -53,7 +75,7 @@
       "published_date": "2026-11-04",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94340_asep-erhontai-9454-monimes-proslipseis-se-oli-tin-ellada-pe-te-de-ye",
       "source": "proson.gr"
     },
@@ -64,7 +86,7 @@
       "published_date": "2026-11-03",
       "published_time": "17:51",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94393_dimos-larisaion-112-proslipseis-horis-ptyhio-pote-ligoyn-oi-aitiseis",
       "source": "proson.gr"
     },
@@ -75,7 +97,7 @@
       "published_date": "2026-11-03",
       "published_time": "13:57",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94374_asep-proslipsi-gia-4-hronia-stin-ethniki-epitropi-bioithikis-kai-tehnoithikis",
       "source": "proson.gr"
     },
@@ -86,7 +108,7 @@
       "published_date": "2026-11-03",
       "published_time": "05:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94284_apotelesmata-asep-thema-hronoy-9159-monimes-proslipseis",
       "source": "proson.gr"
     },
@@ -97,7 +119,7 @@
       "published_date": "2026-11-03",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94264_asep-dyo-prokiryxeis-gia-3300-monimes-proslipseis-sto-dimosio",
       "source": "proson.gr"
     },
@@ -108,7 +130,7 @@
       "published_date": "2026-11-02",
       "published_time": "13:04",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94289_asep-1gep/2026-posoi-ypopsifioi-symmeteihan-stis-exetaseis",
       "source": "proson.gr"
     },
@@ -119,7 +141,7 @@
       "published_date": "2026-11-02",
       "published_time": "05:00",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94023_asep-4k/2026-monimoi-sto-esy-mehri-simera-oi-enstaseis-gia-64-monimoys",
       "source": "proson.gr"
     },
@@ -130,7 +152,7 @@
       "published_date": "2026-11-02",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94111_asep-3gb/2026-97-monimoi-sto-dimosio-ligoyn-oi-aitiseis",
       "source": "proson.gr"
     },
@@ -141,7 +163,7 @@
       "published_date": "2026-11-01",
       "published_time": "04:32",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94113_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-oikogeneias",
       "source": "proson.gr"
     },
@@ -152,7 +174,7 @@
       "published_date": "2026-10-31",
       "published_time": "06:00",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94188_asep-kleidonoyn-3800-monimes-proslipseis-apofoiton-lykeioy",
       "source": "proson.gr"
     },
@@ -163,7 +185,7 @@
       "published_date": "2026-10-30",
       "published_time": "15:12",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94189_asep-emfanistike-nea-prokiryxi-gia-700-monimes-proslipseis-amea",
       "source": "proson.gr"
     },
@@ -174,7 +196,7 @@
       "published_date": "2026-10-30",
       "published_time": "14:50",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94187_asep-8k/2026-ena-bima-prin-apo-typografeio-1138-monimes-theseis-gia-amea",
       "source": "proson.gr"
     },
@@ -185,7 +207,7 @@
       "published_date": "2026-10-30",
       "published_time": "14:50",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94186_nea-prokiryxi-asep-400-monimes-proslipseis-sto-dimosio-5gb/2026",
       "source": "proson.gr"
     },
@@ -196,7 +218,7 @@
       "published_date": "2026-10-30",
       "published_time": "10:21",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94157_asep-1k/2026-oristika-apotelesmata-gia-186-monimoys-sto-esy",
       "source": "proson.gr"
     },
@@ -207,7 +229,7 @@
       "published_date": "2026-10-30",
       "published_time": "04:30",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94008_asep-7k/2026-apo-simera-oi-aitiseis-3262-monimes-theseis-ye-se-oli-tin-ellada",
       "source": "proson.gr"
     },
@@ -218,30 +240,8 @@
       "published_date": "2026-10-29",
       "published_time": "09:45",
       "deadline_start": null,
-      "deadline_end": null,
+      "deadline_end": "2026-11-08",
       "url": "https://www.proson.gr/ergasia/asep/94103_proslipseis-se-dimoys-112-proslipseis-horis-ptyhio-sti-larisa",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94006",
-      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο υπουργείο Ανάπτυξης",
-      "description": "Ξεκινά αύριο η διαδικασία υποβολής των αιτήσεων συμμετοχής στην προκήρυξηη προκήρυξη 7Κ/2026 του ΑΣΕΠπου απεστάλη τηνΠαρασκευή, 2 Οκτωβρίου στο Εθνικό Τυπογραφείο, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
-      "published_date": "2026-10-29",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94006_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-anaptyxis",
-      "source": "proson.gr"
-    },
-    {
-      "id": "93934",
-      "title": "ΑΣΕΠ: Μόνιμες θέσεις σε οκτώ Υπουργεία - Ποιοι τις διεκδικούν",
-      "description": "Σε πλήρη εξέλιξη βρίσκονταιοι αιτήσεις στηνπροκήρυξη 3ΓΒ/2026 του ΑΣΕΠ,η οποία απευθύνεται στους συμμετέχοντεςΠανεπιστημιακής Εκπαίδευσης(ΠΕ) του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
-      "published_date": "2026-10-28",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/93934_asep-monimes-theseis-se-okto-ypoyrgeia-poioi-tis-diekdikoyn",
       "source": "proson.gr"
     }
   ]
