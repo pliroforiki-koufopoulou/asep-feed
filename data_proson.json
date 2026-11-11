@@ -1,16 +1,49 @@
 {
-  "last_updated": "2026-11-10T16:40:37",
+  "last_updated": "2026-11-11T16:45:58",
   "total": 22,
   "articles": [
     {
-      "id": "94686",
-      "title": "ΑΣΕΠ 1Ε/2026: Βγήκε το ΦΕΚ - Προσλήψεις σε 10 Υπουργεία",
-      "description": "Δημοσιεύθηκε σήμερα Τρίτη, 10 Νοεμβρίου 2026 στην Εφημερίδα της Κυβερνήσεως ηπροκήρυξη 1Ε/2026 του ΑΣΕΠ, η οποίααπεστάλη στο Εθνικό Τυπογραφείοτην Παρασκευή, 23 Οκτωβρίου 2026.",
-      "published_date": null,
-      "published_time": null,
+      "id": "94832",
+      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις σε μουσεία (Αθήνα, Θεσσαλονίκη, Ηράκλειο)",
+      "description": "ΗπροκήρυξηΑΣΕΠ 7Κ/2026δίνει τη δυνατότητα για μόνιμη απασχόληση σε τέσσερα μουσεία της χώρας, καθώς περιλαμβάνει συνολικά 6 θέσεις εργασίας για υποψηφίουςΥποχρεωτικής Εκπαίδευσης(ΥΕ).",
+      "published_date": "2026-11-11",
+      "published_time": "14:48",
       "deadline_start": null,
       "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94686_asep-1e/2026-bgike-fek-proslipseis-se-10-ypoyrgeia",
+      "url": "https://www.proson.gr/ergasia/asep/94832_asep-7k/2026-monimes-proslipseis-se-moyseia-athina-thessaloniki-irakleio",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94820",
+      "title": "Υπογραφή μνημονίου συνεργασίας μεταξύ ΑΣΕΠ και Παντείου Πανεπιστημίου",
+      "description": "Ένα νέο πλαίσιο συνεργασίας επισφραγίστηκε τη Δευτέρα 9 Νοεμβρίου 2026 με την υπογραφή Μνημονίου Συνεργασίας μεταξύ τουΑνώτατου Συμβουλίου Επιλογής Προσωπικού (ΑΣΕΠ)και τουΠαντείου Πανεπιστημίου Κοινωνικών και Πολιτικών Επιστημών. Το Μνημόνιο Συνεργα",
+      "published_date": "2026-11-11",
+      "published_time": "13:31",
+      "deadline_start": null,
+      "deadline_end": "2026-11-11",
+      "url": "https://www.proson.gr/ergasia/asep/94820_ypografi-mnimonioy-synergasias-metaxy-asep-kai-panteioy-panepistimioy",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94785",
+      "title": "ΑΣΕΠ 1Κ/2024: Από σήμερα η υποβολή δελτίων για 235 θέσεις στη Δημοτική Αστυνομία",
+      "description": "Ξεκινά σήμερα,Τετάρτη, 11 Νοεμβρίου 2026, ηυποβολή τωνδελτίων υγειονομικής εξέτασηςγια τους  υποψηφίους τηςπροκήρυξης του ΑΣΕΠ 1Κ/2024 για τη Δημοτική Αστυνομία.",
+      "published_date": "2026-11-11",
+      "published_time": "09:46",
+      "deadline_start": null,
+      "deadline_end": "2026-11-30",
+      "url": "https://www.proson.gr/ergasia/asep/94785_asep-1k/2024-apo-simera-i-ypoboli-deltion-gia-235-theseis-sti-dimotiki-astynomia",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94707",
+      "title": "ΑΣΕΠ 7Κ/2026: Διορισμός με απολυτήριο γυμνασίου στο υπουργείο ΥΠΕΝ",
+      "description": "Λήγουν σε λιγότερο από μία εβδομάδα οι αιτήσεις στηνμεγάλη προκήρυξη 7Κ/2026 του ΑΣΕΠ, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
+      "published_date": "2026-11-11",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94707_asep-7k/2026-diorismos-me-apolytirio-gymnasioy-sto-ypoyrgeio-ypen",
       "source": "proson.gr"
     },
     {
@@ -22,6 +55,17 @@
       "deadline_start": null,
       "deadline_end": "2026-11-30",
       "url": "https://www.proson.gr/ergasia/asep/94746_asep-1k/2024-prosklisi-se-ygeionomikes-exetaseis-gia-235-theseis-sti-dimotiki",
+      "source": "proson.gr"
+    },
+    {
+      "id": "94686",
+      "title": "ΑΣΕΠ 1Ε/2026: Βγήκε το ΦΕΚ - Προσλήψεις σε 10 Υπουργεία",
+      "description": "Δημοσιεύθηκε σήμερα Τρίτη, 10 Νοεμβρίου 2026 στην Εφημερίδα της Κυβερνήσεως ηπροκήρυξη 1Ε/2026 του ΑΣΕΠ, η οποίααπεστάλη στο Εθνικό Τυπογραφείοτην Παρασκευή, 23 Οκτωβρίου 2026.",
+      "published_date": "2026-11-10",
+      "published_time": "08:16",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/94686_asep-1e/2026-bgike-fek-proslipseis-se-10-ypoyrgeia",
       "source": "proson.gr"
     },
     {
@@ -198,50 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94113_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-oikogeneias",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94188",
-      "title": "ΑΣΕΠ: «Κλειδώνουν» 3.800 μόνιμες προσλήψεις απόφοιτων λυκείου",
-      "description": "Περίπου3.800 μόνιμες θέσεις εργασίαςεκτιμάται ότι θα περιλαμβάνει η νέα μεγάλη προκήρυξη του ΑΣΕΠ, η οποία θα απευθύνεται αποκλειστικά σε αποφοίτους Λυκείου. Σύμφωνα με πληροφορίες τουproson.gr, η προκήρυξη αφορά την κατηγορία Δευτεροβάθμιας Εκπαίδευ",
-      "published_date": "2026-10-31",
-      "published_time": "06:00",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94188_asep-kleidonoyn-3800-monimes-proslipseis-apofoiton-lykeioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94189",
-      "title": "ΑΣΕΠ: «Εμφανίστηκε» νέα προκήρυξη για 700 μόνιμες προσλήψεις ΑμεΑ",
-      "description": "Νέα προκήρυξη, η οποία προβλέπει700 μόνιμες προσλήψεις ΑμεΑ, εμφανίστηκε σεαποκλειστικό έγγραφοπου έχει στην κατοχή του το Proson.gr.",
-      "published_date": "2026-10-30",
-      "published_time": "15:12",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94189_asep-emfanistike-nea-prokiryxi-gia-700-monimes-proslipseis-amea",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94187",
-      "title": "ΑΣΕΠ 8Κ/2026: Ένα βήμα πριν από το Τυπογραφείο - 1.138 μόνιμες θέσεις για ΑμεΑ",
-      "description": "Πολύσύντομααναμένεται να σταλθεί στοΕθνικό Τυπογραφείοη πολυαναμενόμενη προκήρυξη 8Κ/2026 του ΑΣΕΠ, η οποία προβλέπει1.138μόνιμες προσλήψειςκαι προσλήψεις προσωπικού με σχέση εργασίας ιδιωτικού δικαίου αορίστου χρόνου (ΙΔΑΧ) στοΔημόσιο.",
-      "published_date": "2026-10-30",
-      "published_time": "14:50",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94187_asep-8k/2026-ena-bima-prin-apo-typografeio-1138-monimes-theseis-gia-amea",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94186",
-      "title": "Νέα προκήρυξη ΑΣΕΠ: 400 μόνιμες προσλήψεις στο Δημόσιο (5ΓΒ/2026)",
-      "description": "Μιαολοκαίνουργια προκήρυξηετοιμάζει το ΑΣΕΠ, σύμφωνα με πληροφορίες του proson.gr, για τους συμμετέχοντες Πανεπιστημιακής και Τεχνολογικής Εκπαίδευσης του δεύτερου πανελλήνιου γραπτού διαγωνισμού (1Γ/2025).",
-      "published_date": "2026-10-30",
-      "published_time": "14:50",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94186_nea-prokiryxi-asep-400-monimes-proslipseis-sto-dimosio-5gb/2026",
       "source": "proson.gr"
     }
   ]
