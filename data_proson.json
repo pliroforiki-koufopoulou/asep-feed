@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-11-13T16:51:11",
+  "last_updated": "2026-11-14T15:24:45",
   "total": 22,
   "articles": [
     {
-      "id": "95002",
-      "title": "ΑΣΕΠ: Νέος τρόπος διεξαγωγής γραπτών διαγωνισμών από το 2027",
-      "description": "Με επιτυχία ολοκληρώθηκεεπιμορφωτικό σεμινάριογια τις διαδικασίες προσλήψεων στο Δημόσιο, την επιλογή διευθυντικών στελεχών της Δημόσιας Διοίκησης και το νέο Πειθαρχικό Δίκαιο, το οποίο συνδιοργανώθηκε από τοΑΣΕΠ και την Εθνική Σχολή Δικαστικών Λειτο",
+      "id": "95020",
+      "title": "ΑΣΕΠ 2Κ/2026: Από σήμερα οι ενστάσεις για 857 μόνιμες θέσεις ΔΕ στο ΕΣΥ",
+      "description": "Ξεκινούν από σήμερα, Σάββατο, οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορούν σε857 μόνιμες προσλήψεις αποφοίτων λυκείου σε φορείς του υπουργείου Υγείας.",
       "published_date": null,
       "published_time": null,
       "deadline_start": null,
       "deadline_end": "2026-11-13",
-      "url": "https://www.proson.gr/ergasia/asep/95002_asep-neos-tropos-diexagogis-grapton-diagonismon-apo-2027",
+      "url": "https://www.proson.gr/ergasia/asep/95020_asep-2k/2026-apo-simera-oi-enstaseis-gia-857-monimes-theseis-de-sto-esy",
       "source": "proson.gr"
     },
     {
@@ -22,6 +22,17 @@
       "deadline_start": null,
       "deadline_end": "2026-11-13",
       "url": "https://www.proson.gr/ergasia/asep/95010_asep-5k/2026-ta-prosorina-apotelesmata-gia-monimoys-sto-dimosio",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95002",
+      "title": "ΑΣΕΠ: Νέος τρόπος διεξαγωγής γραπτών διαγωνισμών από το 2027",
+      "description": "Με επιτυχία ολοκληρώθηκεεπιμορφωτικό σεμινάριογια τις διαδικασίες προσλήψεων στο Δημόσιο, την επιλογή διευθυντικών στελεχών της Δημόσιας Διοίκησης και το νέο Πειθαρχικό Δίκαιο, το οποίο συνδιοργανώθηκε από τοΑΣΕΠ και την Εθνική Σχολή Δικαστικών Λειτο",
+      "published_date": "2026-11-13",
+      "published_time": "14:59",
+      "deadline_start": null,
+      "deadline_end": "2026-11-13",
+      "url": "https://www.proson.gr/ergasia/asep/95002_asep-neos-tropos-diexagogis-grapton-diagonismon-apo-2027",
       "source": "proson.gr"
     },
     {
@@ -97,7 +108,7 @@
       "published_date": "2026-11-11",
       "published_time": "13:31",
       "deadline_start": null,
-      "deadline_end": "2026-11-13",
+      "deadline_end": "2026-11-14",
       "url": "https://www.proson.gr/ergasia/asep/94820_ypografi-mnimonioy-synergasias-metaxy-asep-kai-panteioy-panepistimioy",
       "source": "proson.gr"
     },
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": "2026-11-13",
       "url": "https://www.proson.gr/ergasia/asep/94340_asep-erhontai-9454-monimes-proslipseis-se-oli-tin-ellada-pe-te-de-ye",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94393",
-      "title": "Δήμος Λαρισαίων: 112 προσλήψεις χωρίς πτυχίο - Πότε λήγουν οι αιτήσεις",
-      "description": "Σε πλήρηεξέλιξηβρίσκονται οιαιτήσειςστην προκήρυξη που ανακοίνωσε ο Δήμος Λαρισαίωνγια τηνπρόσληψη, με συμβάσεις εργασίας ιδιωτικού δικαίου ορισμένου χρόνου,συνολικά 112 ατόμωνγια την κάλυψη αναγκών ανταποδοτικού χαρακτήρα.",
-      "published_date": "2026-11-03",
-      "published_time": "17:51",
-      "deadline_start": null,
-      "deadline_end": "2026-11-13",
-      "url": "https://www.proson.gr/ergasia/asep/94393_dimos-larisaion-112-proslipseis-horis-ptyhio-pote-ligoyn-oi-aitiseis",
       "source": "proson.gr"
     }
   ]
