@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-11-19T17:50:05",
+  "last_updated": "2026-11-20T17:24:55",
   "total": 22,
   "articles": [
+    {
+      "id": "95410",
+      "title": "ΑΣΕΠ 4ΓΒ/2026: Ποια πτυχία διορίζουν στο Δημόσιο (πίνακας)",
+      "description": "Από ημέρα σε ημέρα αναμένεται το ΦΕΚ της τέταρτης φετινή προκήρυξη του ΑΣΕΠ, η οποία αφοράαποκλειστικά τους συμμετέχοντεςτου δεύτερου πανελλήνιου γραπτού διαγωνισμού, καθώς έφυγε για το Εθνικό Τυπογραφείο την Πέμπτη, 19 Νοεμβρίου 2026",
+      "published_date": "2026-11-20",
+      "published_time": "12:11",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95410_asep-4gb/2026-poia-ptyhia-diorizoyn-sto-dimosio-pinakas",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95342",
+      "title": "ΑΣΕΠ: 6.000 μόνιμες προσλήψεις – Ποιος είναι ο «επιταχυντής» διορισμού",
+      "description": "Όπως έχει γίνει γνωστό τους τελευταίους μήνες, η νέα νομοθετική ρύθμισηγια τις προσλήψεις μέσω ΑΣΕΠδιασφαλίζει ένα σημαντικό πλεονέκτημα για συγκεκριμένη κατηγορία υποψηφίων. Πρόκειται για τους τρίτεκνους γονείς, οι οποίοι διατηρούν την ιδιότητά τους",
+      "published_date": "2026-11-20",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95342_asep-6000-monimes-proslipseis-poios-einai-o-epitahyntis-diorismoy",
+      "source": "proson.gr"
+    },
     {
       "id": "95363",
       "title": "ΑΣΕΠ: Έφυγε για Εθνικό Τυπογραφείο η 4ΓΒ/2026",
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94963_asep-anatropi-me-tis-3800-monimes-proslipseis-apofoiton-lykeioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94928",
-      "title": "ΑΣΕΠ 1Ε/2026: Προσλήψεις Ελεγκτών Ιατρών - Τα απαραίτητα προσόντα",
-      "description": "Ξεκινούν σε περίπου 10 ημέρες οι ηλεκτρονικές αιτήσεις συμμετοχής στην νέαπροκήρυξη 1Ε/2026 του ΑΣΕΠπουδημοσιεύθηκε στην Εφημερίδα της Κυβερνήσεως την Τρίτη, 10 Νοεμβρίου 2026.",
-      "published_date": "2026-11-12",
-      "published_time": "15:18",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94928_asep-1e/2026-proslipseis-elegkton-iatron-ta-aparaitita-prosonta",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94794",
-      "title": "ΑΣΕΠ 7Κ/2026: Μόνιμες προσλήψεις στο Υπουργείο Εθνικής Άμυνας",
-      "description": "«Εκπνέει» η προθεσμία υποβολής των αιτήσεων στηνμεγάλη προκήρυξη 7Κ/2026 του ΑΣΕΠ, η οποία προβλέπει εκατοντάδες μόνιμες προσλήψειςαπόφοιτων γυμνασίουστο Δημόσιο.",
-      "published_date": "2026-11-12",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94794_asep-7k/2026-monimes-proslipseis-sto-ypoyrgeio-ethnikis-amynas",
       "source": "proson.gr"
     }
   ]
