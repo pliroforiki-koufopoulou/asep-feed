@@ -1,7 +1,29 @@
 {
-  "last_updated": "2026-11-21T16:29:17",
+  "last_updated": "2026-11-22T16:46:24",
   "total": 22,
   "articles": [
+    {
+      "id": "95438",
+      "title": "ΑΣΕΠ 2Κ/2026: Τέλος χρόνου για τις ενστάσεις στις 857 μόνιμες προσλήψεις στα νοσοκομεία",
+      "description": "Σε εξέλιξη βρίσκεται η διαδικασία υποβολής ενστάσεων κατά των προσωρινών αποτελεσμάτων τηςπροκήρυξης 2Κ/2026 του ΑΣΕΠ, η οποία αφορά 857 μόνιμες θέσεις εργασίας για αποφοίτους Λυκείου σε φορείς του υπουργείου Υγείας.",
+      "published_date": null,
+      "published_time": null,
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95438_asep-2k/2026-telos-hronoy-gia-tis-enstaseis-stis-857-monimes-proslipseis-sta",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95401",
+      "title": "ΑΣΕΠ 4ΓΒ/2026: Μόνιμοι στο Δημόσιο - Τα απαραίτητα προσόντα",
+      "description": "Έφυγε για το Εθνικό Τυπογραφείο την Πέμπτη, 19 Νοεμβρίου 2026η τέταρτη φετινή προκήρυξη του ΑΣΕΠ, η οποία αφοράαποκλειστικά τους συμμετέχοντεςτου δεύτερου πανελλήνιου γραπτού διαγωνισμού.",
+      "published_date": "2026-11-22",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": "2025-05-15",
+      "url": "https://www.proson.gr/ergasia/asep/95401_asep-4gb/2026-monimoi-sto-dimosio-ta-aparaitita-prosonta",
+      "source": "proson.gr"
+    },
     {
       "id": "95410",
       "title": "ΑΣΕΠ 4ΓΒ/2026: Ποια πτυχία διορίζουν στο Δημόσιο (πίνακας)",
@@ -220,28 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94997_asep-2k/2026-nea-apotelesmata-gia-857-monimes-theseis-sto-esy-de",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94979",
-      "title": "ΑΣΕΠ 7Κ/2026: Μαζικό SMS σε όλους τους υποψηφίους – Τι πρέπει να ελέγξουν",
-      "description": "Μαζικό μήνυμαSMS προς όλους τουςυποψηφίους τηςπροκήρυξης 7Κ/2026αποστέλλει το ΑΣΕΠ, προκαλώντας ερωτήματα σχετικά με τα δικαιολογητικά που πρέπει να υποβληθούν και τις προϋποθέσεις συμμετοχής στη διαδικασία.",
-      "published_date": "2026-11-13",
-      "published_time": "12:25",
-      "deadline_start": null,
-      "deadline_end": "2026-11-16",
-      "url": "https://www.proson.gr/ergasia/asep/94979_asep-7k/2026-maziko-sms-se-oloys-toys-ypopsifioys-ti-prepei-na-elegxoyn",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94963",
-      "title": "ΑΣΕΠ: Ανατροπή με τις 3.800 μόνιμες προσλήψεις απόφοιτων λυκείου",
-      "description": "Νέα δεδομένα προκύπτουν για τη μεγάλη προκήρυξη του ΑΣΕΠ, η οποία αναμένεται να περιλαμβάνει περίπου3.800 μόνιμες θέσεις εργασίας για αποφοίτους λυκείουσε φορείς του Δημοσίου. Σύμφωνα με έγκυρες πηγές τουproson.gr στην Ανεξάρτητη Αρχή, η προκήρυξη δε",
-      "published_date": "2026-11-13",
-      "published_time": "10:36",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94963_asep-anatropi-me-tis-3800-monimes-proslipseis-apofoiton-lykeioy",
       "source": "proson.gr"
     }
   ]
