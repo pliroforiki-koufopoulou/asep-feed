@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-11-23T20:42:19",
+  "last_updated": "2026-11-24T19:47:52",
   "total": 22,
   "articles": [
+    {
+      "id": "95520",
+      "title": "ΑΣΕΠ 4ΓΒ/2026: Σε ποιες θέσεις ισχύει η εντοπιότητα",
+      "description": "Εκδίδεται από ημέρα σε ημέρα ηπροκήρυξη 4ΓΒ/2026 του ΑΣΕΠ, η οποία αφορά αποκλειστικά τουςσυμμετέχοντεςτου δεύτερου πανελλήνιου γραπτού διαγωνισμού.",
+      "published_date": "2026-11-24",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95520_asep-4gb/2026-se-poies-theseis-ishyei-i-entopiotita",
+      "source": "proson.gr"
+    },
     {
       "id": "95562",
       "title": "ΑΣΕΠ: Από μέρα σε μέρα στο Εθνικό Τυπογραφείο η 8Κ/2026",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/95020_asep-2k/2026-apo-simera-oi-enstaseis-gia-857-monimes-theseis-de-sto-esy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "95010",
-      "title": "ΑΣΕΠ 5Κ/2026: Τα προσωρινά αποτελέσματα για μόνιμους στο Δημόσιο",
-      "description": "Σήμερα, Παρασκευή 13 Νοεμβρίου,εκδόθηκαν και καταχωρίστηκανστην ιστοσελίδα του ΑΣΕΠ ταπροσωρινά αποτελέσματατης προκήρυξης 5Κ/2026που αφορoύν στην πλήρωση με σειρά προτεραιότητας51 θέσεων μόνιμου προσωπικούή προσωπικού με σχέση εργασίας ιδιωτικού δικ",
-      "published_date": "2026-11-13",
-      "published_time": "16:49",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/95010_asep-5k/2026-ta-prosorina-apotelesmata-gia-monimoys-sto-dimosio",
       "source": "proson.gr"
     }
   ]
