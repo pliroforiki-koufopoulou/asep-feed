@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-11-24T19:47:52",
+  "last_updated": "2026-11-25T18:53:59",
   "total": 22,
   "articles": [
+    {
+      "id": "95691",
+      "title": "ΑΣΕΠ 4Κ/2026: 676 θέσεις στο ΕΣΥ - Η προθεσμία για τις ενστάσεις",
+      "description": "Σε εξέλιξη βρίσκονται έωςτη Δευτέρα 30 Νοεμβρίου 2026και ώρα 14:00 το μεσημέρι, οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 4Κ/2026του ΑΣΕΠ.",
+      "published_date": "2026-11-25",
+      "published_time": "12:44",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95691_asep-4k/2026-676-theseis-sto-esy-i-prothesmia-gia-tis-enstaseis",
+      "source": "proson.gr"
+    },
     {
       "id": "95520",
       "title": "ΑΣΕΠ 4ΓΒ/2026: Σε ποιες θέσεις ισχύει η εντοπιότητα",
@@ -231,17 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/94960_asep-7k/2026-diorismos-sto-ypoyrgeio-prostasias-toy-politi",
-      "source": "proson.gr"
-    },
-    {
-      "id": "95020",
-      "title": "ΑΣΕΠ 2Κ/2026: Από σήμερα οι ενστάσεις για 857 μόνιμες θέσεις ΔΕ στο ΕΣΥ",
-      "description": "Ξεκινούν από σήμερα, Σάββατο, οι ενστάσεις κατά τωνπροσωρινών αποτελεσμάτων της προκήρυξης 2Κ/2026, που αφορούν σε857 μόνιμες προσλήψεις αποφοίτων λυκείου σε φορείς του υπουργείου Υγείας.",
-      "published_date": "2026-11-14",
-      "published_time": "12:23",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/95020_asep-2k/2026-apo-simera-oi-enstaseis-gia-857-monimes-theseis-de-sto-esy",
       "source": "proson.gr"
     }
   ]
