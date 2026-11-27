@@ -1,7 +1,40 @@
 {
-  "last_updated": "2026-11-26T18:43:21",
+  "last_updated": "2026-11-27T18:34:07",
   "total": 22,
   "articles": [
+    {
+      "id": "95827",
+      "title": "ΑΣΕΠ - Προσλήψεις στη Σχολή Αξιωματικών της ΕΛΑΣ: Άνοιξαν οι αιτήσεις",
+      "description": "Πήραν ημερομηνίαοιαιτήσειςστην προκήρυξη που ανακοίνωσε η Σχολή Αξιωματικών της Ελληνικής Αστυνομίαςγια τηνπρόσληψη, με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου,συνολικά 4 ατόμων, για την κάλυψη αναγκών της Σχολής που εδρεύει στονΔήμο Αχαρ",
+      "published_date": "2026-11-27",
+      "published_time": "17:35",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95827_asep-proslipseis-sti-sholi-axiomatikon-tis-elas-anoixan-oi-aitiseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95777",
+      "title": "ΑΣΕΠ 6Κ/2026: Σήμερα η ηλεκτρονική κλήρωση για 315 μόνιμες θέσεις",
+      "description": "Στην διεξαγωγήηλεκτρονικής ανοικτής κληρωτίδας για τηνπροκήρυξη 6Κ/2026προχωρά σήμερα Παρασκευή, 27 Νοεμβρίου 2026 και ώρα 13:00 το ΑΣΕΠ, ενόψει της έκδοσης των προσωρινών πινάκων κατάταξης, διοριστέων και απορριπτέων.",
+      "published_date": "2026-11-27",
+      "published_time": "08:47",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95777_asep-6k/2026-simera-i-ilektroniki-klirosi-gia-315-monimes-theseis",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95696",
+      "title": "ΑΣΕΠ: Έρχονται τρεις προκηρύξεις «Κ» για 5.600 μόνιμες προσλήψεις",
+      "description": "Τρεις προκηρύξεις «Κ» για περίπου5.638 μόνιμες προσλήψεις στο Δημόσιοπρογραμματίζει να εκδώσει τοΑΣΕΠκατά το δίμηνο Δεκεμβρίου 2026-Ιανουαρίου 2027 και θα αφορούν υποψηφίους όλων των βαθμίδων εκπαίδευσης, καθώς και ειδικές θέσεις για άτομα με αναπηρί",
+      "published_date": "2026-11-27",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": null,
+      "url": "https://www.proson.gr/ergasia/asep/95696_asep-erhontai-treis-prokiryxeis-k-gia-5600-monimes-proslipseis",
+      "source": "proson.gr"
+    },
     {
       "id": "95754",
       "title": "ΑΣΕΠ: Πλησιάζουν τα προσωρινά αποτελέσματα της 6Κ/2026",
@@ -69,17 +102,6 @@
       "source": "proson.gr"
     },
     {
-      "id": "95401",
-      "title": "ΑΣΕΠ 4ΓΒ/2026: Μόνιμοι στο Δημόσιο - Τα απαραίτητα προσόντα",
-      "description": "Έφυγε για το Εθνικό Τυπογραφείο την Πέμπτη, 19 Νοεμβρίου 2026η τέταρτη φετινή προκήρυξη του ΑΣΕΠ, η οποία αφοράαποκλειστικά τους συμμετέχοντεςτου δεύτερου πανελλήνιου γραπτού διαγωνισμού.",
-      "published_date": "2026-11-22",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": "2025-05-15",
-      "url": "https://www.proson.gr/ergasia/asep/95401_asep-4gb/2026-monimoi-sto-dimosio-ta-aparaitita-prosonta",
-      "source": "proson.gr"
-    },
-    {
       "id": "95438",
       "title": "ΑΣΕΠ 2Κ/2026: Τέλος χρόνου για τις ενστάσεις στις 857 μόνιμες προσλήψεις στα νοσοκομεία",
       "description": "Σε εξέλιξη βρίσκεται η διαδικασία υποβολής ενστάσεων κατά των προσωρινών αποτελεσμάτων τηςπροκήρυξης 2Κ/2026 του ΑΣΕΠ, η οποία αφορά 857 μόνιμες θέσεις εργασίας για αποφοίτους Λυκείου σε φορείς του υπουργείου Υγείας.",
@@ -88,6 +110,17 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/95438_asep-2k/2026-telos-hronoy-gia-tis-enstaseis-stis-857-monimes-proslipseis-sta",
+      "source": "proson.gr"
+    },
+    {
+      "id": "95401",
+      "title": "ΑΣΕΠ 4ΓΒ/2026: Μόνιμοι στο Δημόσιο - Τα απαραίτητα προσόντα",
+      "description": "Έφυγε για το Εθνικό Τυπογραφείο την Πέμπτη, 19 Νοεμβρίου 2026η τέταρτη φετινή προκήρυξη του ΑΣΕΠ, η οποία αφοράαποκλειστικά τους συμμετέχοντεςτου δεύτερου πανελλήνιου γραπτού διαγωνισμού.",
+      "published_date": "2026-11-22",
+      "published_time": "04:30",
+      "deadline_start": null,
+      "deadline_end": "2025-05-15",
+      "url": "https://www.proson.gr/ergasia/asep/95401_asep-4gb/2026-monimoi-sto-dimosio-ta-aparaitita-prosonta",
       "source": "proson.gr"
     },
     {
@@ -181,7 +214,7 @@
     {
       "id": "95186",
       "title": "ΑΣΕΠ: Προσλήψεις στη Σχολή Αξιωματικών της ΕΛΑΣ στην Αθήνα",
-      "description": "Σχολή Αξιωματικών της Ελληνικής Αστυνομίας ανακοινώνει την πρόσληψη, με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου,συνολικά 4 ατόμων, για την κάλυψη αναγκών της Σχολής που εδρεύει στον Δήμο Αχαρνών.",
+      "description": "Η Σχολή Αξιωματικών της Ελληνικής Αστυνομίας ανακοινώνει την πρόσληψη, με σύμβαση εργασίας ιδιωτικού δικαίου ορισμένου χρόνου,συνολικά 4 ατόμων, για την κάλυψη αναγκών της Σχολής που εδρεύει στον Δήμο Αχαρνών.",
       "published_date": "2026-11-17",
       "published_time": "11:38",
       "deadline_start": null,
@@ -209,39 +242,6 @@
       "deadline_start": null,
       "deadline_end": null,
       "url": "https://www.proson.gr/ergasia/asep/95134_asep-anoixe-thesi-ergasias-stin-ethniki-epitropi-gia-ta-dikaiomata-toy-anthropoy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "95096",
-      "title": "ΑΣΕΠ: Μη διαθέσιμο το τηλεφωνικό κέντρο από τις 17 έως τις 19 Νοεμβρίου",
-      "description": "ΤοΑΣΕΠ, μέσω ανακοίνωσής του,ενημερώνει το κονόότι λόγωεργασιών αναβάθμισηςτοτηλεφωνικό του κέντροδεν θα είναι διαθέσιμοαπό αύριο,Τρίτη 17 Νοεμβρίου 2026έωςκαι την Πέμπτη 19 Νοεμβρίου 2026.",
-      "published_date": "2026-11-16",
-      "published_time": "11:49",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/95096_asep-mi-diathesimo-tilefoniko-kentro-apo-tis-17-eos-tis-19-noembrioy",
-      "source": "proson.gr"
-    },
-    {
-      "id": "95075",
-      "title": "ΑΣΕΠ: Πότε λήγουν οι ενστάσεις για 908 μόνιμες θέσεις (2Κ/2026 και 5Κ/2026)",
-      "description": "Σε εξέλιξη βρίσκεται η διαδικασία υποβολής ενστάσεων για908 προσλήψεις στο Δημόσιομέσω τωνπροκηρύξεων2Κ/2026και 5Κ/2026 του ΑΣΕΠ, μετά τηνανάρτηση των προσωρινών αποτελεσμάτων. Οι υποψήφιοι που διαφωνούν με τα αποτελέσματα έχουν τη δυνατότητα να αμφι",
-      "published_date": "2026-11-16",
-      "published_time": "09:29",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/95075_asep-pote-ligoyn-oi-enstaseis-gia-908-monimes-theseis-2k/2026-kai-5k/2026",
-      "source": "proson.gr"
-    },
-    {
-      "id": "94880",
-      "title": "ΑΣΕΠ 7Κ/2026: 3.262 μόνιμες θέσεις στο Δημόσιο - Μέχρι τις 14:00 οι αιτήσεις",
-      "description": "Λήγει σήμεραΔευτέρα, 16 Νοεμβρίου 2026και ώρα 14:00 το μεσημέρι η προθεσμία υποβολής των αιτήσεων συμμετοχής στη μεγάληπροκήρυξη 7Κ/2026 του ΑΣΕΠ,η οποία προβλέπει εκατοντάδες μόνιμες προσλήψεις απόφοιτων γυμνασίου στο Δημόσιο.",
-      "published_date": "2026-11-16",
-      "published_time": "04:30",
-      "deadline_start": null,
-      "deadline_end": null,
-      "url": "https://www.proson.gr/ergasia/asep/94880_asep-7k/2026-3262-monimes-theseis-sto-dimosio-mehri-tis-1400-oi-aitiseis",
       "source": "proson.gr"
     }
   ]
